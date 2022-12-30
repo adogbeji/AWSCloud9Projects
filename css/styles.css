@@ -30,4 +30,24 @@ body {
   color: var(--colour-black-1);
 }
 
+.home-page {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
+}
+.home-page > * {
+  font-size: 2.6rem;
+  padding: 0.5rem;
+}
+.home-page-section--1 {
+  background-color: #808080;
+}
+.home-page-section--2 {
+  background-color: #00FFFF;
+}
+.home-page-section--3 {
+  background-color: #00FF00;
+  grid-column: col-start 1/col-end 2;
+}
+
 /*# sourceMappingURL=styles.css.map */
