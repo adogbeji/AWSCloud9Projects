@@ -35,12 +35,11 @@ body {
   grid-template-rows: repeat(2, min-content);
   grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
 }
-.home-page > * {
-  font-size: 2.6rem;
-  padding: 0.5rem;
-}
 .home-page-section--1 {
-  background-color: #808080;
+  display: grid;
+  grid-template-rows: min-content;
+  padding-top: 8rem;
+  justify-items: end;
 }
 .home-page-section--2 {
   background-color: #00FFFF;
@@ -48,6 +47,15 @@ body {
 .home-page-section--3 {
   background-color: #00FF00;
   grid-column: col-start 1/col-end 2;
+}
+
+.home-page-photo-box {
+  width: 60%;
+}
+.home-page-photo--1 {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */

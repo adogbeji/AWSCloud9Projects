@@ -3,13 +3,20 @@
     grid-template-rows: repeat(2, min-content);
     grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
 
-    & > * {  // Testing
-        font-size: 2.6rem;
-        padding: .5rem;
-    }
+    // & > * {  // Testing
+    //     font-size: 2.6rem;
+    //     padding: .5rem;
+    // }
 
     &-section--1 {
-        background-color: #808080;  // Testing
+        // background-color: #808080;  // Testing
+
+        display: grid;
+        grid-template-rows: min-content;
+
+        padding-top: 8rem;  // Creates space at the top of photo
+
+        justify-items: end;  // Positions photo on the right
     }
 
     &-section--2 {
