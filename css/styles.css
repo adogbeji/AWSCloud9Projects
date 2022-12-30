@@ -42,14 +42,6 @@ body {
 .card__body {
   padding: 1rem;
 }
-.card__text-box {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-}
-.card__text {
-  font-size: 1.8rem;
-}
 
 .form__group {
   margin-bottom: 1.6rem;
@@ -115,6 +107,9 @@ body {
 .form__btn--dark:hover {
   color: #f2f2f2;
 }
+.form__home-page-sect_2-mb-1_6 {
+  margin-bottom: 1.6rem;
+}
 
 .home-page {
   display: grid;
@@ -127,18 +122,15 @@ body {
   padding-top: 8rem;
   justify-items: end;
 }
-.home-page-section--2 {
-  background-color: #00FFFF;
-}
 .home-page-section--3 {
   background-color: #00FF00;
   grid-column: col-start 1/col-end 2;
 }
 
-.home-page-photo-box {
+.home-page-sect_1-photo-box {
   width: 60%;
 }
-.home-page-photo--1 {
+.home-page-sect_1-photo {
   width: 100%;
   height: auto;
   display: block;
