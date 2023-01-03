@@ -32,6 +32,7 @@ body {
 
 .card {
   transition: all 0.3s;
+  width: 40%;
   border-radius: 0.5rem;
   border: 0.15rem solid #BBB9B9;
   box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
@@ -42,7 +43,6 @@ body {
 .card__body {
   padding: 1rem;
 }
-
 .form__group {
   margin-bottom: 1.6rem;
   font-size: 1.45rem;
@@ -121,6 +121,11 @@ body {
   grid-template-rows: min-content;
   padding-top: 8rem;
   justify-items: end;
+}
+.home-page-section--2 {
+  display: grid;
+  grid-template-rows: min-content;
+  padding-top: 8rem;
 }
 .home-page-section--3 {
   background-color: #00FF00;

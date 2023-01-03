@@ -21,6 +21,11 @@
 
     &-section--2 {
         // background-color: #00FFFF;  // Testing
+
+        display: grid;
+        grid-template-rows: min-content;
+
+        padding-top: 8rem;  // Creates space at the top of form
     }
 
     &-section--3 {
