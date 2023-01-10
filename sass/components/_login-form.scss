@@ -83,6 +83,22 @@
     }
 
     // Home Page Modifiers
+    &__home-page-sect_2-photo-box--1 {
+        // background-color: grey;  // Testing
+        width: 65%;
+        margin: auto;
+    }
+
+    &__home-page-sect_2-mb-3_8 {
+        margin-bottom: 3.8rem;  // Creates space between logo & input
+    }
+
+    &__home-page-sect_2-photo {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
     &__home-page-sect_2-mb-1_6 {
         margin-bottom: 1.6rem;  // Creates space between button & input
     }
