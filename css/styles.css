@@ -72,6 +72,9 @@ body {
 .form__group > textarea {
   height: 28rem;
 }
+.form__mb-0_4 {
+  margin-bottom: 0.4rem;
+}
 .form__mb-0 {
   margin-bottom: 0;
 }
@@ -107,8 +110,11 @@ body {
 .form__btn--dark:hover {
   color: #f2f2f2;
 }
+.form__home-page-sect_2-login {
+  transform: scale(0.85);
+}
 .form__home-page-sect_2-photo-box--1 {
-  width: 65%;
+  width: 60%;
   margin: auto;
 }
 .form__home-page-sect_2-mb-3_8 {

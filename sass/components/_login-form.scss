@@ -37,6 +37,10 @@
         height: 28rem;  // Controls height of textarea
     }
 
+    &__mb-0_4 {
+        margin-bottom: .4rem;
+    }
+
     &__mb-0 {  // Removes bottom margin from .form__group
         margin-bottom: 0;
     }
@@ -83,9 +87,14 @@
     }
 
     // Home Page Modifiers
+    &__home-page-sect_2-login {
+        // background-color: grey;  // Testing
+        transform: scale(.85);  // Reduces size of form
+    }
+
     &__home-page-sect_2-photo-box--1 {
         // background-color: grey;  // Testing
-        width: 65%;
+        width: 60%;
         margin: auto;
     }
 
