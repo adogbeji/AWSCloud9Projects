@@ -111,4 +111,41 @@
     &__home-page-sect_2-mb-1_6 {
         margin-bottom: 1.6rem;  // Creates space between button & input
     }
+
+    &__home-page-sect_2-btn--1 {
+        background-color: #5388EA;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: darken(#5388EA, 5%);
+        }
+    }
+
+    &__mt-1_8 {
+        margin-top: 1.8rem;
+    }
+
+    &__home-page-sect_2-text-box--1 {
+        // background-color: #FF0000;  // Testing
+    }
+
+    &__home-page-sect_2-text--1 {
+        color: #808080;
+        text-transform: uppercase;
+
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+
+        column-gap: 2rem;
+
+        align-items: center;
+
+        &::before,
+        &::after {
+            content: '';
+            height: .11rem;
+            display: block;
+            background-color: currentColor;
+        }
+    }
 }
