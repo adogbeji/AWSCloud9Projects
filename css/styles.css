@@ -2,6 +2,7 @@
   --colour-black-1: #000000;
   --colour-white-1: #FFFFFF;
   --colour-white-2: #E4E4E4;
+  --colour-blue-1: #0E0E8A;
 }
 
 *,
@@ -151,6 +152,27 @@ body {
   height: 0.11rem;
   display: block;
   background-color: currentColor;
+}
+.form__home-page-sect_2-photo-link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.6rem;
+}
+.form__home-page-sect_2-photo-box--2 {
+  background-color: grey;
+  width: 6%;
+}
+.form__home-page-sect_2-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--colour-blue-1);
+  letter-spacing: 0.05rem;
+  display: inline-block;
+  text-decoration: none;
+}
+.form__mt-3_4 {
+  margin-top: 3.4rem;
 }
 
 .home-page {

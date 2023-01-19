@@ -148,4 +148,36 @@
             background-color: currentColor;
         }
     }
+
+    &__home-page-sect_2-photo-link-box {
+        // background-color: #FF0000;  // Testing
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        column-gap: .6rem;  // Creates space between photo & link
+    }
+
+    &__home-page-sect_2-photo-box--2 {
+        background-color: grey;  // Testing
+        width: 6%;
+    }
+
+    &__home-page-sect_2-link-box {
+        // background-color: #00FF00;  // Testing
+    }
+
+    &__home-page-sect_2-link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--colour-blue-1);
+        letter-spacing: .05rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    &__mt-3_4 {
+        margin-top: 3.4rem;
+    }
 }
