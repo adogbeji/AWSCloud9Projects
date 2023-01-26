@@ -163,7 +163,7 @@ body {
   background-color: grey;
   width: 6%;
 }
-.form__home-page-sect_2-link {
+.form__home-page-sect_2-link--1 {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--colour-blue-1);
@@ -173,6 +173,19 @@ body {
 }
 .form__mt-3_4 {
   margin-top: 3.4rem;
+}
+.form__mt-0_8 {
+  margin-top: 0.8rem;
+}
+.form__home-page-sect_2-text-box--2 {
+  text-align: center;
+}
+.form__home-page-sect_2-text--2 {
+  font-size: 1.45rem;
+}
+.form__home-page-sect_2-link--2 {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .home-page {
