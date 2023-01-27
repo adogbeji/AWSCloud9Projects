@@ -190,7 +190,7 @@ body {
 
 .home-page {
   display: grid;
-  grid-template-rows: repeat(2, min-content);
+  grid-template-rows: repeat(3, min-content);
   grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
 }
 .home-page-section--1 {
