@@ -3,6 +3,10 @@
     &__group {
         margin-bottom: 1.6rem;
         font-size: 1.45rem;  // Inherited by inputs & textareas
+
+        &--mb-0_4 {
+            margin-bottom: .4rem;
+        }
     }
 
     &__group > label {
@@ -35,10 +39,6 @@
 
     &__group > textarea {
         height: 28rem;  // Controls height of textarea
-    }
-
-    &__mb-0_4 {
-        margin-bottom: .4rem;
     }
 
     &__mb-0 {  // Removes bottom margin from .form__group

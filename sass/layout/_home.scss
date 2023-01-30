@@ -23,7 +23,9 @@
         // background-color: #00FFFF;  // Testing
 
         display: grid;
-        grid-template-rows: min-content;
+        grid-template-rows: repeat(2, min-content);
+
+        row-gap: 1.2rem;
 
         padding-top: 8rem;  // Creates space at the top of form
     }
