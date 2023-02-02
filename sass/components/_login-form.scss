@@ -7,6 +7,22 @@
         &--mb-0_4 {
             margin-bottom: .4rem;
         }
+
+        &--mb-0 {  // Removes bottom margin from .form__group
+            margin-bottom: 0;
+        }
+
+        &--mt-1_8 {
+            margin-top: 1.8rem;
+        }
+
+        &--mt-3_4 {
+            margin-top: 3.4rem;
+        }
+
+        &--mt-0_8 {
+            margin-top: .8rem;
+        }
     }
 
     &__group > label {
@@ -39,10 +55,6 @@
 
     &__group > textarea {
         height: 28rem;  // Controls height of textarea
-    }
-
-    &__mb-0 {  // Removes bottom margin from .form__group
-        margin-bottom: 0;
     }
 
     &__register-prompt-box {
@@ -121,10 +133,6 @@
         }
     }
 
-    &__mt-1_8 {
-        margin-top: 1.8rem;
-    }
-
     &__home-page-sect_2-text-box--1 {
         // background-color: #FF0000;  // Testing
     }
@@ -175,15 +183,6 @@
         letter-spacing: .05rem;
         display: inline-block;
         text-decoration: none;
-    }
-
-    &__mt-3_4 {
-        margin-top: 3.4rem;
-    }
-
-    &__mt-0_8 {
-        margin-top: .8rem;
-        margin-bottom: .2rem;
     }
 
     &__home-page-sect_2-text-box--2 {
