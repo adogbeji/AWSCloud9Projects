@@ -1,5 +1,6 @@
 .footer {
     background-color: darken($color: #FFFFFF, $amount: 1%);
+    background-color: #0000FF;  // Testing
 
     &__box {
         background-color: grey;  // Testing
@@ -9,14 +10,44 @@
         display: grid;
         grid-template-rows: repeat(2, min-content);
 
-        & > * {  // Testing
-            font-size: 2.6rem;
-            padding: .5rem;
-        }
+        // & > * {  // Testing
+        //     font-size: 2.6rem;
+        //     padding: .5rem;
+        // }
     }
 
     &__row--1 {
         background-color: #FFD700;  // Testing
+    }
+
+    &__card--1,
+    &__card--2 {
+        transition: all .3s;
+        // width: 40%;  // Controls size of card (optional)
+        border-radius: .5rem;
+        border: .15rem solid #BBB9B9;  // Makes card stand out (optional)
+        box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, .2);
+    
+        &:hover {
+            box-shadow: 0 .4rem 1.6rem 0 rgba(0, 0, 0, .2);
+        }
+    
+        &__body {
+            // padding: .2rem 1.6rem;
+            padding: 1rem;
+        }
+    }
+
+    &__link-box {
+        // background-color: #00FF00;  // Testing
+    }
+    
+    &__link {
+        font-size: 1.3rem;
+        color: var(--colour-grey-1);
+        padding: .3rem;
+        display: inline-block;
+        text-decoration: none;
     }
 
     &__row--2 {

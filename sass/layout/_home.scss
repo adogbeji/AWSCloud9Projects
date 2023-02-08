@@ -16,7 +16,7 @@
         grid-template-rows: min-content;
 
         padding-top: 8rem;  // Creates space at the top of photo
-        padding-bottom: 6rem;  // Creates space above footer
+        // padding-bottom: 6rem;  // Creates space above footer
 
         justify-items: end;  // Positions photo on the right
     }
@@ -31,7 +31,7 @@
         row-gap: 1.2rem;
 
         padding-top: 8rem;  // Creates space at the top of form
-        padding-bottom: 6rem;  // Creates space above footer
+        // padding-bottom: 6rem;  // Creates space above footer
     }
 
     &-section--3 {
