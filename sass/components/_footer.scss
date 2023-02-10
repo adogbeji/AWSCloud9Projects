@@ -1,6 +1,7 @@
 .footer {
     background-color: darken($color: #FFFFFF, $amount: 1%);
-    background-color: #0000FF;  // Testing
+    background-color: #333333;  // Testing
+    padding: 3vw 0 5vw 0;  // Padding in vw makes it scale in proportion to  viewport width
 
     &__box {
         background-color: grey;  // Testing
@@ -9,6 +10,8 @@
 
         display: grid;
         grid-template-rows: repeat(2, min-content);
+
+        gap: .5rem;
 
         // & > * {  // Testing
         //     font-size: 2.6rem;
@@ -40,6 +43,11 @@
 
     &__link-box {
         // background-color: #00FF00;  // Testing
+
+        display: flex;
+        justify-content: center;
+
+        gap: .8rem;  // Creates space between links
     }
     
     &__link {
@@ -52,5 +60,30 @@
 
     &__row--2 {
         background-color: #7E0FC5;  // Testing
+    }
+
+    &__signature-box {
+        background-color: #0000FF;  // Testing
+
+        display: flex;
+        justify-content: center;
+
+        gap: .8rem;  // Creates space between text
+    }
+
+    &__text-box--1 {
+        background-color: grey;  // Testing
+    }
+
+    &__text--1 {
+        font-size: 1.3rem;
+    }
+
+    &__text-box--2 {
+        background-color: #FF0000;  // Testing
+    }
+
+    &__text--2 {
+        font-size: 1.3rem;
     }
 }

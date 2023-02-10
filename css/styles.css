@@ -211,7 +211,8 @@ body {
 
 .footer {
   background-color: #fcfcfc;
-  background-color: #0000FF;
+  background-color: #333333;
+  padding: 3vw 0 5vw 0;
 }
 .footer__box {
   background-color: grey;
@@ -219,6 +220,7 @@ body {
   margin: auto;
   display: grid;
   grid-template-rows: repeat(2, min-content);
+  gap: 0.5rem;
 }
 .footer__row--1 {
   background-color: #FFD700;
@@ -235,6 +237,11 @@ body {
 .footer__card--1__body, .footer__card--2__body {
   padding: 1rem;
 }
+.footer__link-box {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
 .footer__link {
   font-size: 1.3rem;
   color: var(--colour-grey-1);
@@ -244,6 +251,24 @@ body {
 }
 .footer__row--2 {
   background-color: #7E0FC5;
+}
+.footer__signature-box {
+  background-color: #0000FF;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.footer__text-box--1 {
+  background-color: grey;
+}
+.footer__text--1 {
+  font-size: 1.3rem;
+}
+.footer__text-box--2 {
+  background-color: #FF0000;
+}
+.footer__text--2 {
+  font-size: 1.3rem;
 }
 
 .home-page {
