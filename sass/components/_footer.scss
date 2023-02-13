@@ -1,10 +1,10 @@
 .footer {
     background-color: darken($color: #FFFFFF, $amount: 1%);
     background-color: #333333;  // Testing
-    padding: 3vw 0 5vw 0;  // Padding in vw makes it scale in proportion to  viewport width
+    padding: 3vw 0 5vw 0;  // Padding in vw makes it scale in proportion to viewport width
 
     &__box {
-        background-color: grey;  // Testing
+        // background-color: grey;  // Testing
         width: 90%;
         margin: auto;
 
@@ -20,7 +20,7 @@
     }
 
     &__row--1 {
-        background-color: #FFD700;  // Testing
+        // background-color: #FFD700;  // Testing
     }
 
     &__card--1,
@@ -38,6 +38,18 @@
         &__body {
             // padding: .2rem 1.6rem;
             padding: 1rem;
+        }
+    }
+
+    &__card--bdr-0 {
+        border: none;
+    }
+
+    &__card--bxsh-0 {
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: none;
         }
     }
 
@@ -59,11 +71,11 @@
     }
 
     &__row--2 {
-        background-color: #7E0FC5;  // Testing
+        // background-color: #7E0FC5;  // Testing
     }
 
     &__signature-box {
-        background-color: #0000FF;  // Testing
+        // background-color: #0000FF;  // Testing
 
         display: flex;
         justify-content: center;
@@ -72,7 +84,7 @@
     }
 
     &__text-box--1 {
-        background-color: grey;  // Testing
+        // background-color: grey;  // Testing
     }
 
     &__text--1 {
@@ -80,7 +92,7 @@
     }
 
     &__text-box--2 {
-        background-color: #FF0000;  // Testing
+        // background-color: #FF0000;  // Testing
     }
 
     &__text--2 {
