@@ -267,10 +267,24 @@ body {
 }
 
 .home-page {
+  transition: all 0.35s ease-in;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.home-page-content {
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
-  overflow-y: hidden;
 }
 .home-page-section--1 {
   background-color: #fcfcfc;
