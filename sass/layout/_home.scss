@@ -8,11 +8,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    // padding: 1rem;
     // background-color: rgb(0, 0, 0);
     // background-color: rgba(0, 0, 0, 0.8);
     background-color: darken($color: #FFFFFF, $amount: 1%);  // Same background colour as sections
-    cursor: pointer;
+    // cursor: pointer;
     // visibility: hidden;  /* Modal is hidden by default */
     // opacity: 0;
 
@@ -21,6 +21,10 @@
         display: grid;
         grid-template-rows: min-content auto;  // Setting second row to auto makes it occupy grid container
         grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            grid-template-rows: min-content auto;  
+        }
 
         // & > * {  // Testing
         //     font-size: 2.6rem;
@@ -43,6 +47,10 @@
         // padding-bottom: 6rem;  // Creates space above footer
 
         justify-items: end;  // Positions photo on the right
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            display: none;  // Hides photo
+        }
     }
 
     &-section--2 {
