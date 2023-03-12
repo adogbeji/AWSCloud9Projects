@@ -22,6 +22,10 @@
     &__home-page-sect_2--1 {
         // border: none;
         // box-shadow: none;
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            width: 35%;
+        }
     }
 
     &__home-page-sect_2--2 {
@@ -29,6 +33,10 @@
         // box-shadow: none;
 
         align-self: start;
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            width: 35%;
+        }
     }
 
     &__home-page-sect_2-text-box--1 {

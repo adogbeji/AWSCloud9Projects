@@ -32,8 +32,10 @@
         // }
 
         // background-color: #FF0000;  // Testing
-        width: 100%;  // Nest two lines give it the same dimensions as parent
+        width: 100%;  // Next two lines give it the same dimensions as parent (required)
         height: 100%;
+        
+        overflow-y: scroll;  // Shows y-axis scroll bar
     }
 
     &-section--1 {
@@ -61,6 +63,12 @@
         grid-template-rows: repeat(2, min-content);
 
         row-gap: 1.2rem;
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            grid-column: col-start 1 / col-end 2;
+
+            justify-items: center;
+        }
 
         padding-top: 8rem;  // Creates space at the top of form
         // padding-bottom: 6rem;  // Creates space above footer
