@@ -1,0 +1,36 @@
+.home-page {
+    
+    // Section 1
+    &-sect_1-photo-box {
+        // width: 60%;
+        // width: 50%;
+        width: 42rem;  // Gives image a fixed width
+    }
+
+    &-sect_1-photo {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    &-sect_2-card--1 {
+        // border: none;
+        // box-shadow: none;
+
+        width: 34rem;  // Sets width of card
+    }
+
+    &-sect_2-login-form {
+        // background-color: grey;  // Testing
+        transform: scale(.85);  // Reduces size of form
+    }
+
+    &-sect_2-card--2 {
+        // border: none;
+        // box-shadow: none;
+
+        width: 34rem;  // Sets width of card
+
+        align-self: start;
+    }
+}

@@ -1,0 +1,36 @@
+.card {
+    transition: all .3s;
+    // width: 40%;  // Controls size of card (optional)
+    border-radius: .5rem;
+    border: .15rem solid #BBB9B9;  // Makes card stand out (optional)
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, .2);
+
+    &:hover {
+        box-shadow: 0 .4rem 1.6rem 0 rgba(0, 0, 0, .2);
+    }
+
+    &__body {
+        // padding: .2rem 1.6rem;
+        padding: 1rem;
+
+        &--p-2_1 {
+            padding: 2.1rem;
+        }
+    }
+
+    &__home-page-sect_2-text-box--1 {
+        // background-color: #FF0000;  // Testing
+        text-align: center;
+    }
+
+    &__home-page-sect_2-text--1 {
+        font-size: 1.35rem;
+    }
+
+    &__home-page-sect_2-link--1 {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        color: var(--colour-blue-1);
+    }
+}

@@ -1,0 +1,195 @@
+.form {
+
+    &__group {
+        margin-bottom: 1.6rem;
+        font-size: 1.45rem;  // Inherited by inputs & textareas
+
+        &--mb-0_4 {
+            margin-bottom: .4rem;
+        }
+
+        &--mb-0 {  // Removes bottom margin from .form__group
+            margin-bottom: 0;
+        }
+
+        &--mt-1_8 {
+            margin-top: 1.8rem;
+        }
+
+        &--mt-3_4 {
+            margin-top: 3.4rem;
+        }
+
+        &--mt-0_8 {
+            margin-top: .8rem;
+        }
+    }
+
+    &__group > label {
+        font-size: 1.45rem;  // Controls size of form labels
+    }
+
+    &__control {
+        width: 100%;  // Makes inputs full width
+        padding: 1.2rem;  // Controls size of inputs 
+        margin-top: .6rem;  // Creates space between inputs & labels
+        border: .1rem solid #CCCCCC;
+        border-radius: .4rem;  // Creates rounded edges
+        resize: vertical;  // Allow the user to vertically resize the textarea (not horizontally)
+        font-size: inherit;  // Inherits font size set on parent element 
+
+        &::-webkit-input-placeholder {  // Only works in Chrome & Safari browsers
+            color: #808080;
+        }
+
+        &:focus {
+            outline: none;
+            // box-shadow: .2rem -.2rem .48rem 0 #622EFF, -.2rem .2rem .48rem 0 #622EFF;
+            box-shadow: .2rem -.2rem .48rem .15rem #6570EA, -.2rem .2rem .48rem .15rem #6570EA;
+        }
+    }
+
+    &__small-text {
+        font-size: 1.35rem;
+    }
+
+    &__group > textarea {
+        height: 28rem;  // Controls height of textarea
+    }
+
+    &__register-prompt-box {
+        // background-color: #FF0000;  // Testing
+        margin-top: .5rem;  // Creates space between input & text
+        margin-bottom: 1.6rem;  // Creates space between button & text
+    }
+
+    &__register-prompt {
+        font-size: 1.35rem;
+    }
+
+    &__register-link {
+        text-decoration: none;
+    }
+
+    &__btn {
+        font-size: 1.6rem;
+        display: inline-block;
+        padding: 1.5rem 2rem;
+        border: none;  // Removes default button border
+        border-radius: .4rem;  // Same border radius as input, select and textarea
+        cursor: pointer;
+
+        &:hover {
+            color: #DDDDDD;
+        }
+
+        &--block {
+            width: 100%;  // Creates full-width 'block' button
+            display: block;
+        }
+
+        &--dark {
+            background-color: #050505;
+            color: #FFFFFF;
+    
+            &:hover {
+                color: darken(#FFFFFF, 5%);            
+            }
+        }
+    }
+
+    &__home-page-sect_2-photo-box--1 {
+        // background-color: grey;  // Testing
+        width: 60%;
+        margin: auto;
+    }
+
+    &__home-page-sect_2-mb-3_8 {
+        margin-bottom: 3.8rem;  // Creates space between logo & input
+    }
+
+    &__home-page-sect_2-photo {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    &__home-page-sect_2-mb-1_6 {
+        margin-bottom: 1.6rem;  // Creates space between button & input
+    }
+
+    &__home-page-sect_2-btn--1 {
+        background-color: var(--colour-blue-1);
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: darken(#5388EA, 5%);
+        }
+    }
+
+    &__home-page-sect_2-text-box--1 {
+        // background-color: #FF0000;  // Testing
+    }
+
+    &__home-page-sect_2-text--1 {
+        color: #808080;
+        text-transform: uppercase;
+
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+
+        column-gap: 2rem;
+
+        align-items: center;
+
+        &::before,
+        &::after {
+            content: '';
+            height: .11rem;
+            display: block;
+            background-color: currentColor;
+        }
+    }
+
+    &__home-page-sect_2-photo-link-box {
+        // background-color: #FF0000;  // Testing
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        column-gap: .6rem;  // Creates space between photo & link
+    }
+
+    &__home-page-sect_2-photo-box--2 {
+        background-color: grey;  // Testing
+        width: 6%;
+    }
+
+    &__home-page-sect_2-link-box--1 {
+        // background-color: #00FF00;  // Testing
+    }
+
+    &__home-page-sect_2-link--1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--colour-blue-2);
+        letter-spacing: .05rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    &__home-page-sect_2-text-box--2 {
+        // background-color: #FF0000;  // Testing
+        text-align: center;
+    }
+
+    &__home-page-sect_2-text--2 {
+        font-size: 1.45rem;
+    }
+
+    &__home-page-sect_2-link--2 {
+        display: inline-block;
+        text-decoration: none;
+    }
+}

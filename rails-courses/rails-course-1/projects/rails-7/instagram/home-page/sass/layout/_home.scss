@@ -1,0 +1,83 @@
+.home-page {
+    transition: all 0.35s ease-in;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 1rem;
+    // background-color: rgb(0, 0, 0);
+    // background-color: rgba(0, 0, 0, 0.8);
+    background-color: darken($color: #FFFFFF, $amount: 1%);  // Same background colour as sections
+    // cursor: pointer;
+    // visibility: hidden;  /* Modal is hidden by default */
+    // opacity: 0;
+
+
+    &-content {
+        display: grid;
+        grid-template-rows: min-content auto;  // Setting second row to auto makes it occupy grid container
+        grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            grid-template-rows: min-content auto;  
+        }
+
+        // & > * {  // Testing
+        //     font-size: 2.6rem;
+        //     padding: .5rem;
+        // }
+
+        // background-color: #FF0000;  // Testing
+        width: 100%;  // Next two lines give it the same dimensions as parent (required)
+        height: 100%;
+        
+        overflow-y: scroll;  // Shows y-axis scroll bar
+        overflow-x: hidden;  // Hides x-axis scroll bar
+    }
+
+    &-sect_1 {
+        // background-color: #808080;  // Testing
+        background-color: darken($color: #FFFFFF, $amount: 1%);
+
+        display: grid;
+        grid-template-rows: min-content;
+
+        padding-top: 8rem;  // Creates space at the top of photo
+        // padding-bottom: 6rem;  // Creates space above footer
+
+        justify-items: end;  // Positions photo on the right
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            display: none;  // Hides photo
+        }
+    }
+
+    &-sect_2 {
+        // background-color: #00FFFF;  // Testing
+        background-color: darken($color: #FFFFFF, $amount: 1%);
+
+        display: grid;
+        grid-template-rows: repeat(2, min-content);
+
+        row-gap: 1.2rem;
+
+        @media only screen and (max-width: $bp-1290) {  // 1290px
+            grid-column: col-start 1 / col-end 2;
+
+            justify-items: center;
+        }
+
+        padding-top: 8rem;  // Creates space at the top of form
+        // padding-bottom: 6rem;  // Creates space above footer
+    }
+
+    &-sect_3 {
+        // background-color: #00FF00;  // Testing
+
+        grid-column: col-start 1 / col-end 2;
+    }
+}

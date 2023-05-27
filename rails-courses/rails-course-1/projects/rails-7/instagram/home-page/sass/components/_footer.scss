@@ -1,0 +1,106 @@
+.footer {
+    background-color: darken($color: #FFFFFF, $amount: 1%);
+    // background-color: #333333;  // Testing
+    padding: 3vw 0 5vw 0;  // Padding in vw makes it scale in proportion to viewport width
+
+    &__box {
+        // background-color: grey;  // Testing
+        width: 90%;
+        margin: auto;
+
+        display: grid;
+        grid-template-rows: repeat(2, min-content);
+
+        gap: .5rem;
+
+        @media only screen and (max-width: $bp-640) {  // 640px
+            gap: .8rem;
+        }
+
+        // & > * {  // Testing
+        //     font-size: 2.6rem;
+        //     padding: .5rem;
+        // }
+    }
+
+    &__box > * {  // Applied to all footer rows
+        transition: all .3s;
+        // width: 40%;  // Controls size of card (optional)
+        border-radius: .5rem;
+        border: .15rem solid #BBB9B9;  // Makes card stand out (optional)
+        box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, .2);
+    
+        &:hover {
+            box-shadow: 0 .4rem 1.6rem 0 rgba(0, 0, 0, .2);
+        }
+    }
+    
+    &__home-page-row {
+
+        &--bdr-0 {
+            border: none;
+        }
+
+        &--bxsh-0 {
+            box-shadow: none;
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+
+    &__home-page-row--1 {
+        // background-color: #FFD700;  // Testing
+    }
+
+    &__link-box {
+        // background-color: #00FF00;  // Testing
+
+        display: flex;
+        justify-content: center;
+
+        gap: .8rem;  // Creates space between links
+
+        @media only screen and (max-width: $bp-640) {  // 640px
+            flex-wrap: wrap;
+        }
+    }
+    
+    &__link {
+        font-size: 1.3rem;
+        color: var(--colour-grey-1);
+        padding: .3rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    &__home-page-row--2 {
+        // background-color: #7E0FC5;  // Testing
+    }
+
+    &__signature-box {
+        // background-color: #0000FF;  // Testing
+
+        display: flex;
+        justify-content: center;
+
+        gap: .8rem;  // Creates space between text
+    }
+
+    &__text-box--1 {
+        // background-color: grey;  // Testing
+    }
+
+    &__text--1 {
+        font-size: 1.3rem;
+    }
+
+    &__text-box--2 {
+        // background-color: #FF0000;  // Testing
+    }
+
+    &__text--2 {
+        font-size: 1.3rem;
+    }
+}
