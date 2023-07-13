@@ -351,5 +351,11 @@ body {
   display: grid;
   grid-template-columns: max-content;
 }
+.signup-page-sect_1-card-1 {
+  width: 34rem;
+}
+.signup-page-sect_1-signup-form {
+  transform: scale(0.85);
+}
 
 /*# sourceMappingURL=styles.css.map */
