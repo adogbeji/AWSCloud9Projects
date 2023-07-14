@@ -1,0 +1,11 @@
+.signup-page {
+
+    &-sect_1-card-1 {
+        width: 34rem;  // Sets width of card
+    }
+
+    &-sect_1-signup-form {
+        // background-color: grey;  // Testing
+        transform: scale(.85);  // Reduces size of form
+    }
+}

@@ -266,6 +266,16 @@ body {
 .form__btn--dark:hover {
   color: #f2f2f2;
 }
+.form__signup-page-sect_1-photo-box-1 {
+  background-color: grey;
+  width: 60%;
+  margin: auto;
+}
+.form__signup-page-sect_1-photo-1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .footer {
   background-color: #fcfcfc;

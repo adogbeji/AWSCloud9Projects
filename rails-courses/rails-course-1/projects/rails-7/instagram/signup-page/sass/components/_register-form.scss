@@ -81,4 +81,21 @@
             }
         }
     }
+
+
+    // Signup Page
+    &__signup-page {
+
+        &-sect_1-photo-box-1 {
+            background-color: grey;  // Testing
+            width: 60%;
+            margin: auto;
+        }
+
+        &-sect_1-photo-1 {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
 }
