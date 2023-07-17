@@ -276,6 +276,19 @@ body {
   height: auto;
   display: block;
 }
+.form__signup-page-sect_1-text-box-1 {
+  background-color: #FF0000;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.form__signup-page-sect_1-text-1 {
+  font-size: 2rem;
+  color: var(--colour-grey-1);
+}
+.form__signup-page-page-sect_1-btn-1 {
+  color: var(--colour-blue-1);
+}
 
 .footer {
   background-color: #fcfcfc;
