@@ -286,8 +286,19 @@ body {
   font-size: 2rem;
   color: var(--colour-grey-1);
 }
-.form__signup-page-page-sect_1-btn-1 {
-  color: var(--colour-blue-1);
+.form__signup-page-sect_1-btn-1 {
+  background-color: var(--colour-blue-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__signup-page-sect_1-photo-box-2 {
+  width: 3rem;
+}
+.form__signup-page-sect_1-photo-2 {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .footer {

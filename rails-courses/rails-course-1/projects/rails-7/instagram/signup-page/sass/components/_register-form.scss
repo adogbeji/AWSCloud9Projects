@@ -110,8 +110,22 @@
             color: var(--colour-grey-1);
         }
 
-        &-page-sect_1-btn-1 {
-            color: var(--colour-blue-1);
+        &-sect_1-btn-1 {
+            background-color: var(--colour-blue-1);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-sect_1-photo-box-2 {
+            width: 3rem;
+        }
+
+        &-sect_1-photo-2 {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     }
 }
