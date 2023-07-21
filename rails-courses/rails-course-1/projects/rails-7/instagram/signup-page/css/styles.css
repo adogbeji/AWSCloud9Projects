@@ -288,12 +288,16 @@ body {
 }
 .form__signup-page-sect_1-btn-1 {
   background-color: var(--colour-blue-1);
+  border-radius: 1.2rem;
+  padding: 0.9rem 1rem;
+  color: var(--colour-white-1);
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 0.8rem;
 }
 .form__signup-page-sect_1-photo-box-2 {
-  width: 3rem;
+  width: 2rem;
 }
 .form__signup-page-sect_1-photo-2 {
   width: 100%;
