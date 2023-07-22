@@ -87,9 +87,9 @@
     &__signup-page {
 
         &-sect_1-photo-box-1 {
-            background-color: grey;  // Testing
+            // background-color: grey;  // Testing
             width: 60%;
-            margin: auto;
+            margin: 0 auto 1.5rem;
         }
 
         &-sect_1-photo-1 {
@@ -99,14 +99,14 @@
         }
 
         &-sect_1-text-box-1 {
-            background-color: #FF0000;  // Testing
+            // background-color: #FF0000;  // Testing
             width: 90%;
             margin: 0 auto;
             text-align: center;
         }
 
         &-sect_1-text-1 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: var(--colour-grey-1);
         }
 
@@ -132,6 +132,33 @@
             width: 100%;
             height: auto;
             display: block;
+        }
+
+        &-sect_1-text-box-2 {
+            // background-color: #FF0000;  // Testing
+            width: 90%;
+            margin: 0 auto;
+            // text-align: center;
+        }
+
+        &-sect_1-text-2 {
+            font-size: 1.85rem;
+            text-transform: uppercase;
+
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+
+            gap: 1rem;
+
+            align-items: center;
+
+            &::before,
+            &::after {
+                content: '';
+                height: .1rem;
+                display: block;
+                background-color: currentColor;
+            }
         }
     }
 }
