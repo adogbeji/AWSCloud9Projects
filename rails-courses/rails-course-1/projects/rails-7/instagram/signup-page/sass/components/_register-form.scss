@@ -142,7 +142,8 @@
         }
 
         &-sect_1-text-2 {
-            font-size: 1.85rem;
+            // font-size: 1.85rem;
+            font-size: 1.35rem;
             text-transform: uppercase;
 
             display: grid;
@@ -159,6 +160,13 @@
                 display: block;
                 background-color: currentColor;
             }
+        }
+
+        &-sect_1-text-box-3 {
+            background-color: #FF0000;  // Testing
+            // width: 95%;
+            margin: 0 auto;
+            text-align: center;
         }
     }
 }

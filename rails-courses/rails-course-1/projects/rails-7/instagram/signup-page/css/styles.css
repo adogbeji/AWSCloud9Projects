@@ -166,7 +166,7 @@ body {
   margin: 0 auto;
 }
 .form__signup-page-sect_1-text-2 {
-  font-size: 1.85rem;
+  font-size: 1.35rem;
   text-transform: uppercase;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
@@ -178,6 +178,11 @@ body {
   height: 0.1rem;
   display: block;
   background-color: currentColor;
+}
+.form__signup-page-sect_1-text-box-3 {
+  background-color: #FF0000;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .footer {
@@ -268,7 +273,6 @@ body {
   background-color: #0000FF;
   display: grid;
   grid-template-rows: repeat(2, min-content);
-  grid-template-columns: max-content;
 }
 .signup-page-sect_1-card-1 {
   width: 34rem;
