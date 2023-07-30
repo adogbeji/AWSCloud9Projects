@@ -163,10 +163,35 @@
         }
 
         &-sect_1-text-box-3 {
-            background-color: #FF0000;  // Testing
+            // background-color: #FF0000;  // Testing
             // width: 95%;
             margin: 0 auto;
             text-align: center;
+        }
+
+        &-sect_1-text-3 {
+            font-size: 1.3rem;
+        }
+
+        &-sect_1-link-1 {
+            display: inline-block;
+            text-decoration: none;
+            color: var(--colour-grey-1);
+        }
+
+        &-sect_1-text-box-4 {
+            // background-color: #FF0000;  // Testing
+            text-align: center;
+        }
+
+        &-sect_1-text-4 {
+            font-size: 1.3rem;
+        }
+
+        &-sect_1-link-2 {
+            display: inline-block;
+            text-decoration: none;
+            color: var(--colour-grey-1);
         }
     }
 }

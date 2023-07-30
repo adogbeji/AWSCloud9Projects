@@ -180,9 +180,27 @@ body {
   background-color: currentColor;
 }
 .form__signup-page-sect_1-text-box-3 {
-  background-color: #FF0000;
   margin: 0 auto;
   text-align: center;
+}
+.form__signup-page-sect_1-text-3 {
+  font-size: 1.3rem;
+}
+.form__signup-page-sect_1-link-1 {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--colour-grey-1);
+}
+.form__signup-page-sect_1-text-box-4 {
+  text-align: center;
+}
+.form__signup-page-sect_1-text-4 {
+  font-size: 1.3rem;
+}
+.form__signup-page-sect_1-link-2 {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--colour-grey-1);
 }
 
 .footer {
