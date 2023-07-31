@@ -193,5 +193,14 @@
             text-decoration: none;
             color: var(--colour-grey-1);
         }
+
+        &-sect_1-btn-2 {
+            background-color: var(--colour-blue-1);
+            color: #FFFFFF;
+
+            &:hover {
+                background-color: darken(#5388EA, 5%);
+            }
+        }
     }
 }
