@@ -48,13 +48,13 @@ body {
 .card__body--p-2_1 {
   padding: 2.1rem;
 }
-.card__home-page-sect_2-text-box--1 {
+.card__signup-page-sect_1-text-box-5 {
   text-align: center;
 }
-.card__home-page-sect_2-text--1 {
+.card__signup-page-sect_1-text-5 {
   font-size: 1.35rem;
 }
-.card__home-page-sect_2-link--1 {
+.card__signup-page-sect_1-link-3 {
   display: inline-block;
   text-decoration: none;
   font-weight: 500;
@@ -295,7 +295,6 @@ body {
   overflow-x: hidden;
 }
 .signup-page-sect_1 {
-  background-color: #0000FF;
   display: grid;
   grid-template-rows: repeat(2, min-content);
 }
@@ -304,6 +303,9 @@ body {
 }
 .signup-page-sect_1-signup-form {
   transform: scale(0.85);
+}
+.signup-page-sect_1-card-2 {
+  width: 34rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

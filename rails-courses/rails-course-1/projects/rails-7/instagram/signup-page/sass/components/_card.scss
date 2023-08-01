@@ -17,20 +17,24 @@
             padding: 2.1rem;
         }
     }
+    
+    // Signup page
+    &__signup-page {
 
-    &__home-page-sect_2-text-box--1 {
-        // background-color: #FF0000;  // Testing
-        text-align: center;
-    }
+        &-sect_1-text-box-5 {
+            // background-color: #FF0000;  // Testing
+            text-align: center;
+        }
 
-    &__home-page-sect_2-text--1 {
-        font-size: 1.35rem;
-    }
+        &-sect_1-text-5 {
+            font-size: 1.35rem;
+        }
 
-    &__home-page-sect_2-link--1 {
-        display: inline-block;
-        text-decoration: none;
-        font-weight: 500;
-        color: var(--colour-blue-1);
+        &-sect_1-link-3 {
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 500;
+            color: var(--colour-blue-1);
+        }
     }
 }
