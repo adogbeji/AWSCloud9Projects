@@ -47,6 +47,8 @@
     }
 
     &-sect_2 {
-        background-color: #00FF00;  // Testing
+        // background-color: #00FF00;  // Testing
+
+        justify-self: stretch;  // Causes page section (grid item) to occupy the full width of grid cell
     }
 }
