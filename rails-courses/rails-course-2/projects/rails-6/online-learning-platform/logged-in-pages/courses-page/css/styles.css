@@ -24,4 +24,34 @@ body {
   color: #000000;
 }
 
+._5729 {
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  grid-template-columns: [sidebar-start] fit-content(18rem) [sidebar-end full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+}
+
+._5729 > * {
+  font-size: 2.6rem;
+}
+
+._5729-sect_1 {
+  background-color: #00FFFF;
+  grid-column: sidebar-start/full-end;
+}
+
+._5729-sect_2 {
+  background-color: #420000;
+  grid-row: 2/3;
+}
+
+._5729-sect_3 {
+  background-color: #F1425D;
+  grid-column: full-start/full-end;
+}
+
+._5729-sect_4 {
+  background-color: #333333;
+  grid-column: sidebar-start/full-end;
+}
+
 /*# sourceMappingURL=styles.css.map */

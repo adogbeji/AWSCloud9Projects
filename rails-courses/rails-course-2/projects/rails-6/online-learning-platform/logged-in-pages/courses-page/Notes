@@ -4,3 +4,4 @@ This contains code for building the courses page (logged in)
 Important Points:
 
 1) This code is for the courses page once the user has logged in
+2) Here, the user will be ale to see all the available course and even search for specific ones 
