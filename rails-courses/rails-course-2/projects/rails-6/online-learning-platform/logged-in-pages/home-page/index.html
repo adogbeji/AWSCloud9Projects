@@ -110,7 +110,7 @@
             </form>
             
             <!-- Dropdowns + Responsive Dot Icon Dropdowns -->
-            <div class="topnav__dropdown-box">
+            <div class="topnav__dropdown-box-1">
                 <!-- Dropdown Start -->
                 <div class="topnav__dropdown-1">
                     <button onclick="openTopnavClickDropDownOne()" class="topnav__dropdown-btn-1">
@@ -119,6 +119,153 @@
                         </svg>
                         Learn
                         <svg class="topnav__dropdown-icon-2">
+                            <use xlink:href="images/sprite.svg#icon-arrow_drop_down"></use>
+                        </svg>
+                    </button>
+                    <div id="topNavDropdown_1" class="topnav__dropdown-content-1">
+                        <a href="#" class="topnav__dropdown-link-1">
+                            <svg class="topnav__dropdown-link-icon-1">
+                                <use xlink:href="images/sprite.svg#icon-graduation-cap"></use>
+                            </svg>
+                            <!-- Link 1 -->
+                            Dropdown Link 1
+                            <span class="topnav__dropdown-link-notification-1">2</span>
+                        </a>
+                        <a href="#" class="topnav__dropdown-link-1">
+                            <svg class="topnav__dropdown-link-icon-2">
+                                <use xlink:href="images/sprite.svg#icon-star"></use>
+                            </svg>
+                            <!-- Link 2 -->
+                            Dropdown Link 2
+                            <span class="topnav__dropdown-link-notification-2">0</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Dropdown End -->
+
+                <!-- Dropdown Start -->
+                <div class="topnav__dropdown-2">
+                    <button onclick="openTopnavClickDropDownTwo()" class="topnav__dropdown-btn-2">
+                        <svg class="topnav__dropdown-icon-3">
+                            <use xlink:href="images/sprite.svg#icon-airplay"></use>
+                        </svg>
+                        Teach
+                        <svg class="topnav__dropdown-icon-4">
+                            <use xlink:href="images/sprite.svg#icon-arrow_drop_down"></use>
+                        </svg>
+                    </button>
+                    <div id="topNavDropdown_2" class="topnav__dropdown-content-2">
+                        <a href="#" class="topnav__dropdown-link-2">
+                            <svg class="topnav__dropdown-link-icon-3">
+                                <use xlink:href="images/sprite.svg#icon-add"></use>
+                            </svg>
+                            <!-- Link 1 -->
+                            Dropdown Link 1
+                            <span class="topnav__dropdown-link-notification-3">2</span>
+                        </a>
+                        <a href="#" class="topnav__dropdown-link-2">
+                            <svg class="topnav__dropdown-link-icon-4">
+                                <use xlink:href="images/sprite.svg#icon-graduation-cap"></use>
+                            </svg>
+                            <!-- Link 2 -->
+                            Dropdown Link 2
+                            <span class="topnav__dropdown-link-notification-4">0</span>
+                        </a>
+                        <a href="#" class="topnav__dropdown-link-2">
+                            <svg class="topnav__dropdown-link-icon-5">
+                                <use xlink:href="images/sprite.svg#icon-lock-open"></use>
+                            </svg>
+                            <!-- Link 2 -->
+                            Dropdown Link 3
+                            <span class="topnav__dropdown-link-notification-5">7</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Dropdown End -->
+                
+                <!-- Responsive Dot Icon Dropdown (#1) -->
+                <div class="topnav__link-dot-dropdown-1">
+                    <span class="topnav__link-dot-icon-box-1" onclick="openTopnavLinkDotDropDownOne()">
+                        <svg class="topnav__link-dot-icon-1">
+                            <use xlink:href="images/sprite.svg#icon-dots-three-horizontal"></use>
+                        </svg>
+                    </span>
+                    <div id="topNavLinkDotDropdown_1" class="topnav__link-dot_1-dropdown-content">
+                        <div class="topnav__link-dot_1-dropdown-content-box-1">
+                             <div class="topnav__link-dot_1-dropdown-content-text-box-1">
+                                <span class="topnav__link-dot_1-dropdown-content-text-1">
+                                    Teach
+                                </span>
+                            </div>
+                        </div>
+                        <div class="topnav__link-dot_1-dropdown-content-box-2">
+                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--1">
+                                <svg class="topnav__link-dot_1-icon-1">
+                                    <use xlink:href="images/sprite.svg#icon-add"></use>
+                                </svg>
+                                <!-- Link 1 -->
+                                Dropdown Link 1
+                                <span class="topnav__link-dot_1-notification-1">2</span>
+                            </a>
+                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--2">
+                                <svg class="topnav__link-dot_1-icon-2">
+                                    <use xlink:href="images/sprite.svg#icon-graduation-cap"></use>
+                                </svg>
+                                <!-- Link 2 -->
+                                Dropdown Link 2
+                                <span class="topnav__link-dot_1-notification-2">0</span>
+                            </a>
+                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--3">
+                                <svg class="topnav__link-dot_1-icon-3">
+                                    <use xlink:href="images/sprite.svg#icon-lock-open"></use>
+                                </svg>
+                                <!-- Link 2 -->
+                                Dropdown Link 3
+                                <span class="topnav__link-dot_1-notification-3">7</span>
+                            </a>
+                        </div>
+
+                        <div class="topnav__link-dot_1-dropdown-content-box-3">
+                            <div class="topnav__link-dot_1-dropdown-content-text-box-2">
+                                <span class="topnav__link-dot_1-dropdown-content-text-2">
+                                    Learn
+                                </span>
+                            </div>
+                        </div>
+                        <div class="topnav__link-dot_1-dropdown-content-box-4">
+                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--4">
+                                <svg class="topnav__link-dot_1-icon-4">
+                                    <use xlink:href="images/sprite.svg#icon-graduation-cap"></use>
+                                </svg>
+                                <!-- Link 1 -->
+                                Dropdown Link 1
+                                <span class="topnav__link-dot_1-notification-4">2</span> 
+                            </a>
+                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--5">
+                                <svg class="topnav__link-dot_1-icon-5">
+                                    <use xlink:href="images/sprite.svg#icon-star"></use>
+                                </svg>
+                                <!-- Link 2 -->
+                                Dropdown Link 2
+                                <span class="topnav__link-dot_1-notification-5">0</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Dropdowns + Responsive Dot Icon Dropdowns -->
+            <div class="topnav__dropdown-box-2">
+                <!-- Dropdown Start -->
+                <div class="topnav__dropdown-3">
+                    <button onclick="openTopnavClickDropDownOne()" class="topnav__dropdown-btn-3">
+                        <svg class="topnav__dropdown-icon-5">
+                            <use xlink:href="images/sprite.svg#icon-graduation-cap"></use>
+                        </svg>
+                        Learn
+                        <svg class="topnav__dropdown-icon-6">
                             <use xlink:href="images/sprite.svg#icon-arrow_drop_down"></use>
                         </svg>
                     </button>
