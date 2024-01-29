@@ -11,7 +11,31 @@
 
 ._0028-sect_1 {
     // background-color: #00FFFF;  // Testing
+    background-color: #9327D6;  // Inherited by ._0028-sect_1-topnav
     grid-column: full-start / full-end;
+
+    &-topnav {
+        /* Add a purple background color to the top navigation */
+        // background-color: #9327D6;
+        background-color: inherit;  // Takes background colour set on its parent
+        // overflow: hidden;  // Hides overflow (required)
+
+        position: relative;  // Used to position responsive dropdowns (required)
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__logo-link {
+            // background-color: grey;  // Testing
+            font-size: 1.6rem;
+            color: #FFFFFF;
+            display: inline-block;
+            text-decoration: none;
+            margin-left: .6rem;  // Creates space on the left
+        }
+    }
 }
 
 ._0028-sect_2 {
