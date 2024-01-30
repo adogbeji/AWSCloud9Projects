@@ -54,6 +54,18 @@ body {
   text-decoration: none;
   margin-left: 0.6rem;
 }
+._0028-sect_1-topnav__link-box {
+  background-color: #00FF00;
+  flex: 0 0 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+._0028-sect_1-topnav__link {
+  font-size: 1.6rem;
+  color: #F5F5DC;
+  display: inline-block;
+  text-decoration: none;
+}
 
 ._0028-sect_2 {
   background-color: #808080;
