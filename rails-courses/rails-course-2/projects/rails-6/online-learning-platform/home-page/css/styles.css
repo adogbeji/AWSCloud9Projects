@@ -46,6 +46,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Mobile Navbar */
 }
 ._0028-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -58,13 +59,44 @@ body {
   background-color: #00FF00;
   flex: 0 0 10%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 1.6rem;
 }
 ._0028-sect_1-topnav__link {
   font-size: 1.6rem;
   color: #F5F5DC;
   display: inline-block;
   text-decoration: none;
+}
+._0028-sect_1-topnav-mobilenav {
+  /* Add same background color to mobile navigation */
+  background-color: #9327D6;
+  padding: 1.5rem;
+  /* Hamburger menu icon */
+}
+._0028-sect_1-topnav-mobilenav__logo-link {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.8rem;
+}
+._0028-sect_1-topnav-mobilenav__bars-icon {
+  height: 2.4rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+._0028-sect_1-topnav-mobilenav__bars-icon-line {
+  background-color: #FFFFFF;
+  width: 3rem;
+  height: 0.3rem;
+}
+._0028-sect_1-topnav-mobilenav__mobile-menu {
+  background-color: #9327D6;
+  display: none;
 }
 
 ._0028-sect_2 {
