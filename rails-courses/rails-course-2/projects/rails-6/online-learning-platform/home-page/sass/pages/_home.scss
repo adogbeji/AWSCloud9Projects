@@ -19,6 +19,7 @@
         // background-color: #9327D6;
         background-color: inherit;  // Takes background colour set on its parent
         // overflow: hidden;  // Hides overflow (required)
+        padding: .8rem;  // Creates space inside the navbar (optional, but recommended!)
 
         position: relative;  // Used to position responsive dropdowns (required)
 
@@ -65,7 +66,7 @@
         
             padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
 
-            // display: none;  // Required
+            display: none;  // Required
 
 
             &__logo-link {
@@ -130,6 +131,37 @@
                 display: none;  // Required
 
                 // padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+            }
+
+            &__link-box-container {
+                // background-color: #0000FF;  // Testing
+                display: none;  // Changed by JavaScript to show navigation links
+
+               /* IMPORTANT: Padding must be applied here, and not on .topnav-mobilenav__mobile-menu 
+                  (above) to prevent the mobile navbar bulging out at the bottom!
+               */
+
+               padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+            }
+
+            &__link-box {
+                // background-color: grey;  // Testing
+            }
+
+            /* Menu links */
+            &__link {
+                // background-color: #0000FF;  // Testing
+                font-size: 1.5rem;
+                color: #F2F2F2;
+                text-decoration: none;  // Removes default underline
+                padding: 1.4rem 1.6rem 1.4rem .48rem;  // Left padding creates space on the left of links
+                display: block;  // Makes links occupy as much space as possile (required)
+
+                // line-height: 1.3;
+
+                &:hover {
+                    color: darken(#FFFFFF, 10%);
+                }
             }
         }
     }

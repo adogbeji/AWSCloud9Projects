@@ -42,6 +42,7 @@ body {
 ._0028-sect_1-topnav {
   /* Add a purple background color to the top navigation */
   background-color: inherit;
+  padding: 0.8rem;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -72,7 +73,9 @@ body {
   /* Add same background color to mobile navigation */
   background-color: #9327D6;
   padding: 1.5rem;
+  display: none;
   /* Hamburger menu icon */
+  /* Menu links */
 }
 ._0028-sect_1-topnav-mobilenav__logo-link {
   font-size: 1.6rem;
@@ -97,6 +100,23 @@ body {
 ._0028-sect_1-topnav-mobilenav__mobile-menu {
   background-color: #9327D6;
   display: none;
+}
+._0028-sect_1-topnav-mobilenav__link-box-container {
+  display: none;
+  /* IMPORTANT: Padding must be applied here, and not on .topnav-mobilenav__mobile-menu 
+     (above) to prevent the mobile navbar bulging out at the bottom!
+  */
+  padding: 1.5rem;
+}
+._0028-sect_1-topnav-mobilenav__link {
+  font-size: 1.5rem;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 1.4rem 1.6rem 1.4rem 0.48rem;
+  display: block;
+}
+._0028-sect_1-topnav-mobilenav__link:hover {
+  color: #e6e6e6;
 }
 
 ._0028-sect_2 {
