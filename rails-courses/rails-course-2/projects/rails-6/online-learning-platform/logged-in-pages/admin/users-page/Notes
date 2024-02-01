@@ -1,0 +1,7 @@
+This contains code for building the users page (logged in)
+
+
+Important Points:
+
+1) This code is for the users page once the admin has logged in
+2) It allows the admin to see all the users in the application
