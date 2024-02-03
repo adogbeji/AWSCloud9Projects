@@ -63,6 +63,11 @@ body {
   justify-content: center;
   column-gap: 1.6rem;
 }
+@media only screen and (max-width: 78.75em) {
+  ._0028-sect_1-topnav__link-box {
+    flex: 0 0 15%;
+  }
+}
 ._0028-sect_1-topnav__link {
   font-size: 1.6rem;
   color: #F5F5DC;
