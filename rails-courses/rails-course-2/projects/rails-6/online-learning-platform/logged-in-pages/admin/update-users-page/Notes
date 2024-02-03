@@ -1,0 +1,7 @@
+This contains code for building the update users page (logged in)
+
+
+Important Points:
+
+1) This code is for the update users page once the admin has logged in
+2) It allows the admin to update the roles of a particular user
