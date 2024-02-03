@@ -67,11 +67,13 @@
             </form>
     
             
-            <!-- Navigation Links + Icons + Profile Picture -->
-            <div class="topnav__link-icon-box">
+            <!-- Navigation Links -->
+            <div class="topnav__link-box-container">
+
                 <!-- Links -->
                 <div class="topnav__link-dot-dropdown-box">
-                    <div class="topnav__link-box">
+
+                    <div class="topnav__link-box-1">
                         <a href="#" class="topnav__link topnav__link--1">
                             <svg class="topnav__link-icon-1">
                                 <use xlink:href="images/sprite.svg#house"></use>
@@ -82,23 +84,8 @@
                                 <use xlink:href="images/sprite.svg#facebook-messenger"></use>
                             </svg>
                         </a>
-                        <a href="#" class="topnav__link topnav__link--3">
-                            <svg class="topnav__link-icon-3">
-                                <use xlink:href="images/sprite.svg#plus-square"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="topnav__link topnav__link--4">
-                            <svg class="topnav__link-icon-4">
-                                <use xlink:href="images/sprite.svg#compass"></use>
-                            </svg>
-                        </a>
-                        <a href="#" class="topnav__link topnav__link--5">
-                            <svg class="topnav__link-icon-5">
-                                <use xlink:href="images/sprite.svg#user"></use>
-                            </svg>
-                        </a>
                     </div>
-                    
+
                     <!-- Responsive Dot Icon Dropdown (#1) -->
                     <div class="topnav__link-dot-dropdown-1">
                         <span class="topnav__link-dot-icon-box-1" onclick="openTopnavLinkDotDropDownOne()">
@@ -117,98 +104,64 @@
                                     <use xlink:href="images/sprite.svg#facebook-messenger"></use>
                                 </svg>
                             </a>
-                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--3">
-                                <svg class="topnav__link-dot_1-link-icon-3">
-                                    <use xlink:href="images/sprite.svg#plus-square"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--4">
-                                <svg class="topnav__link-dot_1-link-icon-4">
-                                    <use xlink:href="images/sprite.svg#compass"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="topnav__link-dot_1-link topnav__link-dot_1-link--5">
-                                <svg class="topnav__link-dot_1-link-icon-5">
-                                    <use xlink:href="images/sprite.svg#user"></use>
-                                </svg>
-                            </a>
                         </div>
                     </div>
-            
-                </div>
-                
-                <!-- Icons -->
-                <div class="topnav__icon-user-dropdown-box">
-                
 
-                    <!-- Profile Picture -->
-                    <!-- <div class="topnav__user-dropdown-box"> -->
+                    </div>
+
+                    </div>
+
+                    <div class="topnav__modal-button-box">
+                        <!-- Trigger Button -->
+                        <button type="button" class="topnav__modal-button">
+                            <svg class="topnav__modal-icon">
+                                <use xlink:href="images/sprite.svg#plus-square"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="topnav__link-box-2">
+                        <a href="#" class="topnav__link topnav__link--3">
+                            <svg class="topnav__link-icon-3">
+                                <use xlink:href="images/sprite.svg#compass"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="topnav__dropdown-box">
                         <!-- Dropdown Start -->
-                        <div class="topnav__user-dropdown">
-                           <figure class="topnav__user-photo-box" onclick="openTopnavUserDropdown()">
-                               <img src="images/img-1.jpg" alt="Profile picture" 
-                               class="topnav__user-photo"
-                               >
-                           </figure>
-
-                           <div id="topNavDropdown_3" class="topnav__user-dropdown-content">
-                            <div class="topnav__user-dropdown-content-box-1">
-                                <div class="topnav__user-dropdown-content-username-box">
-                                    <span class="topnav__user-dropdown-content-username">
-                                        Chris
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="topnav__user-dropdown-content-box-2">
-                                <div class="topnav__user-dropdown-content-link-box-1">
-                                    <a href="#" class="topnav__user-dropdown-content-link-1">
-                                        Service 1
-                                    </a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-2">
-                                        Service 2
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="topnav__user-dropdown-content-box-3">
-                                <div class="topnav__user-dropdown-content-link-box-2">
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 1</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 2</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 3</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 4</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 5</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 6</a>
-                                </div>
-                            </div>
-                            <div class="topnav__user-dropdown__content-box-4">
-                                <div class="topnav__user-dropdown-content-link-box-3">
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 1</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 2</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 3</a>
-                                    <a href="#" class="topnav__user-dropdown-content-link-3">Link 4</a>
-                                </div>
-                            </div>
-                            <div class="topnav__user-dropdown-content-box-5">
-                                <a href="#" class="topnav__user-dropdown-content-icon-link">
-                                    <svg class="topnav__user-dropdown-content-icon-1">
-                                        <use xlink:href="images/sprite.svg#icon-cog"></use>
-                                    </svg>
-                                    Settings
-                                </a>
-                                <a href="#" class="topnav__user-dropdown-content-icon-link">
-                                    <svg class="topnav__user-dropdown-content-icon-2">
-                                        <use xlink:href="images/sprite.svg#icon-log-out"></use>
-                                    </svg>
-                                    Logout
-                                </a>
-                            </div>
-                        </div>
-
-                        </div>
-                        <!-- Dropdown End -->
-                    <!-- </div> -->
-
+                <div class="topnav__dropdown-1">
+                    <button onclick="openTopnavClickDropDownOne()" class="topnav__dropdown-btn-1">
+                        <svg class="topnav__link-icon-2">
+                            <use xlink:href="images/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <div id="topNavDropdown_1" class="topnav__dropdown-content-1">
+                        <!-- Dropdown Content here... -->
+                    </div>
                 </div>
-            </div>
+                <!-- Dropdown End -->
+
+                <!-- Responsive Dot Icon Dropdown (#2) -->
+                <div class="topnav__link-dot-dropdown-2">
+                    <span class="topnav__link-dot-icon-box-2" onclick="openTopnavLinkDotDropDownTwo()">
+                        <svg class="topnav__link-dot-icon-2">
+                            <use xlink:href="images/sprite.svg#icon-dots-three-horizontal"></use>
+                        </svg>
+                    </span>
+                    <div id="topNavLinkDotDropdown_2" class="topnav__link-dot_2-dropdown-content">
+                        <!-- Dropdown Content here... -->
+                    </div>
+                </div>
+
+                  </div>
+
+                  <div class="topnav__link-box-3">
+                    <a href="#" class="topnav__link topnav__link--4">
+                        <svg class="topnav__link-icon-4">
+                            <use xlink:href="images/sprite.svg#user"></use>
+                        </svg>
+                    </a>
+                </div>
 
         </nav>
         <!-- Navbar End -->
