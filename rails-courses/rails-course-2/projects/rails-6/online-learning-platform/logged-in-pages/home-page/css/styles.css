@@ -36,7 +36,34 @@ body {
 }
 
 ._0035-sect_1 {
+  background-color: #9327D6;
   grid-column: full-start/full-end;
+}
+._0035-sect_1-topnav {
+  /* Add a purple background color to the top navigation */
+  background-color: inherit;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+._0035-sect_1-topnav__logo-link {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.6rem;
+}
+._0035-sect_1-topnav__link-dot-dropdown-box {
+  background-color: grey;
+  flex: 0 0 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+._0035-sect_1-topnav__link-box {
+  background-color: #00FF00;
+  flex: 0 0 90%;
 }
 
 ._0035-sect_2 {
