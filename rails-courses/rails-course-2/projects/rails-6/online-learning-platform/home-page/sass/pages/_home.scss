@@ -46,6 +46,10 @@
                 flex: 0 0 15%;
             }
 
+            @media only screen and (max-width: $bp-835) {  // 835px
+                flex: 0 0 20%;
+            }
+
             display: flex;
             justify-content: center;
 

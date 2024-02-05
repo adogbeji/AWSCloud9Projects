@@ -68,6 +68,11 @@ body {
     flex: 0 0 15%;
   }
 }
+@media only screen and (max-width: 52.1875em) {
+  ._0028-sect_1-topnav__link-box {
+    flex: 0 0 20%;
+  }
+}
 ._0028-sect_1-topnav__link {
   font-size: 1.6rem;
   color: #F5F5DC;
