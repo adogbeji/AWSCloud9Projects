@@ -36,6 +36,60 @@
             text-decoration: none;
             margin-left: .6rem;  // Creates space on the left
         }
+
+        &__link-dot-dropdown-box {
+            background-color: grey;  // Testing
+            // margin-right: auto;  // Pushes links away from icons & profile picture
+
+            display: flex;
+            justify-content: space-evenly;
+
+            flex: 0 0 60%;
+        }
+
+        &__link-box {  // Used to position links from responsive dropdown at smaller breakpoints
+            background-color: #00FF00;  // Testing
+
+            flex: 0 0 90%;
+
+            display: flex;
+            justify-content: center;
+
+            column-gap: .8rem;  // Creates space between links
+        }
+
+        &__link {
+            font-size: 1.4rem;
+            color: #FFFFFF;
+            display: inline-block;
+            text-decoration: none;
+
+            &:hover {
+                color: darken(#FFFFFF, 10%);
+            }
+        }
+
+        &__link-icon-1 {
+            width: 1.45rem;
+            height: 1.45rem;
+            // fill: #000000;
+            fill: #FFFFFF;
+        }
+
+        &__link:hover > &__link-icon-1 {
+            fill: darken(#FFFFFF, 10%);
+        }
+
+        &__link-icon-2 {
+            width: 1.45rem;
+            height: 1.45rem;
+            // fill: #000000;
+            fill: #FFFFFF;
+        }
+
+        &__link:hover > &__link-icon-2 {
+            fill: darken(#FFFFFF, 10%);
+        }
     }
 }
 
