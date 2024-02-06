@@ -51,6 +51,39 @@
 
             flex: 0 0 90%;
         }
+
+        &__link {
+            font-size: 1.4rem;
+            color: #FFFFFF;
+            display: inline-block;
+            text-decoration: none;
+
+            &:hover {
+                color: darken(#FFFFFF, 10%);
+            }
+        }
+
+        &__link-icon-1 {
+            width: 1.45rem;
+            height: 1.45rem;
+            // fill: #000000;
+            fill: #FFFFFF;
+        }
+
+        &__link:hover > &__link-icon-1 {
+            fill: darken(#FFFFFF, 5%);
+        } 
+
+        &__link-icon-2 {
+            width: 1.45rem;
+            height: 1.45rem;
+            // fill: #000000;
+            fill: #FFFFFF;
+        }
+
+        &__link:hover > &__link-icon-2 {
+            fill: darken(#FFFFFF, 5%);
+        } 
     }
 }
 

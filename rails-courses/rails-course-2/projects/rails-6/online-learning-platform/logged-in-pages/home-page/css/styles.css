@@ -65,6 +65,31 @@ body {
   background-color: #00FF00;
   flex: 0 0 90%;
 }
+._0035-sect_1-topnav__link {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+}
+._0035-sect_1-topnav__link:hover {
+  color: #e6e6e6;
+}
+._0035-sect_1-topnav__link-icon-1 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #FFFFFF;
+}
+._0035-sect_1-topnav__link:hover > ._0035-sect_1-topnav__link-icon-1 {
+  fill: #f2f2f2;
+}
+._0035-sect_1-topnav__link-icon-2 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #FFFFFF;
+}
+._0035-sect_1-topnav__link:hover > ._0035-sect_1-topnav__link-icon-2 {
+  fill: #f2f2f2;
+}
 
 ._0035-sect_2 {
   background-color: #808080;
