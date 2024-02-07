@@ -11,7 +11,64 @@
 
 ._0057-sect_1 {
     // background-color: #00FFFF;  // Testing
+    background-color: #FFFFFF;  // Inherited by ._0057-sect_1-topnav (below)
     grid-column: full-start / full-end;
+
+    &-topnav {
+        /* Add a purple background color to the top navigation */
+        // background-color: #9327D6;
+        background-color: inherit;  // Takes background colour set on its parent
+        // overflow: hidden;  // Hides overflow (required)
+
+        position: relative;  // Used to position responsive dropdowns (required)
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo-link {
+            // background-color: grey;  // Testing
+            display: inline-block;
+            margin-left: .6rem;  // Creates space on the left
+        }
+
+        &__logo {
+            max-width: 4.5rem;
+            width: 100%;
+            height: auto;
+            display: block;  // Prevents whitespace appearing underneath
+        }
+
+        &__search {
+            // background-color: #FFFF00;  // Testing
+            font-size: 1.5rem;  // Inherited by button
+            position: relative;  // Used to position search bar dropdown
+
+            flex: 0 0 40%;  // Relative to width of Navigation bar
+  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-input-dropdown-box {  // Wrapper that holds input box & dropdown box
+                // background-color: grey;  // Testing
+                transition: all .6s;  // Controls rate at which flex basis changes
+
+                flex: 0 0 70%;  // Relative to width of search bar
+
+                // flex: 0 0 100%;
+            }
+
+            &-input-box {  // Contains input, SVG icon & close icon (x)
+                // background-color: #0000FF;  // Testing
+                position: relative;  // Used to position close icon (x) & icon button (required)
+                font-size: 1.5rem;  // Inherited by input
+    
+                display: flex;
+                align-items: center;  // Vertically centeres icon button & close icon (x)
+            }
+        }
+    }
 }
 
 ._0057-sect_2 {
