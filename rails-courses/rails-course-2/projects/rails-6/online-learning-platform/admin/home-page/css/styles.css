@@ -42,7 +42,6 @@ body {
 ._1859-sect_1-topnav {
   /* Add a purple background color to the top navigation */
   background-color: inherit;
-  padding: 0.8rem;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -57,16 +56,14 @@ body {
 }
 ._1859-sect_1-topnav__link-dot-dropdown-box {
   background-color: grey;
+  flex: 0 0 15%;
   display: flex;
-  justify-content: space-evenly;
-  flex: 0 0 60%;
+  justify-content: center;
+  align-items: center;
 }
 ._1859-sect_1-topnav__link-box {
   background-color: #00FF00;
   flex: 0 0 90%;
-  display: flex;
-  justify-content: center;
-  column-gap: 0.8rem;
 }
 ._1859-sect_1-topnav__link {
   font-size: 1.4rem;
@@ -83,15 +80,7 @@ body {
   fill: #FFFFFF;
 }
 ._1859-sect_1-topnav__link:hover > ._1859-sect_1-topnav__link-icon-1 {
-  fill: #e6e6e6;
-}
-._1859-sect_1-topnav__link-icon-2 {
-  width: 1.45rem;
-  height: 1.45rem;
-  fill: #FFFFFF;
-}
-._1859-sect_1-topnav__link:hover > ._1859-sect_1-topnav__link-icon-2 {
-  fill: #e6e6e6;
+  fill: #f2f2f2;
 }
 
 ._1859-sect_2 {
