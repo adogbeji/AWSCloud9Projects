@@ -153,6 +153,46 @@
         &__link-dot_1-link:hover > &__link-dot_1-icon-1 {
             fill: #FFFF00;
         }
+
+        &__link-dot_1-icon-2 {
+            width: 1.45rem;
+            height: 1.45rem;
+            fill: #000000;
+        }
+
+        &__link-dot_1-link:hover > &__link-dot_1-icon-2 {
+            fill: #FFFF00;
+        }
+
+        &__search {
+            // background-color: #FFFF00;  // Testing
+            font-size: 1.5rem;  // Inherited by button
+            position: relative;  // Used to position search bar dropdown
+
+            flex: 0 0 40%;  // Relative to width of Navigation bar
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-input-dropdown-box {  // Wrapper that holds input box & dropdown box
+                // background-color: grey;  // Testing
+                transition: all .6s;  // Controls rate at which flex basis changes
+    
+                flex: 0 0 70%;  // Relative to width of search bar
+    
+                // flex: 0 0 100%;
+            }
+
+            &-input-box {  // Contains input, SVG icon & close icon (x)
+                // background-color: #0000FF;  // Testing
+                position: relative;  // Used to position close icon (x) & icon button (required)
+                font-size: 1.5rem;  // Inherited by input
+    
+                display: flex;
+                align-items: center;  // Vertically centeres icon button & close icon (x)
+            }
+        }
     }
 }
 
