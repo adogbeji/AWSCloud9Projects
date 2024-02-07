@@ -1,4 +1,6 @@
 ._0028 {
+    background-color: #060670;  // Page background colour (required)
+
     display: grid;
     grid-template-rows: repeat(8, min-content);
     grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
@@ -177,32 +179,44 @@
 
 ._0028-sect_2 {
     background-color: #808080;  // Testing
-    grid-column: full-start / full-end;
+    grid-column: centre-start / centre-end;
+
+    &-card-box {
+        background-color: #00FF00;  // Testing
+        // grid-column: centre-start / centre-end;
+    }
+
+    &-card {
+
+        &-text-box-1 {
+            background-color: #FF0000;  // Testing
+        }
+    }
 }
 
 ._0028-sect_3 {
     background-color: #0000FF;  // Testing
-    grid-column: full-start / full-end;
+    grid-column: centre-start / centre-end;
 }
 
 ._0028-sect_4 {
     background-color: #FFD700;  // Testing
-    grid-column: full-start / full-end;
+    grid-column: centre-start / centre-end;
 }
 
 ._0028-sect_5 {
     background-color: #7E0FC5;
-    grid-column: full-start / full-end;
+    grid-column: centre-start / centre-end;
 }
 
 ._0028-sect_6 {
     background-color: #F1425D;
-    grid-column: full-start / full-end;
+    grid-column: centre-start / centre-end;
 }
 
 ._0028-sect_7 {
     background-color: #F5F5DC;
-    grid-column: full-start / full-end;
+    grid-column: centre-start / centre-end;
 }
 
 ._0028-sect_8 {
