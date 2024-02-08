@@ -259,6 +259,36 @@ body {
   display: flex;
   align-items: center;
 }
+._0057-sect_1-topnav__search-icon-box {
+  background-color: #FFFFFF;
+  display: inline-block;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  position: absolute;
+  left: 0.7rem;
+}
+._0057-sect_1-topnav__search-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #000000;
+}
+._0057-sect_1-topnav__search-input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  padding: 0.8rem 0.5rem 0.8rem 3.1rem;
+  background-color: #FFFFFF;
+  flex: 0 0 100%;
+}
+._0057-sect_1-topnav__search-input::-webkit-input-placeholder {
+  color: #948F8F;
+}
+._0057-sect_1-topnav__search-input:focus {
+  outline: none;
+}
 
 ._0057-sect_2 {
   background-color: #808080;
