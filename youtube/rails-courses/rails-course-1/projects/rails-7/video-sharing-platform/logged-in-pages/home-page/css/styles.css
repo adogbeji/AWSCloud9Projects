@@ -24,4 +24,30 @@ body {
   color: #000000;
 }
 
+._5728 {
+  display: grid;
+  grid-template-rows: min-content 45vw min-content;
+  grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+}
+
+._5728 > * {
+  font-size: 2.6rem;
+  padding: 0.5rem;
+}
+
+._5728-sect_1 {
+  background-color: #00FFFF;
+  grid-column: full-start/full-end;
+}
+
+._5728-sect_2 {
+  background-color: #F4A4B4;
+  grid-column: centre-start/centre-end;
+}
+
+._5728-sect_3 {
+  background-color: #333333;
+  grid-column: full-start/full-end;
+}
+
 /*# sourceMappingURL=styles.css.map */
