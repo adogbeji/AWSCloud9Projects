@@ -171,8 +171,13 @@ body {
 ._0028-sect_2-card-box {
   background-color: #00FF00;
 }
-._0028-sect_2-card-text-box-1 {
-  background-color: #FF0000;
+._0028-sect_2-card-body {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+._0028-sect_2-card-text-1 {
+  font-size: 4.6rem;
+  font-weight: 300;
 }
 
 ._0028-sect_3 {
