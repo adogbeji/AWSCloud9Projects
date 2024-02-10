@@ -186,6 +186,10 @@
         // grid-column: centre-start / centre-end;
     }
 
+    &-card-box-2 {
+        background-color: #00FF00;  // Testing
+    }
+
     &-card {
 
         &-body {
@@ -200,6 +204,35 @@
         &-text-1 {
             font-size: 4.6rem;
             font-weight: 300;
+        }
+
+        &-text-icon-box {
+            background-color: #0000FF;  // Testing
+        }
+
+        &-icon-box {
+            background-color: #00FF00;  // Testing
+        }
+
+        &-icon-1 {
+            width: 3.4rem;
+            height: 3.4rem;
+            fill: #060670;  // Same as page background colour
+        }
+
+        &-text-box-2 {
+            background-color: #FF0000;  // Testing
+        }
+
+        &-text-2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            color: #060670;  // Same as page background colour
+        }
+
+        &-text-3 {
+            font-size: 1.6rem;
+            color: #060670;  // Same as page background colour
         }
     }
 }
