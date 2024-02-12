@@ -230,6 +230,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* First Responsive Dropdown */
 }
 ._0057-sect_1-topnav__logo-link {
   display: inline-block;
@@ -418,6 +419,18 @@ body {
 }
 ._0057-sect_1-topnav__link:hover > ._0057-sect_1-topnav__link-icon-2 {
   fill: #FFFF00;
+}
+._0057-sect_1-topnav__link-dot-dropdown-1 {
+  display: inline-block;
+}
+._0057-sect_1-topnav__link-dot-icon-box-1 {
+  cursor: pointer;
+  display: none;
+}
+._0057-sect_1-topnav__link-dot-icon-1 {
+  width: 2.1rem;
+  height: 2.1rem;
+  fill: #000000;
 }
 
 ._0057-sect_2 {
