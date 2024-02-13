@@ -505,6 +505,49 @@
             color: #FFFFFF;
             background-color: #F1425D;
         }
+
+        /* Second Dropdown */
+        &__dropdown-2 {
+            position: relative;  // Needed to position the dropdown content (.topnav__dropdown-content-2)
+            display: inline-block;  // Makes dropdown only occupy as much space as it needs (required)
+        }
+
+        &__dropdown-btn-2 {
+            background-color: #A71198;
+            // background-color: #9327D6;
+            // font-size: 1.7rem;
+            // color: #333333;
+            font-size: 1.4rem;  // Makes button text the same size as link text (below)
+            color: #FFFFFF;
+            display: inline-block;
+            padding: 1.1rem 1.6rem; 
+            min-width: 8rem;
+            border: none;  // Removes default button border
+            outline: none;  // Removes outline
+            cursor: pointer;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;  // Vertically centres dropdown icon & text
+    
+            &:focus {  // Darken text a tiny bit when button is clicked
+                color: darken(#FFFFFF, 5%);
+            }
+        }
+
+        &__dropdown-icon-3 {
+            width: 2.1rem;
+            height: 2.1rem;
+            // fill: #000000;
+            fill: #FFFFFF;
+            margin-right: .3rem;  // Creates space between icon & text
+        }
+
+        &__dropdown-icon-4 {
+            width: 3rem;
+            height: 3rem;
+            fill: #FFFFFF;
+        }
     }
 }
 
