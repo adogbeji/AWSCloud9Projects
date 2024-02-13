@@ -52,6 +52,7 @@ body {
   /* First Dropdown */
   /* Dropdown Content (Hidden by Default) */
   /* Second Dropdown */
+  /* Dropdown Content (Hidden by Default) */
 }
 ._1859-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -437,6 +438,92 @@ body {
   width: 3rem;
   height: 3rem;
   fill: #FFFFFF;
+}
+._1859-sect_1-topnav__dropdown-content-2 {
+  display: none;
+  position: absolute;
+  left: 0;
+  min-width: 18.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  border: 0.025rem solid #A9A6A6;
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+     user clicks */
+}
+._1859-sect_1-topnav__dropdown-content-2--show {
+  display: block;
+}
+._1859-sect_1-topnav__dropdown-content-2::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  margin-left: -0.7rem;
+  border-width: 0.7rem;
+  border-style: solid;
+  border-color: transparent transparent #F1F1F1 transparent;
+}
+._1859-sect_1-topnav__dropdown-link-2 {
+  font-size: 1.45rem;
+  color: #000000;
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.3rem;
+  /* Add a black background to dropdown links on hover */
+}
+._1859-sect_1-topnav__dropdown-link-2:hover {
+  color: #EEEEEE;
+  background-color: #333333;
+}
+._1859-sect_1-topnav__dropdown-link-icon-3 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__dropdown-link-2:hover > ._1859-sect_1-topnav__dropdown-link-icon-3 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__dropdown-link-icon-4 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__dropdown-link-2:hover > ._1859-sect_1-topnav__dropdown-link-icon-4 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__dropdown-link-notification-4 {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #F1425D;
+}
+._1859-sect_1-topnav__dropdown-link-icon-5 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__dropdown-link-2:hover > ._1859-sect_1-topnav__dropdown-link-icon-5 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__dropdown-link-notification-5 {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #F1425D;
 }
 
 ._1859-sect_2 {
