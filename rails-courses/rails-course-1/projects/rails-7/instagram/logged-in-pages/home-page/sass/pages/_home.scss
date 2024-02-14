@@ -377,6 +377,82 @@
         &__modal-button-box {
             background-color: #00FF00;  // Testing
         }
+
+        &__modal-button {
+            font-size: 1.6rem;
+            color: #FFFFFF;
+            display: inline-block;
+            // padding: 0 1.2rem;
+            // padding: 1.25rem 1.2rem;  // Normal/medium button
+            // padding: 1.5rem 1.2rem;  // large button
+            padding: .85rem 1.2rem;  // Small button
+            min-width: 8rem;
+            border: none;  // Removes default button border
+            outline: none;  // Removes outline
+            cursor: pointer;
+            // background-color: #000000;
+            background-color: transparent;
+        }
+
+        &__modal-button-icon {
+            width: 1.45rem;
+            height: 1.45rem;
+            fill: #000000;
+        }
+
+        &__link-box-2 {
+            background-color: #00FF00;  // Testing
+        }
+
+        &__link-icon-3 {
+            width: 1.45rem;
+            height: 1.45rem;
+            fill: #000000;
+        }
+
+        /* Clickable dropdown container */
+        &__dropdown-box {
+            // background-color: grey;  // Testing
+
+            flex: 0 0 auto;  // Dropdown container takes up exact space needed!
+        }
+
+        /* First Dropdown */
+        &__dropdown-1 {
+            position: relative;  // Needed to position the dropdown content (.topnav__dropdown-content-1)
+            display: inline-block;  // Makes dropdown only occupy as much space as it needs (required)
+        }
+
+        &__dropdown-btn-1 {
+            background-color: #A71198;
+            // background-color: #9327D6;
+            // font-size: 1.7rem;
+            // color: #333333;
+            font-size: 1.4rem;  // Makes button text the same size as link text (below)
+            color: #FFFFFF;
+            display: inline-block;
+            padding: 1.1rem 1.6rem; 
+            min-width: 8rem;
+            border: none;  // Removes default button border
+            outline: none;  // Removes outline
+            cursor: pointer;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;  // Vertically centres dropdown icon & text
+    
+            &:focus {  // Darken text a tiny bit when button is clicked
+                color: darken(#FFFFFF, 5%);
+            }
+        }
+
+        &__dropdown-icon-1 {
+            width: 2.1rem;
+            height: 2.1rem;
+            // fill: #000000;
+            fill: #FFFFFF;
+            // margin-right: .3rem;  // Creates space between icon & text
+        }
     }
 }
 
