@@ -36,7 +36,66 @@ body {
 }
 
 ._5728-sect_1 {
+  background-color: #070505;
   grid-column: full-start/full-end;
+}
+._5728-sect_1-topnav {
+  /* Add a black background color to the top navigation */
+  background-color: inherit;
+  padding: 0.8rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+._5728-sect_1-topnav__logo-link {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.6rem;
+}
+._5728-sect_1-topnav__link-box-container {
+  background-color: #0000FF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0 0 28%;
+}
+._5728-sect_1-topnav__link-dot-dropdown-box {
+  background-color: grey;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 0 60%;
+}
+._5728-sect_1-topnav__link-box {
+  flex: 0 0 90%;
+  display: flex;
+  justify-content: center;
+  column-gap: 0.8rem;
+}
+._5728-sect_1-topnav__link {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+}
+._5728-sect_1-topnav__link:hover {
+  color: #e6e6e6;
+}
+._5728-sect_1-topnav__link-dot-dropdown-1 {
+  display: inline-block;
+}
+._5728-sect_1-topnav__link-dot-icon-box-1 {
+  cursor: pointer;
+  display: none;
+}
+._5728-sect_1-topnav__link-dot-icon-1 {
+  width: 2.1rem;
+  height: 2.1rem;
+  fill: #000000;
 }
 
 ._5728-sect_2 {
