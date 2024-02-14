@@ -53,6 +53,7 @@ body {
   /* Dropdown Content (Hidden by Default) */
   /* Second Dropdown */
   /* Dropdown Content (Hidden by Default) */
+  /* Clickable dropdown container */
 }
 ._1859-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -524,6 +525,37 @@ body {
   font-size: 1rem;
   color: #FFFFFF;
   background-color: #F1425D;
+}
+._1859-sect_1-topnav__dropdown-3 {
+  flex: 0 0 auto;
+}
+._1859-sect_1-topnav__dropdown-btn-3 {
+  background-color: #A71198;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 1.1rem 1.6rem;
+  min-width: 8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+._1859-sect_1-topnav__dropdown-btn-3:focus {
+  color: #f2f2f2;
+}
+._1859-sect_1-topnav__dropdown-icon-5 {
+  width: 2.1rem;
+  height: 2.1rem;
+  fill: #FFFFFF;
+  margin-right: 0.3rem;
+}
+._1859-sect_1-topnav__dropdown-icon-6 {
+  width: 3rem;
+  height: 3rem;
+  fill: #FFFFFF;
 }
 
 ._1859-sect_2 {
