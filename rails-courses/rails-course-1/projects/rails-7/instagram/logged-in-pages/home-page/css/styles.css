@@ -234,6 +234,8 @@ body {
   /* Style the links inside the dropdown */
   /* Clickable dropdown container */
   /* First Dropdown */
+  /* Dropdown Content (Hidden by Default) */
+  /* Second Responsive Dropdown */
 }
 ._0057-sect_1-topnav__logo-link {
   display: inline-block;
@@ -536,6 +538,58 @@ body {
   width: 2.1rem;
   height: 2.1rem;
   fill: #FFFFFF;
+}
+._0057-sect_1-topnav__dropdown-content-1 {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 18.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  border: 0.025rem solid #A9A6A6;
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+     user clicks */
+}
+._0057-sect_1-topnav__dropdown-content-1--show {
+  display: block;
+}
+._0057-sect_1-topnav__dropdown-content-1::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 80%;
+  margin-left: -0.7rem;
+  border-width: 0.7rem;
+  border-style: solid;
+  border-color: transparent transparent #F1F1F1 transparent;
+}
+._0057-sect_1-topnav__link-dot-dropdown-2 {
+  display: inline-block;
+}
+._0057-sect_1-topnav__link-dot-icon-box-2 {
+  cursor: pointer;
+  display: none;
+}
+._0057-sect_1-topnav__link-dot-icon-2 {
+  width: 2.1rem;
+  height: 2.1rem;
+  fill: #000000;
+}
+._0057-sect_1-topnav__link-dot_2-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 14.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+     user clicks */
+}
+._0057-sect_1-topnav__link-dot_2-dropdown-content--show {
+  display: block;
 }
 
 ._0057-sect_2 {
