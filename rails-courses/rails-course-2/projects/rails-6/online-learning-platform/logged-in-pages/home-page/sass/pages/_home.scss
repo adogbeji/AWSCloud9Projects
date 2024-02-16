@@ -1010,6 +1010,36 @@
                 background-color: #333333;
             }
         }
+
+        &__dropdown-link-icon-6 {
+            width: 1.45rem;
+            height: 1.45rem;
+            fill: #000000;
+        }
+
+        &__dropdown-link-3:hover > &__dropdown-link-icon-6 {
+            fill: #FFFF00;
+        }
+
+        &__dropdown-link-icon-7 {
+            width: 1.45rem;
+            height: 1.45rem;
+            fill: #000000;
+        }
+
+        &__dropdown-link-3:hover > &__dropdown-link-icon-7 {
+            fill: #FFFF00;
+        }
+
+        &__dropdown-link-icon-8 {
+            width: 1.45rem;
+            height: 1.45rem;
+            fill: #000000;
+        }
+
+        &__dropdown-link-3:hover > &__dropdown-link-icon-8 {
+            fill: #FFFF00;
+        }
     }
 }
 

@@ -800,6 +800,30 @@ body {
   color: #EEEEEE;
   background-color: #333333;
 }
+._0035-sect_1-topnav__dropdown-link-icon-6 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._0035-sect_1-topnav__dropdown-link-3:hover > ._0035-sect_1-topnav__dropdown-link-icon-6 {
+  fill: #FFFF00;
+}
+._0035-sect_1-topnav__dropdown-link-icon-7 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._0035-sect_1-topnav__dropdown-link-3:hover > ._0035-sect_1-topnav__dropdown-link-icon-7 {
+  fill: #FFFF00;
+}
+._0035-sect_1-topnav__dropdown-link-icon-8 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._0035-sect_1-topnav__dropdown-link-3:hover > ._0035-sect_1-topnav__dropdown-link-icon-8 {
+  fill: #FFFF00;
+}
 
 ._0035-sect_2 {
   background-color: #808080;
