@@ -55,6 +55,8 @@ body {
   /* Dropdown Content (Hidden by Default) */
   /* Clickable dropdown container */
   /* Dropdown Content (Hidden by Default) */
+  /* Second Responsive Dropdown */
+  /* Style the links inside the dropdown */
 }
 ._1859-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -653,6 +655,89 @@ body {
   font-size: 1rem;
   color: #FFFFFF;
   background-color: #F1425D;
+}
+._1859-sect_1-topnav__dropdown-link-icon-9 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__dropdown-link-3:hover > ._1859-sect_1-topnav__dropdown-link-icon-9 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__dropdown-link-icon-10 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__dropdown-link-3:hover > ._1859-sect_1-topnav__dropdown-link-icon-10 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__dropdown-link-icon-11 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__dropdown-link-3:hover > ._1859-sect_1-topnav__dropdown-link-icon-11 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__link-dot-dropdown-2 {
+  display: inline-block;
+}
+._1859-sect_1-topnav__link-dot-icon-box-2 {
+  cursor: pointer;
+  display: none;
+}
+._1859-sect_1-topnav__link-dot-icon-2 {
+  width: 2.1rem;
+  height: 2.1rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__link-dot_2-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 14.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+      user clicks */
+}
+._1859-sect_1-topnav__link-dot_2-dropdown-content--show {
+  display: block;
+}
+._1859-sect_1-topnav__link-dot_2-dropdown-content-box-1 {
+  border-bottom: 0.1rem solid #A9A6A6;
+}
+._1859-sect_1-topnav__link-dot_2-dropdown-content-text-box-1 {
+  width: 90%;
+  margin: auto;
+  padding: 0.2rem 0;
+  text-align: center;
+}
+._1859-sect_1-topnav__link-dot_2-dropdown-content-text-1 {
+  font-size: 1.45rem;
+  font-weight: 500;
+  display: inline-block;
+}
+._1859-sect_1-topnav__link-dot_2-dropdown-content-box-2 {
+  border-bottom: 0.1rem solid #A9A6A6;
+}
+._1859-sect_1-topnav__link-dot_2-link {
+  font-size: 1.5rem;
+  color: #000000;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.3rem;
+  /* Add a black background to dropdown links on hover */
+}
+._1859-sect_1-topnav__link-dot_2-link:hover {
+  color: #EEEEEE;
+  background-color: #333333;
 }
 
 ._1859-sect_2 {
