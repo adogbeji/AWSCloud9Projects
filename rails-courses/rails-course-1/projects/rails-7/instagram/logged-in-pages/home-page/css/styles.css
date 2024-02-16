@@ -236,6 +236,7 @@ body {
   /* First Dropdown */
   /* Dropdown Content (Hidden by Default) */
   /* Second Responsive Dropdown */
+  /* Mobile Navbar */
 }
 ._0057-sect_1-topnav__logo-link {
   display: inline-block;
@@ -590,6 +591,55 @@ body {
 }
 ._0057-sect_1-topnav__link-dot_2-dropdown-content--show {
   display: block;
+}
+._0057-sect_1-topnav__link-box-3 {
+  background-color: #00FF00;
+}
+._0057-sect_1-topnav__link-icon-4 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._0057-sect_1-topnav-mobilenav {
+  /* Add same background color to mobile navigation */
+  background-color: inherit;
+  padding: 1.5rem;
+  display: none;
+  /* Hamburger menu icon */
+}
+._0057-sect_1-topnav-mobilenav__logo-link {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+._0057-sect_1-topnav-mobilenav__logo {
+  max-width: 4.5rem;
+  height: auto;
+  width: 100%;
+  display: block;
+}
+._0057-sect_1-topnav-mobilenav__bars-icon {
+  height: 2.4rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+._0057-sect_1-topnav-mobilenav__bars-icon-line {
+  background-color: #FFFFFF;
+  width: 3rem;
+  height: 0.3rem;
+}
+._0057-sect_1-topnav-mobilenav__mobile-menu {
+  background-color: #9327D6;
+  display: none;
+}
+._0057-sect_1-topnav-mobilenav__link-dropdown-search-box {
+  display: none;
+  /* IMPORTANT: Padding must be applied here, and not on .topnav-mobilenav__mobile-menu 
+     (above) to prevent the mobile navbar bulging out at the bottom!
+  */
+  padding: 1.5rem;
 }
 
 ._0057-sect_2 {
