@@ -627,6 +627,152 @@
 
                 padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
             }
+
+            &__link-box-1 {
+                // background-color: grey;  // Testing
+            }
+
+            &__link {
+                // background-color: #0000FF;  // Testing
+                font-size: 1.5rem;
+                color: #F2F2F2;
+                text-decoration: none;  // Removes default underline
+                padding: 1.4rem 1.6rem 1.4rem .48rem;  // Left padding creates space on the left of links
+                display: block;  // Makes links occupy as much space as possile (required)
+
+                // line-height: 1.3;
+
+                &:hover {
+                    color: darken(#FFFFFF, 10%);
+                }
+            }
+
+            &__link-icon-1 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__link:hover > &__link-icon-1 {
+                fill: #FFFF00;
+            }
+
+            &__link-icon-2 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__link:hover > &__link-icon-2 {
+                fill: #FFFF00;
+            }
+
+            &__modal-button-box {
+                background-color: #00FF00;  // Testing
+            }
+
+            &__modal-button {
+                font-size: 1.6rem;
+                color: #FFFFFF;
+                display: inline-block;
+                // padding: 0 1.2rem;
+                // padding: 1.25rem 1.2rem;  // Normal/medium button
+                // padding: 1.5rem 1.2rem;  // large button
+                padding: .85rem 1.2rem;  // Small button
+                min-width: 8rem;
+                border: none;  // Removes default button border
+                outline: none;  // Removes outline
+                cursor: pointer;
+                // background-color: #000000;
+                background-color: transparent;
+            }
+
+            &__modal-button-icon {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__link-box-2 {
+                background-color: #00FF00;  // Testing
+            }
+
+            &__link-icon-3 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__link:hover > &__link-icon-3 {
+                fill: #FFFF00;
+            }
+
+            /* Clickable dropdown container */
+            &__dropdown-box {
+                // background-color: grey;  // Testing
+            }
+            
+            /* First Dropdown */
+            &__dropdown-1 {
+                // background-color: #FFFF00;  // Testing
+                display: block;  // Allows links occupy fill width (required)
+                margin-left: .4rem;  // Creates space on left
+                margin-bottom: .5rem;  // Creates space between the two dropdowns
+            }
+
+            /* Dropdown button */
+            &__dropdown-btn-1 {
+                background-color: #333333;
+                font-size: 1.5rem;  // Same size as menu links (.topnav-mobilenav__link) above
+                color: #FFFFFF;
+                display: inline-block;
+                padding: .3rem .8rem;
+                min-width: 8rem;
+                border: none;  // Removes default border
+                outline: none;  // Removes outline
+                cursor: pointer;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;  // Vertically centres dropdown icon & text
+            }
+
+            &__dropdown-icon-1 {
+                width: 3rem;
+                height: 3rem;
+                fill: #FFFFFF;
+            }
+
+            /* Dropdown Content (Hidden by Default) */
+            &__dropdown-content-1 {
+                display: none;
+                position: initial;  // Prevents dropdown from overlapping search bar
+                // min-width: 12rem;
+                margin-top: .3rem;  // Creates space between dropdown button & dropdown content
+                width: 98%;  // Sets width of dropdown content
+                background-color: #F1F1F1;
+                box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
+                border-radius: 1rem;  // Creates rounded edges
+                // z-index: 1;  // Puts dropdown in front of other elements
+        
+                overflow: hidden;  // Hides overflown background colour when users hovers!
+
+               /* This class will be added by JavaScript to display the dropdown menu when the 
+                  user clicks */
+                &--show {
+                    display: block;
+                }
+            }
+
+            &__link-box-3 {
+                background-color: #00FF00;  // Testing
+            }
+
+            &__link-icon-4 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
         }
     }
 }
