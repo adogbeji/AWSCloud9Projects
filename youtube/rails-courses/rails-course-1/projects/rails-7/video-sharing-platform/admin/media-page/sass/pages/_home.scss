@@ -1,0 +1,24 @@
+._5328 {
+    display: grid;
+    grid-template-rows: min-content 45vw min-content;
+    grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+}
+
+._5328 > * {
+    font-size: 2.6rem;
+}
+
+._5328-sect_1 {
+    background-color: #00FFFF;  // Testing
+    grid-column: full-start / full-end;
+}
+
+._5328-sect_2 {
+    background-color: #F4A4B4;  // Testing
+    grid-column: centre-start / centre-end;
+}
+
+._5328-sect_3 {
+    background-color: #333333;  // Testing
+    grid-column: full-start / full-end;
+}
