@@ -59,19 +59,18 @@ body {
 ._5728-sect_1-topnav__link-box-container {
   background-color: #0000FF;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  flex: 0 0 28%;
+  flex: 0 0 45%;
 }
 ._5728-sect_1-topnav__link-dot-dropdown-box {
   background-color: grey;
-  margin-right: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex: 0 0 60%;
 }
 ._5728-sect_1-topnav__link-box {
+  background-color: #00FF00;
   flex: 0 0 90%;
   display: flex;
   justify-content: center;
@@ -87,6 +86,9 @@ body {
 }
 ._5728-sect_1-topnav__link:hover {
   color: #e6e6e6;
+}
+._5728-sect_1-topnav__link--4 {
+  margin-left: 4rem;
 }
 ._5728-sect_1-topnav__link-dot-dropdown-1 {
   display: inline-block;
