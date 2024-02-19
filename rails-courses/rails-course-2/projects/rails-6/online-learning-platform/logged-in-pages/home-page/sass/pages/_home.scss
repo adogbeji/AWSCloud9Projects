@@ -1271,6 +1271,67 @@
             &__link:hover > &__link-icon-1 {
                 fill: darken(#FFFFFF, 5%);
             }
+
+            &__link-icon-2 {
+                width: 1.45rem;
+                height: 1.45rem;
+                // fill: #000000;
+                fill: #FFFFFF;
+            }
+
+            &__link:hover > &__link-icon-2 {
+                fill: darken(#FFFFFF, 5%);
+            }
+            
+            /* Clickable dropdown container */
+            &__dropdown-box {
+                // background-color: grey;  // Testing
+
+                flex: 0 0 auto;  // Dropdown container takes up exact space needed!
+            }
+
+            /* First Dropdown */
+            &__dropdown-1 {
+                position: relative;  // Needed to position the dropdown content (._0035-sect_1-topnav-mobilenav__dropdown-content-1)
+                display: inline-block;  // Makes dropdown only occupy as much space as it needs (required)
+            }
+
+            &__dropdown-btn-1 {
+                background-color: #A71198;
+                // background-color: #9327D6;
+                // font-size: 1.7rem;
+                // color: #333333;
+                font-size: 1.4rem;  // Makes button text the same size as link text (below)
+                color: #FFFFFF;
+                display: inline-block;
+                padding: 1.1rem 1.6rem; 
+                min-width: 8rem;
+                border: none;  // Removes default button border
+                outline: none;  // Removes outline
+                cursor: pointer;
+        
+                display: flex;
+                justify-content: center;
+                align-items: center;  // Vertically centres dropdown icon & text
+        
+                &:focus {  // Darken text a tiny bit when button is clicked
+                    color: darken(#FFFFFF, 5%);
+                }
+            }
+
+            &__dropdown-icon-1 {
+                width: 2.1rem;
+                height: 2.1rem;
+                // fill: #000000;
+                fill: #FFFFFF;
+                margin-right: .3rem;  // Creates space between icon & text
+            }
+
+            &__dropdown-icon-2 {
+                width: 3rem;
+                height: 3rem;
+                fill: #FFFFFF;
+            }
         }
     }
 }
