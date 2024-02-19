@@ -69,7 +69,8 @@
             display: flex;
             justify-content: center;
     
-            column-gap: .8rem;  // Creates space between links
+            // column-gap: .8rem;  // Creates space between links
+            column-gap: 1.8rem;  // Creates space between links
         }
 
         &__link {
