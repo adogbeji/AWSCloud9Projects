@@ -257,6 +257,21 @@
 ._5728-sect_2 {
     background-color: #F4A4B4;  // Testing
     grid-column: centre-start / centre-end;
+
+    &-card-box {
+        background-color: grey;  // Testing
+        margin-top: 10%;  // NOTE: Should be in %, not rem to make it responsive!
+        // margin-top: 10rem;
+    }
+
+    &-card {
+
+        &-body {
+            // height: 40vw;  // Makes video visible (required)
+            height: 15vw;
+            position: relative;  // Used to position video element
+        }
+    }
 }
 
 ._5728-sect_3 {

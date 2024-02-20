@@ -225,6 +225,14 @@ body {
   background-color: #F4A4B4;
   grid-column: centre-start/centre-end;
 }
+._5728-sect_2-card-box {
+  background-color: grey;
+  margin-top: 10%;
+}
+._5728-sect_2-card-body {
+  height: 15vw;
+  position: relative;
+}
 
 ._5728-sect_3 {
   background-color: #333333;
