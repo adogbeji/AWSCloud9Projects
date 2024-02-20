@@ -344,15 +344,15 @@ body {
   width: 1.8rem;
   height: 1.8rem;
   margin-right: -0.6rem;
-  background-image: url("../images/SVG/magnifying-glass.svg");
+  background-image: url("../images/svg/search.svg");
   background-size: cover;
 }
 @supports (-webkit-mask-image: url()) or (mask-image: url()) {
   ._0057-sect_1-topnav__search-dropdown-link::before {
     background-color: #000000;
-    -webkit-mask-image: url("../images/SVG/magnifying-glass.svg");
+    -webkit-mask-image: url("../images/svg/search.svg");
     -webkit-mask-size: cover;
-    mask-image: url("../images/SVG/magnifying-glass.svg");
+    mask-image: url("../images/svg/search.svg");
     mask-size: cover;
     background-image: none;
   }

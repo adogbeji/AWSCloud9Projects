@@ -177,16 +177,16 @@
                     margin-right: -.6rem;  // Brings text closer to icon
 
                     // Older browsers
-                    background-image: url('../images/SVG/magnifying-glass.svg');
+                    background-image: url('../images/svg/search.svg');
                     background-size: cover;
 
 
                     // Newer browsers
                     @supports (-webkit-mask-image: url()) or (mask-image: url()) {
                         background-color: #000000;
-                        -webkit-mask-image: url('../images/SVG/magnifying-glass.svg');
+                        -webkit-mask-image: url('../images/svg/search.svg');
                         -webkit-mask-size: cover;  // Makes icon cover entire element
-                        mask-image: url('../images/SVG/magnifying-glass.svg');
+                        mask-image: url('../images/svg/search.svg');
                         mask-size: cover;
                         background-image: none;  // Prevents background image (above) from being used
                     }
