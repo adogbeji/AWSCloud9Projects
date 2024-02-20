@@ -915,6 +915,24 @@ body {
   color: #FFFFFF;
   background-color: #F1425D;
 }
+._1859-sect_1-topnav__link-dot_3-icon-2 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._1859-sect_1-topnav__link-dot_3-link:hover > ._1859-sect_1-topnav__link-dot_3-icon-2 {
+  fill: #FFFF00;
+}
+._1859-sect_1-topnav__link-dot_2-notification-3 {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #F1425D;
+}
 
 ._1859-sect_2 {
   background-color: #808080;
