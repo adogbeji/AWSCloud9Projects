@@ -1506,6 +1506,133 @@
                     border-color: transparent transparent #F1F1F1 transparent;
                 }
             }
+
+            &__dropdown-link-2 {
+                // font-size: 1.5rem;
+                font-size: 1.45rem; 
+                color: #000000;
+                padding: .65rem 1.5rem;  // Reduced top and bottom padding brings icons closer together
+                text-decoration: none;
+                display: block;  // Allows vertical padding & makes links occupy container
+        
+                display: flex;
+                justify-content: space-between;
+                align-items: center;  // Vertically centres icon & link text
+        
+                column-gap: .3rem;  // Creates space between icon & link text
+            
+                /* Add a black background to dropdown links on hover */
+                &:hover {
+                    color: #EEEEEE;
+                    background-color: #333333;
+                }
+            }
+
+            &__dropdown-link-icon-3 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__dropdown-link-2:hover > &__dropdown-link-icon-3 {
+                fill: #FFFF00;
+            }
+
+            &__dropdown-link-notification-3 {
+                width: 1.5rem;
+                text-align: center;  // Horizontally centres text
+                line-height: 1.5rem;  // Vertically centres text
+                border-radius: 50%;  // Creates perfect circle
+                display: inline-block;  // Makes Box Model work properly (required)
+                font-size: 1rem;
+                color: #FFFFFF;
+                background-color: #F1425D;
+            }
+
+            &__dropdown-link-icon-4 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__dropdown-link-2:hover > &__dropdown-link-icon-4 {
+                fill: #FFFF00;
+            }
+
+            &__dropdown-link-notification-4 {
+                width: 1.5rem;
+                text-align: center;  // Horizontally centres text
+                line-height: 1.5rem;  // Vertically centres text
+                border-radius: 50%;  // Creates perfect circle
+                display: inline-block;  // Makes Box Model work properly (required)
+                font-size: 1rem;
+                color: #FFFFFF;
+                background-color: #F1425D;
+            }
+
+            &__dropdown-link-icon-5 {
+                width: 1.45rem;
+                height: 1.45rem;
+                fill: #000000;
+            }
+
+            &__dropdown-link-2:hover > &__dropdown-link-icon-5 {
+                fill: #FFFF00;
+            }
+
+            &__dropdown-link-notification-5 {
+                width: 1.5rem;
+                text-align: center;  // Horizontally centres text
+                line-height: 1.5rem;  // Vertically centres text
+                border-radius: 50%;  // Creates perfect circle
+                display: inline-block;  // Makes Box Model work properly (required)
+                font-size: 1rem;
+                color: #FFFFFF;
+                background-color: #F1425D;
+            }
+            
+            /* Second Dropdown */
+            &__dropdown-3 {
+                position: relative;  // Needed to position the dropdown content (.topnav__dropdown-content-2)
+                display: inline-block;  // Makes dropdown only occupy as much space as it needs (required)
+            }
+
+            &__dropdown-btn-3 {
+                background-color: #A71198;
+                // background-color: #9327D6;
+                // font-size: 1.7rem;
+                // color: #333333;
+                font-size: 1.4rem;  // Makes button text the same size as link text (below)
+                color: #FFFFFF;
+                display: inline-block;
+                padding: 1.1rem 1.6rem; 
+                min-width: 8rem;
+                border: none;  // Removes default button border
+                outline: none;  // Removes outline
+                cursor: pointer;
+        
+                display: flex;
+                justify-content: center;
+                align-items: center;  // Vertically centres dropdown icon & text
+        
+                &:focus {  // Darken text a tiny bit when button is clicked
+                    color: darken(#FFFFFF, 5%);
+                }
+            }
+
+            &__dropdown-icon-5 {
+                width: 2.1rem;
+                height: 2.1rem;
+                // fill: #000000;
+                fill: #FFFFFF;
+                margin-right: .3rem;  // Creates space between icon & text
+            }
+
+            &__dropdown-icon-6 {
+                width: 3rem;
+                height: 3rem;
+                fill: #FFFFFF;
+            }
         }
     }
 }
