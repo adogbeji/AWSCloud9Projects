@@ -268,7 +268,21 @@
 
         &-body {
             // height: 40vw;  // Makes video visible (required)
-            height: 15vw;
+            // height: 15vw;  // Makes video visible (required)
+            // position: relative;  // Used to position video element
+
+            display: grid;
+            grid-template-rows: repeat(2, 15vw);
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: .8rem;  // Creates space between videos
+        }
+
+        &-video-box-1,&-video-box-2, &-video-box-3,
+        &-video-box-4, &-video-box-5, &-video-box-6,
+        &-video-box-7, &-video-box-8 {
+            // height: 40vw;  // Makes video visible (required)
+            // height: 15vw;  // Makes video visible (required)
             position: relative;  // Used to position video element
         }
     }
