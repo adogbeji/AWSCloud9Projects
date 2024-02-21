@@ -20,11 +20,12 @@ const inputDropdownBox = document.querySelector('._0057-sect_1-topnav__search-in
 const dropdownContent = document.querySelector('._0057-sect_1-topnav__search-dropdown-content');
 
 input.addEventListener('focus', function() {
-  inputDropdownBox.style.flex = '0 0 75%';
-  dropdownContent.style.minWidth = '52.3rem';
+    inputDropdownBox.style.flex = '0 0 75%';
+    // dropdownContent.style.minWidth = '52.3rem';
+    dropdownContent.style.minWidth = '52.2rem';
 });
 
 input.addEventListener('focusout', function() {
-  inputDropdownBox.style.flex = '0 0 70%';
-  dropdownContent.style.minWidth = '48.8rem';
+    inputDropdownBox.style.flex = '0 0 70%';
+    dropdownContent.style.minWidth = '48.8rem';
 });

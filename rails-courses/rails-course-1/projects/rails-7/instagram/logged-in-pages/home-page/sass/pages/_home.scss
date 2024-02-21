@@ -69,7 +69,8 @@
             }
 
             &-icon-box {
-                background-color: #FFFFFF;  // Makes button look like it's part of input
+                // background-color: #FFFFFF;  // Makes button look like it's part of input
+                background-color: darken($color: #FFFFFF, $amount: 5%);  // Makes button look like it's part of input
                 display: inline-block;
                 // padding: 1.5rem 2rem;
                 border: none;  // Removes default button border
@@ -83,8 +84,10 @@
             }
 
             &-icon {
-                width: 2rem;
-                height: 2rem;
+                // width: 2rem;
+                // height: 2rem;
+                width: 1.8rem;
+                height: 1.8rem;
                 fill: #000000;
                 // z-index: 5;  // Puts icon on top of input
             }
@@ -97,7 +100,8 @@
                 border: none;
                 border-radius: 0;  // Removes rounded corners
                 padding: .8rem .5rem .8rem 3.1rem;  // Left padding prevents input text from overlapping icon!
-                background-color: #FFFFFF;
+                // background-color: #FFFFFF;
+                background-color: darken($color: #FFFFFF, $amount: 5%);
 
                 // flex: 0 0 70%;  // Relative to width of search bar
                 flex: 0 0 100%;
@@ -140,7 +144,8 @@
                 // top: 100%;  // Positions dropdown directly beneath search bar (.topnav__search)
                 top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap 
 
-                min-width: 48.8rem;  // Controls width of dropdown content
+                // min-width: 48.8rem;  // Controls width of dropdown content
+                min-width: 48.6rem;  // Controls width of dropdown content
                 // background-color: #F1F1F1;
                 box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                 z-index: 1;  // Puts dropdown in front of other elements

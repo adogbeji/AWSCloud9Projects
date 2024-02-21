@@ -269,7 +269,7 @@ body {
   align-items: center;
 }
 ._0057-sect_1-topnav__search-icon-box {
-  background-color: #FFFFFF;
+  background-color: #f2f2f2;
   display: inline-block;
   border: none;
   cursor: not-allowed;
@@ -278,8 +278,8 @@ body {
   left: 0.7rem;
 }
 ._0057-sect_1-topnav__search-icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   fill: #000000;
 }
 ._0057-sect_1-topnav__search-input {
@@ -289,7 +289,7 @@ body {
   border: none;
   border-radius: 0;
   padding: 0.8rem 0.5rem 0.8rem 3.1rem;
-  background-color: #FFFFFF;
+  background-color: #f2f2f2;
   flex: 0 0 100%;
 }
 ._0057-sect_1-topnav__search-input::-webkit-input-placeholder {
@@ -319,7 +319,7 @@ body {
   display: none;
   position: absolute;
   top: 105%;
-  min-width: 48.8rem;
+  min-width: 48.6rem;
   box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
