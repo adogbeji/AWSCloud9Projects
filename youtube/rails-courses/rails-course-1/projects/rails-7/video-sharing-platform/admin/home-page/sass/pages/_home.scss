@@ -256,15 +256,18 @@
 
 ._5728-sect_2 {
     background-color: #F4A4B4;  // Testing
-    grid-column: centre-start / centre-end;
+    // grid-column: centre-start / centre-end;
+    grid-column: full-start / full-end;
 
     &-card-box {
         background-color: grey;  // Testing
+        width: 90%;  // Defines width of card (below)
+        margin: 0 auto;
         margin-top: 10%;  // NOTE: Should be in %, not rem to make it responsive!
         // margin-top: 10rem;
     }
 
-    &-card {
+    &-card {  // Card is ued to hold videos
 
         &-body {
             // height: 40vw;  // Makes video visible (required)
@@ -272,7 +275,8 @@
             // position: relative;  // Used to position video element
 
             display: grid;
-            grid-template-rows: repeat(2, 15vw);
+            // grid-template-rows: repeat(2, 15vw);
+            grid-template-rows: repeat(2, 10vw);
             grid-template-columns: repeat(4, 1fr);
 
             gap: .8rem;  // Creates space between videos
