@@ -27,5 +27,20 @@ input.addEventListener('focus', function() {
 
 input.addEventListener('focusout', function() {
     inputDropdownBox.style.flex = '0 0 70%';
-    dropdownContent.style.minWidth = '48.8rem';
+    dropdownContent.style.minWidth = '48.6rem';
+});
+
+
+// NO RESULTS DROPDOWN
+const noResultsDropdown = document.querySelector('._0057-sect_1-topnav__search-dropdown-no-results');
+
+input.addEventListener('focus', function() {
+    inputDropdownBox.style.flex = '0 0 75%';
+    // noResultsDropdown.style.minWidth = '52.3rem';
+    noResultsDropdown.style.minWidth = '52.2rem';
+});
+
+input.addEventListener('focusout', function() {
+    inputDropdownBox.style.flex = '0 0 70%';
+    noResultsDropdown.style.minWidth = '48.6rem';
 });
