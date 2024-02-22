@@ -923,6 +923,7 @@ body {
   /* Second Dropdown */
   /* Dropdown Content (Hidden by Default) */
   /* Second Dropdown */
+  /* Dropdown Content (Hidden by Default) */
 }
 ._0035-sect_1-topnav-mobilenav__logo-link {
   font-size: 1.6rem;
@@ -1252,6 +1253,64 @@ body {
   width: 3rem;
   height: 3rem;
   fill: #FFFFFF;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-content-3 {
+  display: none;
+  position: absolute;
+  left: 0;
+  min-width: 18.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  border: 0.025rem solid #A9A6A6;
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+     user clicks */
+}
+._0035-sect_1-topnav-mobilenav__dropdown-content-3--show {
+  display: block;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-content-3::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  margin-left: -0.7rem;
+  border-width: 0.7rem;
+  border-style: solid;
+  border-color: transparent transparent #F1F1F1 transparent;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-link-3 {
+  font-size: 1.45rem;
+  color: #000000;
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.3rem;
+  /* Add a black background to dropdown links on hover */
+}
+._0035-sect_1-topnav-mobilenav__dropdown-link-3:hover {
+  color: #EEEEEE;
+  background-color: #333333;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-link-icon-6 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-link-3:hover > ._0035-sect_1-topnav-mobilenav__dropdown-link-icon-6 {
+  fill: #FFFF00;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-link-icon-7 {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: #000000;
+}
+._0035-sect_1-topnav-mobilenav__dropdown-link-3:hover > ._0035-sect_1-topnav-mobilenav__dropdown-link-icon-7 {
+  fill: #FFFF00;
 }
 
 ._0035-sect_2 {
