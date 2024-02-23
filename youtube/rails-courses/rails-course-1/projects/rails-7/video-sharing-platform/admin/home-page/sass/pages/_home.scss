@@ -280,6 +280,15 @@
             grid-template-columns: repeat(4, 1fr);
 
             gap: .8rem;  // Creates space between videos
+
+            
+            // AUTO RESPONSIVE GRID
+            // display: grid;
+            // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+            // gap: .8rem;  // Creates space between videos
+
+            // grid-auto-rows: 12vw;
         }
 
         &-video-box-1,&-video-box-2, &-video-box-3,
