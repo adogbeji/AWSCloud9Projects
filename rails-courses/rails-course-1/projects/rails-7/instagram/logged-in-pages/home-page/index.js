@@ -22,12 +22,13 @@ const dropdownContent = document.querySelector('._0057-sect_1-topnav__search-dro
 input.addEventListener('focus', function() {
     inputDropdownBox.style.flex = '0 0 75%';
     // dropdownContent.style.minWidth = '52.3rem';
-    dropdownContent.style.minWidth = '52.2rem';
+    dropdownContent.style.minWidth = '32.5rem';
 });
 
 input.addEventListener('focusout', function() {
     inputDropdownBox.style.flex = '0 0 70%';
-    dropdownContent.style.minWidth = '48.6rem';
+    // dropdownContent.style.minWidth = '48.6rem';
+    dropdownContent.style.minWidth = '30.5rem';
 });
 
 
@@ -37,10 +38,11 @@ const noResultsDropdown = document.querySelector('._0057-sect_1-topnav__search-d
 input.addEventListener('focus', function() {
     inputDropdownBox.style.flex = '0 0 75%';
     // noResultsDropdown.style.minWidth = '52.3rem';
-    noResultsDropdown.style.minWidth = '52.2rem';
+    noResultsDropdown.style.minWidth = '32.5rem';
 });
 
 input.addEventListener('focusout', function() {
     inputDropdownBox.style.flex = '0 0 70%';
-    noResultsDropdown.style.minWidth = '48.6rem';
+    // noResultsDropdown.style.minWidth = '48.6rem';
+    noResultsDropdown.style.minWidth = '30.5rem';
 });

@@ -150,7 +150,8 @@
                 top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap 
 
                 // min-width: 48.8rem;  // Controls width of dropdown content
-                min-width: 48.6rem;  // Controls width of dropdown content
+                // min-width: 48.6rem;  // Controls width of dropdown content
+                min-width: 30.5rem;  // Controls width of dropdown content
                 // background-color: #F1F1F1;
                 box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                 z-index: 1;  // Puts dropdown in front of other elements
@@ -159,7 +160,8 @@
             /* Style the links inside the dropdown */
             &-dropdown-link {
                 // font-size: 1.5rem; 
-                font-size: 1.35rem;
+                // font-size: 1.35rem;
+                font-size: 1.3rem;
                 font-weight: 400;  // Bolder font makes link text stand out
                 color: #000000;
                 // padding: 1.2rem 1.6rem;
@@ -182,8 +184,10 @@
                 &::before {
                     content: '';
                     display: inline-block;
-                    width: 1.8rem;
-                    height: 1.8rem;
+                    // width: 1.8rem;
+                    // height: 1.8rem;
+                    width: 1.5rem;
+                    height: 1.5rem;
                     margin-right: -.6rem;  // Brings text closer to icon
 
                     // Older browsers
@@ -213,7 +217,8 @@
                 top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap
     
                 // min-width: 48.8rem;  // Controls width of dropdown content
-                min-width: 48.6rem;  // Controls width of dropdown content
+                // min-width: 48.6rem;  // Controls width of dropdown content
+                min-width: 30.5rem;  // Controls width of dropdown content
                 // background-color: #F1F1F1;
                 box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                 z-index: 1;  // Puts dropdown in front of other elements
@@ -222,7 +227,8 @@
                 padding: .8rem 0;
     
                 &-text {
-                    font-size: 1.5rem;  // Samefont size as input text
+                    // font-size: 1.5rem;  // Same font size as input text
+                    font-size: 1.3rem;  // Same font size as input text
                     // font-size: 1.35rem;
                     font-weight: 500;  // Bolder font makes text stand out
                     color: #000000;
@@ -287,8 +293,10 @@
         }
 
         &__link-icon-1 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 2rem;
+            height: 2rem;
             fill: #000000;
         }
 
@@ -297,8 +305,10 @@
         }
 
         &__link-icon-2 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 2rem;
+            height: 2rem;
             fill: #000000;
         }
 
