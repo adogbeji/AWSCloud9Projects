@@ -1,6 +1,7 @@
 ._5728 {
     display: grid;
-    grid-template-rows: min-content 45vw min-content;
+    // grid-template-rows: min-content 45vw min-content;
+    grid-template-rows: repeat(3, min-content);
     grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
 }
 
@@ -255,15 +256,17 @@
 }
 
 ._5728-sect_2 {
-    background-color: #F4A4B4;  // Testing
+    // background-color: #F4A4B4;  // Testing
+    background-color: #F2F2F2;
     // grid-column: centre-start / centre-end;
     grid-column: full-start / full-end;
 
     &-card-box {
-        background-color: grey;  // Testing
+        // background-color: grey;  // Testing
         width: 90%;  // Defines width of card (below)
         margin: 0 auto;
         margin-top: 10%;  // NOTE: Should be in %, not rem to make it responsive!
+        margin-bottom: 30%;  // Testing
         // margin-top: 10rem;
     }
 

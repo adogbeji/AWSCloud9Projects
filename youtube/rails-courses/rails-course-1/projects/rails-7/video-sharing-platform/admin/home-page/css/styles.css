@@ -69,7 +69,7 @@ body {
 
 ._5728 {
   display: grid;
-  grid-template-rows: min-content 45vw min-content;
+  grid-template-rows: repeat(3, min-content);
   grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
 }
 
@@ -222,14 +222,14 @@ body {
 }
 
 ._5728-sect_2 {
-  background-color: #F4A4B4;
+  background-color: #F2F2F2;
   grid-column: full-start/full-end;
 }
 ._5728-sect_2-card-box {
-  background-color: grey;
   width: 90%;
   margin: 0 auto;
   margin-top: 10%;
+  margin-bottom: 30%;
 }
 ._5728-sect_2-card-body {
   display: grid;
