@@ -1,14 +1,64 @@
 ._5728 {
-    display: grid;
-    // grid-template-rows: min-content 45vw min-content;
-    grid-template-rows: repeat(3, min-content);
-    grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+    // display: grid;
+    // // grid-template-rows: min-content 45vw min-content;
+    // grid-template-rows: repeat(3, min-content);
+    // grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+
+    &-page {
+        transition: all 0.35s ease-in;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // padding: 1rem;
+        // background-color: rgb(0, 0, 0);
+        // background-color: rgba(0, 0, 0, 0.8);
+        background-color: darken($color: #FFFFFF, $amount: 1%);  // Same background colour as sections
+        // cursor: pointer;
+        // visibility: hidden;  /* Modal is hidden by default */
+        // opacity: 0;
+
+        &-content {
+            // display: grid;
+            // grid-template-rows: min-content auto;  // Setting second row to auto makes it occupy grid container
+            // // grid-template-columns: max-content;
+    
+            // justify-items: center; 
+            
+            // // & > * {  // Testing
+            // //     font-size: 2.6rem;
+            // //     padding: .5rem;
+            // // }
+
+            display: grid;
+            // grid-template-rows: min-content 45vw min-content;
+            // grid-template-rows: repeat(3, min-content);
+            grid-template-rows: repeat(2, min-content) auto;  // Setting third row to auto makes it occupy grid container
+            grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+    
+            // & > * {
+            //     font-size: 2.6rem;
+            //     padding: .5rem;
+            // }
+
+            // background-color: #FF0000;  // Testing
+            width: 100%;  // Next two lines give it the same dimensions as parent (required)
+            height: 100%;
+            
+            overflow-y: scroll;  // Shows y-axis scroll bar
+            overflow-x: hidden;  // Hides x-axis scroll bar
+        }
+    }
 }
 
-._5728 > * {
-    font-size: 2.6rem;
-    padding: .5rem;
-}
+// ._5728 > * {
+//     font-size: 2.6rem;
+//     padding: .5rem;
+// }
 
 ._5728-sect_1 {
     // background-color: #00FFFF;  // Testing
@@ -266,7 +316,7 @@
         width: 90%;  // Defines width of card (below)
         margin: 0 auto;
         margin-top: 10%;  // NOTE: Should be in %, not rem to make it responsive!
-        margin-bottom: 30%;  // Testing
+        // margin-bottom: 30%;  // Testing
         // margin-top: 10rem;
     }
 

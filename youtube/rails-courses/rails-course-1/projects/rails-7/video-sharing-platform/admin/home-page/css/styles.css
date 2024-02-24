@@ -67,15 +67,26 @@ body {
   object-fit: cover;
 }
 
-._5728 {
-  display: grid;
-  grid-template-rows: repeat(3, min-content);
-  grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+._5728-page {
+  transition: all 0.35s ease-in;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfc;
 }
-
-._5728 > * {
-  font-size: 2.6rem;
-  padding: 0.5rem;
+._5728-page-content {
+  display: grid;
+  grid-template-rows: repeat(2, min-content) auto;
+  grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 ._5728-sect_1 {
@@ -229,7 +240,6 @@ body {
   width: 90%;
   margin: 0 auto;
   margin-top: 10%;
-  margin-bottom: 30%;
 }
 ._5728-sect_2-card-body {
   display: grid;
