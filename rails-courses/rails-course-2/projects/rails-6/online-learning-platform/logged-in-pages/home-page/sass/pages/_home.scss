@@ -165,11 +165,12 @@
         }
 
         &__search {
-            // background-color: #FFFF00;  // Testing
+            background-color: #FFFF00;  // Testing
             font-size: 1.5rem;  // Inherited by button
             position: relative;  // Used to position search bar dropdown
 
-            flex: 0 0 40%;  // Relative to width of Navigation bar
+            // flex: 0 0 40%;  // Relative to width of Navigation bar
+            flex: 0 0 25%;  // Relative to width of Navigation bar
 
             display: flex;
             justify-content: center;
@@ -187,7 +188,8 @@
             &-input-box {  // Contains input, SVG icon & close icon (x)
                 // background-color: #0000FF;  // Testing
                 position: relative;  // Used to position close icon (x) & icon button (required)
-                font-size: 1.5rem;  // Inherited by input
+                // font-size: 1.5rem;  // Inherited by input
+                font-size: 1.3rem;  // Inherited by input
     
                 display: flex;
                 align-items: center;  // Vertically centeres icon button & close icon (x)
@@ -208,8 +210,10 @@
             }
 
             &-icon {
-                width: 2rem;
-                height: 2rem;
+                // width: 2rem;
+                // height: 2rem;
+                width: 1.5rem;
+                height: 1.5rem;
                 fill: #000000;
                 // z-index: 5;  // Puts icon on top of input
             }
@@ -302,16 +306,16 @@
                     margin-right: -.6rem;  // Brings text closer to icon
 
                     // Older browsers
-                    background-image: url('../images/SVG/magnifying-glass.svg');
+                    background-image: url('../images/svg/magnifying-glass.svg');
                     background-size: cover;
 
 
                     // Newer browsers
                     @supports (-webkit-mask-image: url()) or (mask-image: url()) {
                         background-color: #000000;
-                        -webkit-mask-image: url('../images/SVG/magnifying-glass.svg');
+                        -webkit-mask-image: url('../images/svg/magnifying-glass.svg');
                         -webkit-mask-size: cover;  // Makes icon cover entire element
-                        mask-image: url('../images/SVG/magnifying-glass.svg');
+                        mask-image: url('../images/svg/magnifying-glass.svg');
                         mask-size: cover;
                         background-image: none;  // Prevents background image (above) from being used
                     }
@@ -1829,6 +1833,96 @@
                     // background-color: #F1F1F1;
                     box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                     z-index: 1;  // Puts dropdown in front of other elements
+                }
+
+                /* Style the links inside the dropdown */
+                &-dropdown-link {
+                    // font-size: 1.5rem; 
+                    font-size: 1.35rem;
+                    font-weight: 400;  // Bolder font makes link text stand out
+                    color: #000000;
+                    // padding: 1.2rem 1.6rem;
+                    padding: 1.2rem 1.6rem 1.2rem .8rem;  // Reduced left padding makes dropdown icon align with search bar icon
+                    text-decoration: none;
+                    display: block;  // Allows vertical padding & makes links occupy container
+    
+                    display: flex;
+                    align-items: center;  // Vertically centres icon & links
+    
+                    column-gap: .8rem;  // Creates space between icon & links
+            
+                    /* Add a black background to dropdown links on hover */
+                    &:hover {
+                        // color: #EEEEEE;
+                        // background-color: #333333;
+                        background-color: darken(#FFFFFF, 2%);
+                    }
+    
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        width: 1.8rem;
+                        height: 1.8rem;
+                        margin-right: -.6rem;  // Brings text closer to icon
+    
+                        // Older browsers
+                        background-image: url('../images/SVG/magnifying-glass.svg');
+                        background-size: cover;
+    
+    
+                        // Newer browsers
+                        @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+                            background-color: #000000;
+                            -webkit-mask-image: url('../images/SVG/magnifying-glass.svg');
+                            -webkit-mask-size: cover;  // Makes icon cover entire element
+                            mask-image: url('../images/SVG/magnifying-glass.svg');
+                            mask-size: cover;
+                            background-image: none;  // Prevents background image (above) from being used
+                        }
+                    }
+                }
+
+                &-dropdown-no-results {
+                    // background-color: grey;  // Testing
+                    background-color: #FFFFFF;  // Same background colour as input (above)
+                    transition: all .6s;  // Controls rate at which min-width changes
+                    display: none;  // Should change when user starts typing
+                    position: absolute;
+                    // top: 100%;  // Positions dropdown directly beneath search bar (.topnav-mobilenav__search) 
+                    top: 103%;  // Places dropdown beneath search bar (.topnav-mobilenav__search) with a tiny gap
+    
+        
+                    // min-width: 48.8rem;  // Controls width of dropdown content
+                    // min-width: 33.3rem;  // Controls width of dropdown content
+                    min-width: 57.3rem;  // Controls width of dropdown content
+                    // background-color: #F1F1F1;
+                    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
+                    z-index: 1;  // Puts dropdown in front of other elements
+        
+                    text-align: center;  // Centres text below
+                    padding: .8rem 0;
+        
+                    &-text {
+                        font-size: 1.5rem;  // Samefont size as input text
+                        // font-size: 1.35rem;
+                        font-weight: 500;  // Bolder font makes text stand out
+                        color: #000000;
+                        display: inline-block;
+                    }
+                }
+
+                &-button {
+                    font-size: inherit;  // Same font size as input text
+                    color: #FFFFFF;
+                    display: inline-block;
+                    padding: 0 1.5rem;  // Left & right padding controls button width
+                    min-width: 8rem;
+                    background-color: #000000;
+                    border: none;  // Removes default button border
+                    outline: none;  // Removes outline
+                    cursor: pointer;
+        
+                    align-self: stretch;  // Makes button occupy the full height of search bar (Flex container)
                 }
             }
         }

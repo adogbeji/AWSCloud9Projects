@@ -165,9 +165,10 @@ body {
   fill: #FFFF00;
 }
 ._0035-sect_1-topnav__search {
+  background-color: #FFFF00;
   font-size: 1.5rem;
   position: relative;
-  flex: 0 0 40%;
+  flex: 0 0 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +181,7 @@ body {
 }
 ._0035-sect_1-topnav__search-input-box {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
 }
@@ -194,8 +195,8 @@ body {
   left: 0.7rem;
 }
 ._0035-sect_1-topnav__search-icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: #000000;
 }
 ._0035-sect_1-topnav__search-input {
@@ -260,15 +261,15 @@ body {
   width: 1.8rem;
   height: 1.8rem;
   margin-right: -0.6rem;
-  background-image: url("../images/SVG/magnifying-glass.svg");
+  background-image: url("../images/svg/magnifying-glass.svg");
   background-size: cover;
 }
 @supports (-webkit-mask-image: url()) or (mask-image: url()) {
   ._0035-sect_1-topnav__search-dropdown-link::before {
     background-color: #000000;
-    -webkit-mask-image: url("../images/SVG/magnifying-glass.svg");
+    -webkit-mask-image: url("../images/svg/magnifying-glass.svg");
     -webkit-mask-size: cover;
-    mask-image: url("../images/SVG/magnifying-glass.svg");
+    mask-image: url("../images/svg/magnifying-glass.svg");
     mask-size: cover;
     background-image: none;
   }
@@ -1328,6 +1329,7 @@ body {
   display: flex;
   align-items: center;
   /* Dropdown Content (Hidden by Default) */
+  /* Style the links inside the dropdown */
 }
 ._0035-sect_1-topnav-mobilenav__search-input-dropdown-box {
   transition: all 0.6s;
@@ -1394,6 +1396,70 @@ body {
   min-width: 57.3rem;
   box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+._0035-sect_1-topnav-mobilenav__search-dropdown-link {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #000000;
+  padding: 1.2rem 1.6rem 1.2rem 0.8rem;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  /* Add a black background to dropdown links on hover */
+}
+._0035-sect_1-topnav-mobilenav__search-dropdown-link:hover {
+  background-color: #fafafa;
+}
+._0035-sect_1-topnav-mobilenav__search-dropdown-link::before {
+  content: "";
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: -0.6rem;
+  background-image: url("../images/SVG/magnifying-glass.svg");
+  background-size: cover;
+}
+@supports (-webkit-mask-image: url()) or (mask-image: url()) {
+  ._0035-sect_1-topnav-mobilenav__search-dropdown-link::before {
+    background-color: #000000;
+    -webkit-mask-image: url("../images/SVG/magnifying-glass.svg");
+    -webkit-mask-size: cover;
+    mask-image: url("../images/SVG/magnifying-glass.svg");
+    mask-size: cover;
+    background-image: none;
+  }
+}
+._0035-sect_1-topnav-mobilenav__search-dropdown-no-results {
+  background-color: #FFFFFF;
+  transition: all 0.6s;
+  display: none;
+  position: absolute;
+  top: 103%;
+  min-width: 57.3rem;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+  padding: 0.8rem 0;
+}
+._0035-sect_1-topnav-mobilenav__search-dropdown-no-results-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000000;
+  display: inline-block;
+}
+._0035-sect_1-topnav-mobilenav__search-button {
+  font-size: inherit;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0 1.5rem;
+  min-width: 8rem;
+  background-color: #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: stretch;
 }
 
 ._0035-sect_2 {
