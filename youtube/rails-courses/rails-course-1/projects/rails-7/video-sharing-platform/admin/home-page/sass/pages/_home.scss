@@ -37,7 +37,8 @@
             display: grid;
             // grid-template-rows: min-content 45vw min-content;
             // grid-template-rows: repeat(3, min-content);
-            grid-template-rows: repeat(2, min-content) auto;  // Setting third row to auto makes it occupy grid container
+            // grid-template-rows: repeat(2, min-content) auto;  // Setting third row to auto makes it occupy grid container
+            grid-template-rows: min-content auto min-content;  // Setting second row to auto makes it occupy all avaliable space
             grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
     
             // & > * {
@@ -50,6 +51,7 @@
             height: 100%;
             
             overflow-y: scroll;  // Shows y-axis scroll bar
+            // overflow-y: auto;  // Shows y-axis scroll bar, if necessary
             overflow-x: hidden;  // Hides x-axis scroll bar
         }
     }
