@@ -23,13 +23,14 @@
         position: relative;  // Used to position responsive dropdowns (required)
 
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
+        justify-content: center;  // Testing
         align-items: center;
 
         &__logo-link {
             // background-color: grey;  // Testing
             display: inline-block;
-            margin-left: .6rem;  // Creates space on the left
+            // margin-left: .6rem;  // Creates space on the left
         }
 
         &__logo {
@@ -44,6 +45,8 @@
             background-color: #FFFF00;  // Testing
             font-size: 1.5rem;  // Inherited by button
             position: relative;  // Used to position search bar dropdown
+
+            margin-left: 20%;  // Creates space between logo & search bar (required)
 
             // flex: 0 0 40%;  // Relative to width of Navigation bar
             flex: 0 0 25%;  // Relative to width of Navigation bar
@@ -238,7 +241,7 @@
         }
 
         &__link-box-container {
-            // background-color: #0000FF;  // Testing
+            background-color: #0000FF;  // Testing
 
             display: flex;
             justify-content: flex-end;       
@@ -246,7 +249,8 @@
 
             // flex: 0 0 25%;
 
-            flex: 0 0 28%;
+            // flex: 0 0 28%;
+            flex: 0 0 auto;  // Only takes up the exact space it needs (default)
         }
 
         &__link-dot-dropdown-box {
@@ -400,6 +404,8 @@
         }
 
         &__modal-button {
+            // background-color: #000000;
+            background-color: transparent;
             font-size: 1.6rem;
             color: #FFFFFF;
             display: inline-block;
@@ -411,13 +417,17 @@
             border: none;  // Removes default button border
             outline: none;  // Removes outline
             cursor: pointer;
-            // background-color: #000000;
-            background-color: transparent;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;  // Vertically centres dropdown icon
         }
 
         &__modal-button-icon {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 2rem;
+            height: 2rem;
             fill: #000000;
         }
 
@@ -426,8 +436,10 @@
         }
 
         &__link-icon-3 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 2rem;
+            height: 2rem;
             fill: #000000;
         }
 
@@ -468,8 +480,10 @@
         }
 
         &__dropdown-icon-1 {
-            width: 2.1rem;
-            height: 2.1rem;
+            // width: 2.1rem;
+            // height: 2.1rem;
+            width: 2rem;
+            height: 2rem;
             // fill: #000000;
             fill: #FFFFFF;
             // margin-right: .3rem;  // Creates space between icon & text
@@ -551,8 +565,10 @@
         }
 
         &__link-icon-4 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 2rem;
+            height: 2rem;
             fill: #000000;
         }
 
