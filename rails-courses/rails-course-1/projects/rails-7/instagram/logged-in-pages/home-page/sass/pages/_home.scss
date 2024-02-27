@@ -24,7 +24,7 @@
 
         display: flex;
         // justify-content: space-between;
-        justify-content: center;  // Testing
+        justify-content: center;
         align-items: center;
 
         &__logo-link {
@@ -42,7 +42,7 @@
         }
 
         &__search {
-            background-color: #FFFF00;  // Testing
+            // background-color: #FFFF00;  // Testing
             font-size: 1.5rem;  // Inherited by button
             position: relative;  // Used to position search bar dropdown
 
@@ -241,7 +241,7 @@
         }
 
         &__link-box-container {
-            background-color: #0000FF;  // Testing
+            // background-color: #0000FF;  // Testing
 
             display: flex;
             justify-content: flex-end;       
@@ -400,7 +400,7 @@
         }
 
         &__modal-button-box {
-            background-color: #00FF00;  // Testing
+            // background-color: #00FF00;  // Testing
         }
 
         &__modal-button {
@@ -432,7 +432,7 @@
         }
 
         &__link-box-2 {
-            background-color: #00FF00;  // Testing
+            // background-color: #00FF00;  // Testing
         }
 
         &__link-icon-3 {
@@ -441,6 +441,10 @@
             width: 2rem;
             height: 2rem;
             fill: #000000;
+        }
+
+        &__link:hover > &__link-icon-3 {
+            fill: #FFFF00; 
         }
 
         /* Clickable dropdown container */
@@ -457,12 +461,13 @@
         }
 
         &__dropdown-btn-1 {
-            background-color: #A71198;
+            // background-color: #A71198;
             // background-color: #9327D6;
+            background-color: transparent;
             // font-size: 1.7rem;
             // color: #333333;
             font-size: 1.4rem;  // Makes button text the same size as link text (below)
-            color: #FFFFFF;
+            // color: #FFFFFF;
             display: inline-block;
             padding: 1.1rem 1.6rem; 
             min-width: 8rem;
@@ -484,8 +489,8 @@
             // height: 2.1rem;
             width: 2rem;
             height: 2rem;
-            // fill: #000000;
-            fill: #FFFFFF;
+            fill: #000000;
+            // fill: #FFFFFF;
             // margin-right: .3rem;  // Creates space between icon & text
         }
 
@@ -561,7 +566,7 @@
         }
 
         &__link-box-3 {
-            background-color: #00FF00;  // Testing
+            // background-color: #00FF00;  // Testing
         }
 
         &__link-icon-4 {
@@ -570,6 +575,10 @@
             width: 2rem;
             height: 2rem;
             fill: #000000;
+        }
+
+        &__link:hover > &__link-icon-4 {
+            fill: #FFFF00; 
         }
 
         /* Mobile Navbar */
