@@ -266,8 +266,8 @@
                 transition: all .6s;  // Controls rate at which min-width changes
                 display: none;  // Should change when user starts typing
                 position: absolute;
-                // top: 100%;  // Positions dropdown directly beneath search bar (.topnav__search)
-                top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap 
+                // top: 100%;  // Positions dropdown directly beneath search bar (._0035-sect_1-topnav__search)
+                top: 105%;  // Positions dropdown beneath search bar (._0035-sect_1-topnav__search) with a tiny gap 
 
                 // min-width: 48.8rem;  // Controls width of dropdown content
                 min-width: 30.5rem;  // Controls width of dropdown content
@@ -332,10 +332,11 @@
                 transition: all .6s;  // Controls rate at which min-width changes
                 display: none;  // Should change when user starts typing
                 position: absolute;
-                // top: 100%;  // Positions dropdown directly beneath search bar (.topnav__search) 
-                top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap
+                // top: 100%;  // Positions dropdown directly beneath search bar (._0035-sect_1-topnav__search) 
+                top: 105%;  // Positions dropdown beneath search bar (._0035-sect_1-topnav__search) with a tiny gap
     
-                min-width: 48.8rem;  // Controls width of dropdown content
+                // min-width: 48.8rem;  // Controls width of dropdown content
+                min-width: 30.5rem;  // Controls width of dropdown content
                 // background-color: #F1F1F1;
                 box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                 z-index: 1;  // Puts dropdown in front of other elements
@@ -389,7 +390,8 @@
             font-size: 1.4rem;  // Makes button text the same size as link text (below)
             color: #FFFFFF;
             display: inline-block;
-            padding: 1.1rem 1.6rem; 
+            // padding: 1.1rem 1.6rem; 
+            padding: .85rem 1.4rem;  // Testing
             min-width: 8rem;
             border: none;  // Removes default button border
             outline: none;  // Removes outline

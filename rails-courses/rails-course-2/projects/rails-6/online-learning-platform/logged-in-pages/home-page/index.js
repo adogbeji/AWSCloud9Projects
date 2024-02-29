@@ -29,3 +29,49 @@ input.addEventListener('focusout', function() {
     inputDropdownBox.style.flex = '0 0 70%';
     dropdownContent.style.minWidth = '30.5rem';
 });
+
+
+// NO RESULTS DROPDOWN
+const noResultsDropdown = document.querySelector('._0035-sect_1-topnav__search-dropdown-no-results');
+
+input.addEventListener('focus', function() {
+    inputDropdownBox.style.flex = '0 0 75%';
+    // noResultsDropdown.style.minWidth = '52.3rem';
+    noResultsDropdown.style.minWidth = '32.5rem';
+});
+
+input.addEventListener('focusout', function() {
+    inputDropdownBox.style.flex = '0 0 70%';
+    // noResultsDropdown.style.minWidth = '48.8rem';
+    noResultsDropdown.style.minWidth = '30.5rem';
+});
+
+
+// NAVIGATION BAR DROPDOWNS
+
+// FIRST DROPDOWN:-
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function openTopnavClickDropDownOne() {
+    // Original Code
+    // if (document.getElementById('topNavDropdown_1').classList.contains('_0035-sect_1-topnav__dropdown-content-1--show')) {
+    //     document.getElementById('topNavDropdown_1').classList.remove('_0035-sect_1-topnav__dropdown-content-1--show');
+    // } else {
+    //     document.getElementById('topNavDropdown_1').classList.add('_0035-sect_1-topnav__dropdown-content-1--show');
+    // }
+  
+    // Shortened Code
+    document.getElementById('topNavDropdown_1').classList.toggle('_0035-sect_1-topnav__dropdown-content-1--show');
+}
+
+// When the user clicks anywhere outside of the dropdown
+document.addEventListener('click', function(e) {
+    if (e.target !== document.querySelector('._0035-sect_1-topnav__dropdown-btn-1')) {
+        const dropdown = document.querySelector('._0035-sect_1-topnav__dropdown-content-1');
+
+        if (dropdown.classList.contains('_0035-sect_1-topnav__dropdown-content-1--show')) {
+            dropdown.classList.remove('_0035-sect_1-topnav__dropdown-content-1--show');
+        }
+    }
+});
