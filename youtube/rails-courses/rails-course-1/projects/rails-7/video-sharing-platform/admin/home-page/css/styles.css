@@ -123,6 +123,16 @@ body {
   align-items: center;
   flex: 0 0 60%;
 }
+@media only screen and (max-width: 81.75em) {
+  ._5728-sect_1-topnav__link-dot-dropdown-box {
+    flex: 0 0 65%;
+  }
+}
+@media only screen and (max-width: 75.5em) {
+  ._5728-sect_1-topnav__link-dot-dropdown-box {
+    flex: 0 0 75%;
+  }
+}
 ._5728-sect_1-topnav__link-box {
   background-color: #00FF00;
   flex: 0 0 90%;
