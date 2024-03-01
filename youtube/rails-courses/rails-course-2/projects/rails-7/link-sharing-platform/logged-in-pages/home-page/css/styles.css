@@ -58,6 +58,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* First Responsive Dropdown */
+  /* Style the links inside the dropdown */
 }
 ._0081-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -93,6 +95,48 @@ body {
 }
 ._0081-sect_1-topnav__link:hover {
   color: #e6e6e6;
+}
+._0081-sect_1-topnav__link-dot-dropdown-1 {
+  display: inline-block;
+}
+._0081-sect_1-topnav__link-dot-icon-box-1 {
+  cursor: pointer;
+  display: none;
+}
+._0081-sect_1-topnav__link-dot-icon-1 {
+  width: 2.1rem;
+  height: 2.1rem;
+  fill: #000000;
+}
+._0081-sect_1-topnav__link-dot_1-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 14.5rem;
+  background-color: #F1F1F1;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* This class will be added by JavaScript to display the dropdown menu when the 
+      user clicks */
+}
+._0081-sect_1-topnav__link-dot_1-dropdown-content--show {
+  display: block;
+}
+._0081-sect_1-topnav__link-dot_1-link {
+  font-size: 1.5rem;
+  color: #000000;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.3rem;
+  /* Add a black background to dropdown links on hover */
+}
+._0081-sect_1-topnav__link-dot_1-link:hover {
+  color: #EEEEEE;
+  background-color: #333333;
 }
 
 ._0081-sect_2 {
