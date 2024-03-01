@@ -391,7 +391,7 @@
             color: #FFFFFF;
             display: inline-block;
             // padding: 1.1rem 1.6rem; 
-            padding: .85rem 1.4rem;  // Testing
+            padding: .85rem 1.4rem;
             min-width: 8rem;
             border: none;  // Removes default button border
             outline: none;  // Removes outline
@@ -407,16 +407,20 @@
         }
 
         &__dropdown-icon-1 {
-            width: 2.1rem;
-            height: 2.1rem;
+            // width: 2.1rem;
+            // height: 2.1rem;
+            width: 1.6rem;
+            height: 1.6rem;
             // fill: #000000;
             fill: #FFFFFF;
             margin-right: .3rem;  // Creates space between icon & text
         }
     
         &__dropdown-icon-2 {
-            width: 3rem;
-            height: 3rem;
+            // width: 3rem;
+            // height: 3rem;
+            width: 2.2rem;
+            height: 2.2rem;
             fill: #FFFFFF;
         }
 
@@ -425,7 +429,8 @@
             display: none;
             position: absolute;  // Positions content outside dropdown (required)
             right: 0;  // Positions dropdown on the left side
-            min-width: 18.5rem;
+            // min-width: 18.5rem;
+            min-width: 22.5rem;
             background-color: #F1F1F1;
             box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
             // filter: drop-shadow(0 .2rem 1.6rem rgba(0, 0, 0, .2));  // Puts shadow on arrow too (required)
@@ -531,7 +536,8 @@
             font-size: 1.4rem;  // Makes button text the same size as link text (below)
             color: #FFFFFF;
             display: inline-block;
-            padding: 1.1rem 1.6rem; 
+            // padding: 1.1rem 1.6rem; 
+            padding: .85rem 1.4rem;
             min-width: 8rem;
             border: none;  // Removes default button border
             outline: none;  // Removes outline
@@ -547,16 +553,20 @@
         }
 
         &__dropdown-icon-3 {
-            width: 2.1rem;
-            height: 2.1rem;
+            // width: 2.1rem;
+            // height: 2.1rem;
+            width: 1.6rem;
+            height: 1.6rem;
             // fill: #000000;
             fill: #FFFFFF;
             margin-right: .3rem;  // Creates space between icon & text
         }
 
         &__dropdown-icon-4 {
-            width: 3rem;
-            height: 3rem;
+            // width: 3rem;
+            // height: 3rem;
+            width: 2.2rem;
+            height: 2.2rem;
             fill: #FFFFFF;
         }
 
