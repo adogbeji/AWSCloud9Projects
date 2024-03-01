@@ -133,6 +133,16 @@ body {
     flex: 0 0 75%;
   }
 }
+@media only screen and (max-width: 65.6875em) {
+  ._5728-sect_1-topnav__link-dot-dropdown-box {
+    flex: 0 0 85%;
+  }
+}
+@media only screen and (max-width: 57.875em) {
+  ._5728-sect_1-topnav__link-dot-dropdown-box {
+    flex: 0 0 90%;
+  }
+}
 ._5728-sect_1-topnav__link-box {
   background-color: #00FF00;
   flex: 0 0 90%;
