@@ -60,6 +60,7 @@ body {
   align-items: center;
   /* First Responsive Dropdown */
   /* Style the links inside the dropdown */
+  /* Mobile Navbar */
 }
 ._0081-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -137,6 +138,44 @@ body {
 ._0081-sect_1-topnav__link-dot_1-link:hover {
   color: #EEEEEE;
   background-color: #333333;
+}
+._0081-sect_1-topnav-mobilenav {
+  /* Add same background color to mobile navigation */
+  background-color: inherit;
+  padding: 1.5rem;
+  display: none;
+  /* Hamburger menu icon */
+}
+._0081-sect_1-topnav-mobilenav__logo-link {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.8rem;
+}
+._0081-sect_1-topnav-mobilenav__bars-icon {
+  height: 2.4rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+._0081-sect_1-topnav-mobilenav__bars-icon-line {
+  background-color: #FFFFFF;
+  width: 3rem;
+  height: 0.3rem;
+}
+._0081-sect_1-topnav-mobilenav__mobile-menu {
+  background-color: #275ED6;
+  display: none;
+}
+._0081-sect_1-topnav-mobilenav__link-box-container {
+  display: none;
+  /* IMPORTANT: Padding must be applied here, and not on .topnav-mobilenav__mobile-menu 
+     (above) to prevent the mobile navbar bulging out at the bottom!
+  */
+  padding: 1.5rem;
 }
 
 ._0081-sect_2 {
