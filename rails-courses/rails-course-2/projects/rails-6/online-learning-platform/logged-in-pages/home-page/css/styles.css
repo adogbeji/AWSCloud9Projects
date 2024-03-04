@@ -57,7 +57,7 @@ body {
   /* Style the links inside the dropdown */
   /* Style the links inside the dropdown */
   /* Clickable dropdown container */
-  /* First Dropdown */
+  /* Third Dropdown */
   /* Dropdown Content (Hidden by Default) */
   /* Second Responsive Dropdown */
   /* Style the links inside the dropdown */
@@ -476,6 +476,7 @@ body {
   border-color: transparent transparent #F1F1F1 transparent;
 }
 ._0035-sect_1-topnav__dropdown-link-2 {
+  font-size: 1.5rem;
   font-size: 1.45rem;
   color: #000000;
   padding: 0.65rem 1.5rem;
@@ -752,14 +753,14 @@ body {
   color: #f2f2f2;
 }
 ._0035-sect_1-topnav__dropdown-icon-5 {
-  width: 2.1rem;
-  height: 2.1rem;
+  width: 1.6rem;
+  height: 1.6rem;
   fill: #FFFFFF;
   margin-right: 0.3rem;
 }
 ._0035-sect_1-topnav__dropdown-icon-6 {
-  width: 3rem;
-  height: 3rem;
+  width: 2.2rem;
+  height: 2.2rem;
   fill: #FFFFFF;
 }
 ._0035-sect_1-topnav__dropdown-content-3 {

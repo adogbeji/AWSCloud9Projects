@@ -605,7 +605,7 @@
         }
 
         &__dropdown-link-2 {
-            // font-size: 1.5rem;
+            font-size: 1.5rem;
             font-size: 1.45rem; 
             color: #000000;
             padding: .65rem 1.5rem;  // Reduced top and bottom padding brings icons closer together
@@ -934,7 +934,7 @@
             flex: 0 0 auto;  // Dropdown container takes up exact space needed!
         }
         
-        /* First Dropdown */
+        /* Third Dropdown */
         &__dropdown-3 {
             position: relative;  // Needed to position the dropdown content (.topnav__dropdown-content-1)
             display: inline-block;  // Makes dropdown only occupy as much space as it needs (required)
@@ -964,16 +964,20 @@
         }
 
         &__dropdown-icon-5 {
-            width: 2.1rem;
-            height: 2.1rem;
+            // width: 2.1rem;
+            // height: 2.1rem;
+            width: 1.6rem;
+            height: 1.6rem;
             // fill: #000000;
             fill: #FFFFFF;
             margin-right: .3rem;  // Creates space between icon & text
         }
 
         &__dropdown-icon-6 {
-            width: 3rem;
-            height: 3rem;
+            // width: 3rem;
+            // height: 3rem;
+            width: 2.2rem;
+            height: 2.2rem;
             fill: #FFFFFF;
         }
         
