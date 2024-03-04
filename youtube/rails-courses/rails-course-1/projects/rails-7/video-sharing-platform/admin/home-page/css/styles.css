@@ -143,6 +143,11 @@ body {
     flex: 0 0 90%;
   }
 }
+@media only screen and (max-width: 55em) {
+  ._5728-sect_1-topnav__link-dot-dropdown-box {
+    flex: 0 0 95%;
+  }
+}
 ._5728-sect_1-topnav__link-box {
   background-color: #00FF00;
   flex: 0 0 90%;
@@ -163,6 +168,11 @@ body {
 }
 ._5728-sect_1-topnav__link--4 {
   margin-left: 4rem;
+}
+@media only screen and (max-width: 52.3125em) {
+  ._5728-sect_1-topnav__link--4 {
+    margin-left: 0;
+  }
 }
 ._5728-sect_1-topnav__link-dot-dropdown-1 {
   display: inline-block;
