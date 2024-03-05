@@ -796,7 +796,7 @@ body {
   text-decoration: none;
   display: block;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   column-gap: 0.3rem;
   /* Add a black background to dropdown links on hover */

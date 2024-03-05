@@ -1024,7 +1024,8 @@
             display: block;  // Allows vertical padding & makes links occupy container
 
             display: flex;
-            justify-content: space-between;
+            // justify-content: space-between;
+            justify-content: flex-start;
             align-items: center;  // Vertically centres icon & link text
 
             column-gap: .3rem;  // Creates space between icon & link text

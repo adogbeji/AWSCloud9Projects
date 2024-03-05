@@ -52,7 +52,7 @@ input.addEventListener('focusout', function() {
 // FIRST DROPDOWN:-
 
 /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+   toggle between hiding and showing the dropdown content */
 function openTopnavClickDropDownOne() {
     // Original Code
     // if (document.getElementById('topNavDropdown_1').classList.contains('_0035-sect_1-topnav__dropdown-content-1--show')) {
@@ -80,7 +80,7 @@ document.addEventListener('click', function(e) {
 // SECOND DROPDOWN:-
 
 /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+   toggle between hiding and showing the dropdown content */
 function openTopnavClickDropDownTwo() {
     // Original Code
     // if (document.getElementById('topNavDropdown_2').classList.contains('_0035-sect_1-topnav__dropdown-content-2--show')) {
@@ -128,3 +128,30 @@ function openTopnavLinkDotDropDownOne() {
 //         }
 //     }
 // });
+
+
+// THIRD DROPDOWN:-
+
+/* When the user clicks on the button,
+   toggle between hiding and showing the dropdown content */
+   function openTopnavClickDropDownThree() {
+    // Original Code
+    // if (document.getElementById('topNavDropdown_3').classList.contains('_0035-sect_1-topnav__dropdown-content-3--show')) {
+    //     document.getElementById('topNavDropdown_3').classList.remove('_0035-sect_1-topnav__dropdown-content-3--show');
+    // } else {
+    //     document.getElementById('topNavDropdown_3').classList.add('_0035-sect_1-topnav__dropdown-content-3--show');
+    // }
+  
+    // Shortened Code
+    document.getElementById('topNavDropdown_3').classList.toggle('_0035-sect_1-topnav__dropdown-content-3--show');
+}
+
+document.addEventListener('click', function(e) {
+    if (e.target !== document.querySelector('._0035-sect_1-topnav__dropdown-btn-3')) {
+        const dropdown = document.querySelector('._0035-sect_1-topnav__dropdown-content-3');
+
+        if (dropdown.classList.contains('_0035-sect_1-topnav__dropdown-content-3--show')) {
+            dropdown.classList.remove('_0035-sect_1-topnav__dropdown-content-3--show');
+        }
+    }
+});
