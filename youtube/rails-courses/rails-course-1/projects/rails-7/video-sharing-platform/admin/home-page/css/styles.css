@@ -174,12 +174,23 @@ body {
     margin-left: 0;
   }
 }
+@media only screen and (max-width: 48.874em) {
+  ._5728-sect_1-topnav__link--4 {
+    display: none;
+  }
+}
 ._5728-sect_1-topnav__link-dot-dropdown-1 {
   display: inline-block;
 }
 ._5728-sect_1-topnav__link-dot-icon-box-1 {
   cursor: pointer;
   display: none;
+}
+@media only screen and (max-width: 48.874em) {
+  ._5728-sect_1-topnav__link-dot-icon-box-1 {
+    display: inline-block;
+    display: flex;
+  }
 }
 ._5728-sect_1-topnav__link-dot-icon-1 {
   width: 2.1rem;
@@ -211,6 +222,11 @@ body {
 ._5728-sect_1-topnav__link-dot_1-link:hover {
   color: #EEEEEE;
   background-color: #333333;
+}
+@media only screen and (max-width: 48.874em) {
+  ._5728-sect_1-topnav__link-dot_1-link--4 {
+    display: block;
+  }
 }
 ._5728-sect_1-topnav-mobilenav {
   /* Add same background color to mobile navigation */

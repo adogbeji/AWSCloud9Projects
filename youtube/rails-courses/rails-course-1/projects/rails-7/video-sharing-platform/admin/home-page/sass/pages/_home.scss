@@ -162,6 +162,10 @@
                 @media only screen and (max-width: $bp-837) {  // 837px
                     margin-left: 0;
                 }
+
+                @media only screen and (max-width: $bp-782) {  // 782px
+                    display: none;  // Hides last link
+                }
             }
 
             &-dot-dropdown-1 {
@@ -176,6 +180,12 @@
                 // display: flex;
 
                 display: none;  // Hides dot icon
+
+                @media only screen and (max-width: $bp-782) {  // 782px
+                    display: inline-block;  // NB: These two rules can be in any order!
+    
+                    display: flex;
+                }
             }
 
             &-dot-icon-1 {
@@ -215,6 +225,12 @@
                 &:hover {
                     color: #EEEEEE;
                     background-color: #333333;
+                }
+
+                @media only screen and (max-width: $bp-782) {  // 782px
+                    &--4 {
+                        display: block;  // Shows 4th dropdown link
+                    }
                 }
             }
         }
