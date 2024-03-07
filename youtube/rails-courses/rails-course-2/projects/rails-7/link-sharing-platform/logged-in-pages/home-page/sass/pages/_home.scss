@@ -76,15 +76,17 @@
 
         &__logo-link {
             // background-color: grey;  // Testing
-            font-size: 1.6rem;
+            // font-size: 1.6rem;
+            font-size: 1.8rem;
             color: #FFFFFF;
+            letter-spacing: .15rem;  // Testing
             display: inline-block;
             text-decoration: none;
             margin-left: .6rem;  // Creates space on the left
         }
 
         &__link-box-container {
-            // background-color: #0000FF;  // Testing
+            background-color: #0000FF;  // Testing
 
             display: flex;
             justify-content: flex-end;       
@@ -96,30 +98,34 @@
         }
 
         &__link-dot-dropdown-box {
-            // background-color: grey;  // Testing
+            background-color: grey;  // Testing
             margin-right: auto;  // Pushes links away from icons & profile picture
 
             display: flex;
             justify-content: space-evenly;
             align-items: center;
 
-            flex: 0 0 60%;
+            // flex: 0 0 60%;
+            flex: 0 0 70%;
         }
 
         &__link-box {  // Used to position links from responsive dropdown at smaller breakpoints
-            // background-color: #00FF00;  // Testing
+            background-color: #00FF00;  // Testing
 
             flex: 0 0 90%;
 
             display: flex;
             justify-content: center;
 
-            column-gap: .8rem;  // Creates space between links
+            // column-gap: .8rem;  // Creates space between links
+            column-gap: 2rem;  // Creates space between links
         }
 
         &__link {
-            font-size: 1.4rem;
+            // font-size: 1.4rem;
+            font-size: 1.6rem;
             color: #FFFFFF;
+            padding: .4rem;  // Testing
             display: inline-block;
             text-decoration: none;
 
@@ -276,6 +282,26 @@
                 */
 
                 padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+            }
+
+            &__link-box {
+                // background-color: grey;  // Testing
+            }
+
+            /* Menu links */
+            &__link {
+                // background-color: #0000FF;  // Testing
+                font-size: 1.5rem;
+                color: #F2F2F2;
+                text-decoration: none;  // Removes default underline
+                padding: 1.4rem 1.6rem 1.4rem .48rem;  // Left padding creates space on the left of links
+                display: block;  // Makes links occupy as much space as possile (required)
+
+                // line-height: 1.3;
+
+                &:hover {
+                    color: darken(#FFFFFF, 10%);
+                }
             }
         }
     }

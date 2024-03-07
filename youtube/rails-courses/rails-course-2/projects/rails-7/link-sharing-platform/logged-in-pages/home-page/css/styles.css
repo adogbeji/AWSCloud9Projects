@@ -63,34 +63,39 @@ body {
   /* Mobile Navbar */
 }
 ._0081-sect_1-topnav__logo-link {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #FFFFFF;
+  letter-spacing: 0.15rem;
   display: inline-block;
   text-decoration: none;
   margin-left: 0.6rem;
 }
 ._0081-sect_1-topnav__link-box-container {
+  background-color: #0000FF;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex: 0 0 28%;
 }
 ._0081-sect_1-topnav__link-dot-dropdown-box {
+  background-color: grey;
   margin-right: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex: 0 0 60%;
+  flex: 0 0 70%;
 }
 ._0081-sect_1-topnav__link-box {
+  background-color: #00FF00;
   flex: 0 0 90%;
   display: flex;
   justify-content: center;
-  column-gap: 0.8rem;
+  column-gap: 2rem;
 }
 ._0081-sect_1-topnav__link {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #FFFFFF;
+  padding: 0.4rem;
   display: inline-block;
   text-decoration: none;
 }
@@ -145,6 +150,7 @@ body {
   padding: 1.5rem;
   display: none;
   /* Hamburger menu icon */
+  /* Menu links */
 }
 ._0081-sect_1-topnav-mobilenav__logo-link {
   font-size: 1.6rem;
@@ -176,6 +182,16 @@ body {
      (above) to prevent the mobile navbar bulging out at the bottom!
   */
   padding: 1.5rem;
+}
+._0081-sect_1-topnav-mobilenav__link {
+  font-size: 1.5rem;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 1.4rem 1.6rem 1.4rem 0.48rem;
+  display: block;
+}
+._0081-sect_1-topnav-mobilenav__link:hover {
+  color: #e6e6e6;
 }
 
 ._0081-sect_2 {
