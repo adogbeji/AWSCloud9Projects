@@ -155,3 +155,29 @@ document.addEventListener('click', function(e) {
         }
     }
 });
+
+
+// SECOND RESPONSIVE DROPDOWN
+
+/* When the user clicks on the dots, toggle between hiding and showing the dropdown content */
+function openTopnavLinkDotDropDownTwo() {
+    // Original Code
+    // if (document.getElementById('topNavLinkDotDropdown_2').classList.contains('_0035-sect_1-topnav__link-dot_2-dropdown-content--show')) {
+    //     document.getElementById('topNavLinkDotDropdown_2').classList.remove('_0035-sect_1-topnav__link-dot_2-dropdown-content--show')
+    // } else {
+    //     document.getElementById('topNavLinkDotDropdown_2').classList.add('_0035-sect_1-topnav__link-dot_2-dropdown-content--show')
+    // }
+
+    // Shortened Code
+    document.getElementById('topNavLinkDotDropdown_2').classList.toggle('_0035-sect_1-topnav__link-dot_2-dropdown-content--show');
+}
+
+// document.addEventListener('click', function(e) {
+//     if (e.target !== document.querySelector('._0035-sect_1-topnav__link-dot-icon-box-2')) {
+//         const dropdown = document.querySelector('._0035-sect_1-topnav__link-dot_2-dropdown-content');
+
+//         if (dropdown.classList.contains('_0035-sect_1-topnav__link-dot_2-dropdown-content--show')) {
+//             dropdown.classList.remove('_0035-sect_1-topnav__link-dot_2-dropdown-content--show');
+//         }
+//     }
+// });
