@@ -260,7 +260,7 @@ document.addEventListener('click', function(e) {
 
 /* When the user clicks on the button,
    toggle between hiding and showing the dropdown content */
-   function openClickMobileDropDownTwo() {
+   function openClickMobileDropDownThree() {
     // Original Code
     // if (document.getElementById('mobileNavDropdown_3').classList.contains('_0035-sect_1-topnav-mobilenav__dropdown-content-3--show')) {
     //     document.getElementById('mobileNavDropdown_3').classList.remove('_0035-sect_1-topnav-mobilenav__dropdown-content-3--show');
@@ -280,5 +280,21 @@ document.addEventListener('click', function(e) {
         if (dropdown.classList.contains('_0035-sect_1-topnav-mobilenav__dropdown-content-3--show')) {
             dropdown.classList.remove('_0035-sect_1-topnav-mobilenav__dropdown-content-3--show');
         }
+    }
+});
+
+
+// MOBILE NAVBAR SEARCH BAR
+
+// SEARCH BAR CLOSE ICON
+const mobileCloseIcon = document.querySelector('._0035-sect_1-topnav-mobilenav__search-clear-input');
+const mobileInput = document.querySelector('._0035-sect_1-topnav-mobilenav__search-input');
+
+// Removes close icon when nothing is typed
+mobileInput.addEventListener('input', function(e) {
+    if (mobileInput.value !== '') {
+        mobileCloseIcon.classList.remove('_0035-sect_1-topnav-mobilenav__search-clear-input--hide');
+    } else {
+        mobileCloseIcon.classList.add('_0035-sect_1-topnav-mobilenav__search-clear-input--hide');
     }
 });
