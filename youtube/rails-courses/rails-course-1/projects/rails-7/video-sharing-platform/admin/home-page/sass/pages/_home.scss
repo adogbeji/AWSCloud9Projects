@@ -158,12 +158,16 @@
 
             &--4 {
                 margin-left: 4rem;  // Pushes link item to the right a bit
+            }
 
-                @media only screen and (max-width: $bp-837) {  // 837px
+            @media only screen and (max-width: $bp-837) {  // 837px
+                &--4 {
                     margin-left: 0;
                 }
+            }
 
-                @media only screen and (max-width: $bp-782) {  // 782px
+            @media only screen and (max-width: $bp-782) {  // 782px
+                &--4 {
                     display: none;  // Hides last link
                 }
             }
