@@ -50,6 +50,10 @@
             background-color: #00FF00;  // Testing
 
             flex: 0 0 90%;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
         }
 
         &__link {
@@ -64,8 +68,10 @@
         }
 
         &__link-icon-1 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 1.6rem;
+            height: 1.6rem;
             // fill: #000000;
             fill: #FFFFFF;
         }
@@ -75,8 +81,10 @@
         } 
 
         &__link-icon-2 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            width: 1.6rem;
+            height: 1.6rem;
             // fill: #000000;
             fill: #FFFFFF;
         }
