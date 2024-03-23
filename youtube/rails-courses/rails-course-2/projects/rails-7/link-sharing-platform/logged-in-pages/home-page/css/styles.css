@@ -198,6 +198,12 @@ body {
   background-color: #808080;
   grid-column: full-start/full-end;
 }
+._0081-sect_2-card-box {
+  background-color: #0000FF;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
 
 ._0081-sect_3 {
   background-color: #333333;

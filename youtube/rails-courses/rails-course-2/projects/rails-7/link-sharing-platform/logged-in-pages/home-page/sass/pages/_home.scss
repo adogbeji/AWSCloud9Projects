@@ -311,6 +311,15 @@
 ._0081-sect_2 {
     background-color: #808080;  // Testing
     grid-column: full-start / full-end;
+
+    &-card-box {
+        // background-color: grey;  // Testing
+        background-color: #0000FF;  // Testing
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;  // NOTE: Should be in %, not rem to make it responsive!
+        // margin-top: 10rem;
+    }
 }
 
 ._0081-sect_3 {
