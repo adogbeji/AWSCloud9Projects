@@ -50,6 +50,13 @@
             background-color: #00FF00;  // Testing
 
             flex: 0 0 90%;
+
+            display: flex;
+            // justify-content: flex-start;
+            justify-content: center;
+            align-items: center;
+
+            gap: 1.6rem;
         }
 
         &__link {
@@ -58,14 +65,23 @@
             display: inline-block;
             text-decoration: none;
 
+            display: flex;
+            align-items: center;  // Vertically centres text & icon
+
+            column-gap: .3rem;
+
             &:hover {
                 color: darken(#FFFFFF, 10%);
             }
         }
 
         &__link-icon-1 {
-            width: 1.45rem;
-            height: 1.45rem;
+            // width: 1.45rem;
+            // height: 1.45rem;
+            // width: 1.6rem;
+            // height: 1.6rem;
+            width: 1.8rem;
+            height: 1.8rem;
             // fill: #000000;
             fill: #FFFFFF;
         }
@@ -75,8 +91,12 @@
         } 
 
         &__link-icon-2 {
-            width: 1.45rem;
-            height: 1.45rem;
+             // width: 1.45rem;
+            // height: 1.45rem;
+            // width: 1.6rem;
+            // height: 1.6rem;
+            width: 1.8rem;
+            height: 1.8rem;
             // fill: #000000;
             fill: #FFFFFF;
         }

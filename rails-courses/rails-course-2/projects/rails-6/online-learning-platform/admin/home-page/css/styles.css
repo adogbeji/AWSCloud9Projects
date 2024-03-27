@@ -79,27 +79,34 @@ body {
 ._1859-sect_1-topnav__link-box {
   background-color: #00FF00;
   flex: 0 0 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
 }
 ._1859-sect_1-topnav__link {
   font-size: 1.4rem;
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
 }
 ._1859-sect_1-topnav__link:hover {
   color: #e6e6e6;
 }
 ._1859-sect_1-topnav__link-icon-1 {
-  width: 1.45rem;
-  height: 1.45rem;
+  width: 1.8rem;
+  height: 1.8rem;
   fill: #FFFFFF;
 }
 ._1859-sect_1-topnav__link:hover > ._1859-sect_1-topnav__link-icon-1 {
   fill: #f2f2f2;
 }
 ._1859-sect_1-topnav__link-icon-2 {
-  width: 1.45rem;
-  height: 1.45rem;
+  width: 1.8rem;
+  height: 1.8rem;
   fill: #FFFFFF;
 }
 ._1859-sect_1-topnav__link:hover > ._1859-sect_1-topnav__link-icon-2 {
