@@ -111,13 +111,11 @@ body {
   margin-left: 0.6rem;
 }
 ._5728-sect_1-topnav__link-box-container {
-  background-color: #0000FF;
   display: flex;
   align-items: center;
   flex: 0 0 45%;
 }
 ._5728-sect_1-topnav__link-dot-dropdown-box {
-  background-color: grey;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -149,11 +147,10 @@ body {
   }
 }
 ._5728-sect_1-topnav__link-box {
-  background-color: #00FF00;
   flex: 0 0 90%;
   display: flex;
   justify-content: center;
-  column-gap: 1.8rem;
+  column-gap: 2.3rem;
 }
 ._5728-sect_1-topnav__link {
   font-size: 1.4rem;
