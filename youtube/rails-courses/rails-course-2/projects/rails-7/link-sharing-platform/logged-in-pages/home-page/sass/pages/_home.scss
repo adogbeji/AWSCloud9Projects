@@ -339,6 +339,15 @@
         &-text-2 {
             font-size: 1.8rem;
         }
+
+        &-button-box {
+            background-color: #00FF00;  // Testing
+            text-align: center;  // Centres link button (below)
+        }
+
+        &-button {
+            box-shadow: .3rem -.3rem .46rem 0 #000000;
+        }
     }
 }
 

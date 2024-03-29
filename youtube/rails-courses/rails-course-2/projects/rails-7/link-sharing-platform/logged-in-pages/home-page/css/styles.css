@@ -24,6 +24,160 @@ body {
   color: #000000;
 }
 
+.btn {
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 1.25rem 1.2rem;
+  min-width: 8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn--lg {
+  padding: 1.5rem 1.2rem;
+}
+.btn--sm {
+  padding: 0.85rem 1.2rem;
+}
+.btn--block {
+  width: 100%;
+  display: block;
+}
+.btn--link {
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+}
+.btn--link-sm {
+  padding: 0.65rem 1.2rem;
+}
+.btn--link-lg {
+  padding: 1.4rem 1.2rem;
+}
+.btn--primary {
+  background-color: #0E49B5;
+  color: #FFFFFF;
+}
+.btn--primary:hover {
+  background-color: #0c3f9d;
+}
+.btn--secondary {
+  background-color: #808080;
+  color: #050505;
+}
+.btn--secondary:hover {
+  background-color: #737373;
+}
+.btn--danger {
+  background-color: #F44336;
+  color: #050505;
+}
+.btn--danger:hover {
+  background-color: #f55a4e;
+}
+.btn--success {
+  background-color: #04AA6D;
+  color: #050505;
+}
+.btn--success:hover {
+  background-color: #05c37d;
+}
+.btn--info {
+  background-color: #2196F3;
+  color: #050505;
+}
+.btn--info:hover {
+  background-color: #0d8aee;
+}
+.btn--warning {
+  background-color: #FF9800;
+  color: #050505;
+}
+.btn--warning:hover {
+  background-color: #ffa21a;
+}
+.btn--dark {
+  background-color: #050505;
+  color: #FFFFFF;
+}
+.btn--dark:hover {
+  color: #f2f2f2;
+}
+.btn--royal {
+  background-color: #BD00AA;
+  color: #FFFFFF;
+}
+.btn--royal:hover {
+  background-color: #a40093;
+}
+.btn--outline-primary {
+  background-color: transparent;
+  border: 0.15rem solid #0E49B5;
+}
+.btn--outline-primary:hover {
+  background-color: #0E49B5;
+  color: #FFFFFF;
+}
+.btn--outline-secondary {
+  background-color: transparent;
+  border: 0.15rem solid #808080;
+}
+.btn--outline-secondary:hover {
+  background-color: #808080;
+  color: #050505;
+}
+.btn--outline-danger {
+  background-color: transparent;
+  border: 0.15rem solid #F44336;
+}
+.btn--outline-danger:hover {
+  background-color: #F44336;
+  color: #050505;
+}
+.btn--outline-success {
+  background-color: transparent;
+  border: 0.15rem solid #04AA6D;
+}
+.btn--outline-success:hover {
+  background-color: #04AA6D;
+  color: #050505;
+}
+.btn--outline-info {
+  background-color: transparent;
+  border: 0.15rem solid #2196F3;
+  color: #050505;
+}
+.btn--outline-info:hover {
+  background-color: #2196F3;
+  color: #050505;
+}
+.btn--outline-warning {
+  background-color: transparent;
+  border: 0.15rem solid #FF9800;
+  color: #050505;
+}
+.btn--outline-warning:hover {
+  background-color: #FF9800;
+  color: #050505;
+}
+.btn--outline-dark {
+  background-color: transparent;
+  border: 0.15rem solid #050505;
+  color: #050505;
+}
+.btn--outline-dark:hover {
+  background-color: #050505;
+  color: #FFFFFF;
+}
+.btn--outline-royal {
+  background-color: transparent;
+  border: 0.15rem solid #BD00AA;
+  color: #050505;
+}
+.btn--outline-royal:hover {
+  background-color: #BD00AA;
+  color: #FFFFFF;
+}
+
 .card {
   transition: all 0.3s;
   border-radius: 0.5rem;
@@ -249,6 +403,13 @@ body {
 }
 ._0081-sect_2-card-text-2 {
   font-size: 1.8rem;
+}
+._0081-sect_2-card-button-box {
+  background-color: #00FF00;
+  text-align: center;
+}
+._0081-sect_2-card-button {
+  box-shadow: 0.3rem -0.3rem 0.46rem 0 #000000;
 }
 
 ._0081-sect_3 {
