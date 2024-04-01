@@ -22,6 +22,15 @@
 ._0063-sect_3 {
     background-color: #F1425D;
     grid-column: full-start / full-end;
+
+    &-card {
+
+        &-box {
+            background-color: grey;  // Testing
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
 }
 
 ._0063-sect_4 {
