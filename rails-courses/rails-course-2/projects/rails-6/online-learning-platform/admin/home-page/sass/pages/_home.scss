@@ -289,7 +289,8 @@
                 // top: 100%;  // Positions dropdown directly beneath search bar (.topnav__search)
                 top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap 
 
-                min-width: 48.8rem;  // Controls width of dropdown content
+                // min-width: 48.8rem;  // Controls width of dropdown content
+                min-width: 30.5rem;  // Controls width of dropdown content
                 // background-color: #F1F1F1;
                 box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                 z-index: 1;  // Puts dropdown in front of other elements
@@ -298,7 +299,8 @@
             /* Style the links inside the dropdown */
             &-dropdown-link {
                 // font-size: 1.5rem; 
-                font-size: 1.35rem;
+                // font-size: 1.35rem;
+                font-size: 1.3rem;  // Same as inherited by input (above)
                 font-weight: 400;  // Bolder font makes link text stand out
                 color: #000000;
                 // padding: 1.2rem 1.6rem;
@@ -348,10 +350,11 @@
                 transition: all .6s;  // Controls rate at which min-width changes
                 display: none;  // Should change when user starts typing
                 position: absolute;
-                // top: 100%;  // Positions dropdown directly beneath search bar (.topnav__search) 
-                top: 105%;  // Positions dropdown beneath search bar (.topnav__search) with a tiny gap
+                // top: 100%;  // Positions dropdown directly beneath search bar (._1859-sect_1-topnav__search) 
+                top: 105%;  // Positions dropdown beneath search bar (._1859-sect_1-topnav__search) with a tiny gap
     
-                min-width: 48.8rem;  // Controls width of dropdown content
+                // min-width: 48.8rem;  // Controls width of dropdown content
+                min-width: 30.5rem;  // Controls width of dropdown content
                 // background-color: #F1F1F1;
                 box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, .2);
                 z-index: 1;  // Puts dropdown in front of other elements
@@ -360,8 +363,9 @@
                 padding: .8rem 0;
     
                 &-text {
-                    font-size: 1.5rem;  // Samefont size as input text
+                    // font-size: 1.5rem;  // Samefont size as input text
                     // font-size: 1.35rem;
+                    font-size: 1.3rem;  // Same font size as input text
                     font-weight: 500;  // Bolder font makes text stand out
                     color: #000000;
                     display: inline-block;
