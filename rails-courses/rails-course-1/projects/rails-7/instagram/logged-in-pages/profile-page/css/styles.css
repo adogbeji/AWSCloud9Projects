@@ -54,6 +54,15 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+._0063-sect_3-card-text-box {
+  background-color: #FF0000;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+._0063-sect_3-card-text-1, ._0063-sect_3-card-text-2 {
+  font-size: 2.1rem;
+}
 
 ._0063-sect_4 {
   background-color: #333333;
