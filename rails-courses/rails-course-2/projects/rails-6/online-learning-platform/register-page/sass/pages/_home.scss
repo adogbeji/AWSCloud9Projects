@@ -10,8 +10,33 @@
 }
 
 ._3596-sect_1 {
-    background-color: #00FFFF;
+    // background-color: #00FFFF;
+    background-color: #9327D6;  // Inherited by ._3596-sect_1-topnav
     grid-column: full-start / full-end;
+
+    &-topnav {
+        /* Add a purple background color to the top navigation */
+        // background-color: #9327D6;
+        background-color: inherit;  // Takes background colour set on its parent
+        // overflow: hidden;  // Hides overflow (required)
+        padding: .8rem;  // Creates space inside the navbar (optional, but recommended!)
+
+        position: relative;  // Used to position responsive dropdowns (required)
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__logo-link {
+            // background-color: grey;  // Testing
+            font-size: 1.6rem;
+            color: #FFFFFF;
+            display: inline-block;
+            text-decoration: none;
+            margin-left: .6rem;  // Creates space on the left
+        }
+    }
 }
 
 ._3596-sect_2 {

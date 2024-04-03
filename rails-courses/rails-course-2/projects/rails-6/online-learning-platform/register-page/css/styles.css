@@ -36,8 +36,24 @@ body {
 }
 
 ._3596-sect_1 {
-  background-color: #00FFFF;
+  background-color: #9327D6;
   grid-column: full-start/full-end;
+}
+._3596-sect_1-topnav {
+  /* Add a purple background color to the top navigation */
+  background-color: inherit;
+  padding: 0.8rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+._3596-sect_1-topnav__logo-link {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.6rem;
 }
 
 ._3596-sect_2 {
