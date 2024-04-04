@@ -1,6 +1,7 @@
 ._3418 {
     display: grid;
-    grid-template-rows: repeat(3, min-content);
+    // grid-template-rows: repeat(3, min-content);
+    grid-template-rows: min-content auto min-content;  // Setting second row to auto makes it occupy all avaliable space (required)
     grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
 }
 
