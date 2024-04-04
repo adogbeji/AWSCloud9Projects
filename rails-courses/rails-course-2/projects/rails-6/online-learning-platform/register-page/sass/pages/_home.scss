@@ -1,6 +1,7 @@
 ._3596 {
     display: grid;
-    grid-template-rows: repeat(3, min-content);
+    // grid-template-rows: repeat(3, min-content);
+    grid-template-rows: min-content auto min-content;  // Setting second row to auto makes it occupy all avaliable space (required)
     grid-template-columns: [full-start] 1fr [centre-start] repeat(12, [col-start] minmax(min-content, 9.67rem) [col-end]) [centre-end] 1fr [full-end];
 }
 
@@ -35,6 +36,24 @@
             display: inline-block;
             text-decoration: none;
             margin-left: .6rem;  // Creates space on the left
+        }
+
+        &__link-box {
+            background-color: #00FF00;  // Testing
+
+            flex: 0 0 10%;
+
+            display: flex;
+            justify-content: center;
+
+            column-gap: 1.6rem;  // Creates space between links
+        }
+
+        &__link {
+            font-size: 1.6rem;
+            color: #F5F5DC;
+            display: inline-block;
+            text-decoration: none;
         }
     }
 }
