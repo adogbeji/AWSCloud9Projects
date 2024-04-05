@@ -55,6 +55,31 @@
             display: inline-block;
             text-decoration: none;
         }
+
+        
+        /* Mobile Navbar */
+        &-mobilenav {
+            /* Add same background color to mobile navigation */
+            // background-color: #9327D6;
+            background-color: inherit;  // Takes background colour set on its parent
+ 
+            // padding: .55rem 0;  // Top and bottom padding increases height (optional)
+         
+            padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+ 
+            display: none;  // Required
+
+
+            &__logo-link {
+                // background-color: grey;  // Testing
+                font-size: 1.6rem;
+                color: #FFFFFF;
+                display: inline-block;
+                text-decoration: none;
+                // margin-left: .5rem;
+                margin-left: .8rem;
+            }
+        }
     }
 }
 

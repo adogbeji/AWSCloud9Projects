@@ -47,6 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Mobile Navbar */
 }
 ._3596-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -67,6 +68,19 @@ body {
   color: #F5F5DC;
   display: inline-block;
   text-decoration: none;
+}
+._3596-sect_1-topnav-mobilenav {
+  /* Add same background color to mobile navigation */
+  background-color: inherit;
+  padding: 1.5rem;
+  display: none;
+}
+._3596-sect_1-topnav-mobilenav__logo-link {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.8rem;
 }
 
 ._3596-sect_2 {
