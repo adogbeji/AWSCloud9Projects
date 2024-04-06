@@ -74,6 +74,7 @@ body {
   background-color: inherit;
   padding: 1.5rem;
   display: none;
+  /* Hamburger menu icon */
 }
 ._3596-sect_1-topnav-mobilenav__logo-link {
   font-size: 1.6rem;
@@ -81,6 +82,23 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-left: 0.8rem;
+}
+._3596-sect_1-topnav-mobilenav__bars-icon {
+  height: 2.4rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+._3596-sect_1-topnav-mobilenav__bars-icon-line {
+  background-color: #FFFFFF;
+  width: 3rem;
+  height: 0.3rem;
+}
+._3596-sect_1-topnav-mobilenav__mobile-menu {
+  background-color: #9327D6;
+  display: none;
 }
 
 ._3596-sect_2 {
