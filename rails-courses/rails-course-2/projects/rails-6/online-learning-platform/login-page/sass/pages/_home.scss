@@ -37,6 +37,38 @@
             text-decoration: none;
             margin-left: .6rem;  // Creates space on the left
         }
+
+        &__link-box {
+            background-color: #00FF00;  // Testing
+
+            flex: 0 0 10%;
+
+            display: flex;
+            justify-content: center;
+
+            column-gap: 1.6rem;  // Creates space between links
+        }
+
+        &__link {
+            font-size: 1.6rem;
+            color: #F5F5DC;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        
+        /* Mobile Navbar */
+        &-mobilenav {
+            /* Add same background color to mobile navigation */
+            // background-color: #9327D6;
+            background-color: inherit;  // Takes background colour set on its parent
+ 
+            // padding: .55rem 0;  // Top and bottom padding increases height (optional)
+         
+            padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+ 
+            display: none;  // Required
+        }
     }
 }
 

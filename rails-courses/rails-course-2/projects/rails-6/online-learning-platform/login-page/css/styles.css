@@ -47,6 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Mobile Navbar */
 }
 ._3418-sect_1-topnav__logo-link {
   font-size: 1.6rem;
@@ -54,6 +55,25 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-left: 0.6rem;
+}
+._3418-sect_1-topnav__link-box {
+  background-color: #00FF00;
+  flex: 0 0 10%;
+  display: flex;
+  justify-content: center;
+  column-gap: 1.6rem;
+}
+._3418-sect_1-topnav__link {
+  font-size: 1.6rem;
+  color: #F5F5DC;
+  display: inline-block;
+  text-decoration: none;
+}
+._3418-sect_1-topnav-mobilenav {
+  /* Add same background color to mobile navigation */
+  background-color: inherit;
+  padding: 1.5rem;
+  display: none;
 }
 
 ._3418-sect_2 {
