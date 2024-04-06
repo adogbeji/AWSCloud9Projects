@@ -100,6 +100,30 @@ body {
 ._0063-sect_2-profile-picture__username {
   font-size: 1.4rem;
 }
+._0063-sect_2-profile-info-box {
+  background-color: #0000FF;
+}
+._0063-sect_2-profile-username-button-box {
+  background-color: #00FF00;
+}
+._0063-sect_2-profile-username-1 {
+  font-size: 1.8rem;
+  display: inline-block;
+}
+._0063-sect_2-profile-button-box {
+  background-color: #00FF00;
+}
+._0063-sect_2-profile-button-1 {
+  background-color: #000000;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0.85rem 1.2rem;
+  min-width: 8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 
 ._0063-sect_3 {
   background-color: #F1425D;
