@@ -105,9 +105,13 @@ body {
 }
 ._0063-sect_2-profile-username-button-box {
   background-color: #00FF00;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 ._0063-sect_2-profile-username-1 {
   font-size: 1.8rem;
+  font-weight: 500;
   display: inline-block;
 }
 ._0063-sect_2-profile-button-box {
@@ -123,6 +127,36 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+}
+._0063-sect_2-profile-button-2 {
+  background-color: #0E49B5;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0.85rem 1.2rem;
+  min-width: 8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+._0063-sect_2-profile-button-3 {
+  background-color: #FD1425;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0.85rem 1.2rem;
+  min-width: 8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+._0063-sect_2-profile-status-box {
+  background-color: grey;
+}
+._0063-sect_2-profile-posts {
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
 }
 
 ._0063-sect_3 {

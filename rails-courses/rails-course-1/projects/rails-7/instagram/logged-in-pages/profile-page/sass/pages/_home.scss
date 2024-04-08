@@ -96,10 +96,15 @@
 
         &-username-button-box {
             background-color: #00FF00;  // Testing
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
         }
 
         &-username-1 {
             font-size: 1.8rem;
+            font-weight: 500;
             display: inline-block;
         }
 
@@ -126,6 +131,58 @@
             // align-items: center;  // Vertically centres dropdown icon & text
     
             // column-gap: .4rem;  // Creates space between icon & text
+        }
+
+        &-button-2 {
+            background-color: #0E49B5;
+            font-size: 1.6rem;
+            color: #FFFFFF;
+            display: inline-block;
+            // padding: 0 1.2rem;
+            // padding: 1.25rem 1.2rem;  // Normal/medium button
+            // padding: 1.5rem 1.2rem;  // large button
+            padding: .85rem 1.2rem;  // Small button
+            min-width: 8rem;
+            border: none;  // Removes default button border
+            outline: none;  // Removes outline
+            cursor: pointer;
+    
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;  // Vertically centres dropdown icon & text
+    
+            // column-gap: .4rem;  // Creates space between icon & text
+        }
+
+        &-button-3 {
+            background-color: #FD1425;
+            font-size: 1.6rem;
+            color: #FFFFFF;
+            display: inline-block;
+            // padding: 0 1.2rem;
+            // padding: 1.25rem 1.2rem;  // Normal/medium button
+            // padding: 1.5rem 1.2rem;  // large button
+            padding: .85rem 1.2rem;  // Small button
+            min-width: 8rem;
+            border: none;  // Removes default button border
+            outline: none;  // Removes outline
+            cursor: pointer;
+    
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;  // Vertically centres dropdown icon & text
+    
+            // column-gap: .4rem;  // Creates space between icon & text
+        }
+
+        &-status-box {
+            background-color: grey;  // Testing
+        }
+
+        &-posts {
+            font-size: 1.8rem;
+            font-weight: 500;
+            display: inline-block;
         }
     }
 }
