@@ -133,6 +133,17 @@
 
                 // padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
             }
+
+            &__link-box-container {
+                // background-color: #0000FF;  // Testing
+                display: none;  // Changed by JavaScript to show navigation links
+
+                /* IMPORTANT: Padding must be applied here, and not on .topnav-mobilenav__mobile-menu 
+                   (above) to prevent the mobile navbar bulging out at the bottom!
+                */
+
+                padding: 1.5rem;  // Prevents logo and icon being too close to edge of viewport
+            }
         }
     }
 }

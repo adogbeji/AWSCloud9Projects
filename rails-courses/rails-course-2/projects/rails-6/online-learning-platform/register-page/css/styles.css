@@ -100,6 +100,13 @@ body {
   background-color: #9327D6;
   display: none;
 }
+._3596-sect_1-topnav-mobilenav__link-box-container {
+  display: none;
+  /* IMPORTANT: Padding must be applied here, and not on .topnav-mobilenav__mobile-menu 
+     (above) to prevent the mobile navbar bulging out at the bottom!
+  */
+  padding: 1.5rem;
+}
 
 ._3596-sect_2 {
   background-color: #FFA500;
