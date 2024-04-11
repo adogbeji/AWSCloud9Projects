@@ -309,7 +309,8 @@
 }
 
 ._0081-sect_2 {
-    background-color: #808080;  // Testing
+    // background-color: #808080;  // Testing
+    background-color: #F1F1F1;
     grid-column: full-start / full-end;
 
     &-card-box {
@@ -324,7 +325,7 @@
     &-card {
 
         &-text-box-1 {
-            background-color: #FF0000;  // Testing
+            // background-color: #FF0000;  // Testing
             margin-bottom: 1.2rem;
         }
 
@@ -333,7 +334,7 @@
         }
 
         &-text-box-2 {
-            background-color: #FF0000;  // Testing
+            // background-color: #FF0000;  // Testing
         }
 
         &-text-2 {
@@ -341,8 +342,10 @@
         }
 
         &-button-box {
-            background-color: #00FF00;  // Testing
-            text-align: center;  // Centres link button (below)
+            // background-color: #00FF00;  // Testing
+            // text-align: center;  // Centres link button (below)
+            padding: 1.2rem 0;
+            margin-top: .8rem;
         }
 
         &-button {

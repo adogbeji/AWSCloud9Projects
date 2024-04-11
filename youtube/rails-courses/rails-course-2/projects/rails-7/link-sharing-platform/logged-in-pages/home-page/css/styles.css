@@ -383,7 +383,7 @@ body {
 }
 
 ._0081-sect_2 {
-  background-color: #808080;
+  background-color: #F1F1F1;
   grid-column: full-start/full-end;
 }
 ._0081-sect_2-card-box {
@@ -392,21 +392,17 @@ body {
   margin-top: 10%;
 }
 ._0081-sect_2-card-text-box-1 {
-  background-color: #FF0000;
   margin-bottom: 1.2rem;
 }
 ._0081-sect_2-card-text-1 {
   font-size: 4.2rem;
 }
-._0081-sect_2-card-text-box-2 {
-  background-color: #FF0000;
-}
 ._0081-sect_2-card-text-2 {
   font-size: 1.8rem;
 }
 ._0081-sect_2-card-button-box {
-  background-color: #00FF00;
-  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 0.8rem;
 }
 ._0081-sect_2-card-button {
   box-shadow: 0.3rem -0.3rem 0.46rem 0 #000000;
