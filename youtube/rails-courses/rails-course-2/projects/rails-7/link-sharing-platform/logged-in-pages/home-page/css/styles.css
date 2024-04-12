@@ -412,5 +412,28 @@ body {
   background-color: #333333;
   grid-column: full-start/full-end;
 }
+._0081-sect_3-footer {
+  background-color: inherit;
+  padding: 0.8rem;
+}
+._0081-sect_3-footer__box {
+  width: 90%;
+  margin: 0 auto;
+}
+._0081-sect_3-footer__link-box {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.4rem;
+}
+._0081-sect_3-footer__link {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  padding: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+}
+._0081-sect_3-footer__link:hover {
+  background-color: #050505;
+}
 
 /*# sourceMappingURL=styles.css.map */
