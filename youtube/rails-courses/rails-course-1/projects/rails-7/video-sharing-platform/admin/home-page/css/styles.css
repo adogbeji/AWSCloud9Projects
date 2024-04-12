@@ -171,7 +171,7 @@ body {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 48.874em) {
+@media only screen and (max-width: 48.875em) {
   ._5728-sect_1-topnav__link--4 {
     display: none;
   }
@@ -183,7 +183,7 @@ body {
   cursor: pointer;
   display: none;
 }
-@media only screen and (max-width: 48.874em) {
+@media only screen and (max-width: 48.875em) {
   ._5728-sect_1-topnav__link-dot-icon-box-1 {
     display: inline-block;
     display: flex;
@@ -220,7 +220,7 @@ body {
   color: #EEEEEE;
   background-color: #333333;
 }
-@media only screen and (max-width: 48.874em) {
+@media only screen and (max-width: 48.875em) {
   ._5728-sect_1-topnav__link-dot_1-link--4 {
     display: block;
   }
