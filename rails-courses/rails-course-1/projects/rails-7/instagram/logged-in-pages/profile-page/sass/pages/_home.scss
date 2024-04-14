@@ -100,6 +100,8 @@
             display: flex;
             justify-content: flex-start;
             align-items: center;
+
+            column-gap: 1.4rem;  // Creates space between username & buttons
         }
 
         &-username-1 {
@@ -179,10 +181,26 @@
             background-color: grey;  // Testing
         }
 
-        &-posts {
+        &-posts,
+        &-followers-1,
+        &-followers-2 {
             font-size: 1.8rem;
             font-weight: 500;
             display: inline-block;
+        }
+
+        &-username-box {
+            background-color: #FF0000;  // Testing
+        }
+
+        &-username-2 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            display: inline-block;
+        }
+
+        &-message {
+            font-size: 1.8rem;
         }
     }
 }

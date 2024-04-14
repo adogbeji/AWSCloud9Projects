@@ -108,6 +108,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  column-gap: 1.4rem;
 }
 ._0063-sect_2-profile-username-1 {
   font-size: 1.8rem;
@@ -153,10 +154,21 @@ body {
 ._0063-sect_2-profile-status-box {
   background-color: grey;
 }
-._0063-sect_2-profile-posts {
+._0063-sect_2-profile-posts, ._0063-sect_2-profile-followers-1, ._0063-sect_2-profile-followers-2 {
   font-size: 1.8rem;
   font-weight: 500;
   display: inline-block;
+}
+._0063-sect_2-profile-username-box {
+  background-color: #FF0000;
+}
+._0063-sect_2-profile-username-2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+}
+._0063-sect_2-profile-message {
+  font-size: 1.8rem;
 }
 
 ._0063-sect_3 {
