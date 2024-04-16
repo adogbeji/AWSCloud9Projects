@@ -135,9 +135,13 @@
         }
 
         &__link-box {  // Used to position links from responsive dropdown at smaller breakpoints
-            // background-color: #00FF00;  // Testing
+            background-color: #00FF00;  // Testing
     
             flex: 0 0 90%;
+
+            @media only screen and (max-width: $bp-588) {  // 588px
+                flex: 0 0 60%;
+            }
     
             display: flex;
             justify-content: center;
@@ -170,6 +174,12 @@
             @media only screen and (max-width: $bp-782) {  // 782px
                 &--4 {
                     display: none;  // Hides last link
+                }
+            }
+
+            @media only screen and (max-width: $bp-588) {  // 588px
+                &--3 {
+                    display: none;  // Hides 3rd link
                 }
             }
 
@@ -235,6 +245,12 @@
                 @media only screen and (max-width: $bp-782) {  // 782px
                     &--4 {
                         display: block;  // Shows 4th dropdown link
+                    }
+                }
+
+                @media only screen and (max-width: $bp-588) {  // 588px
+                    &--3 {
+                        display: block;  // Shows 3rd dropdown link
                     }
                 }
             }
