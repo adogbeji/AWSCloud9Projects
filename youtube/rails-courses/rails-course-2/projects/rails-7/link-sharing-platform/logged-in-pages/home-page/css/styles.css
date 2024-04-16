@@ -290,12 +290,23 @@ body {
 ._0081-sect_1-topnav__link:hover {
   color: #e6e6e6;
 }
+@media only screen and (max-width: 98.875em) {
+  ._0081-sect_1-topnav__link--3 {
+    display: none;
+  }
+}
 ._0081-sect_1-topnav__link-dot-dropdown-1 {
   display: inline-block;
 }
 ._0081-sect_1-topnav__link-dot-icon-box-1 {
   cursor: pointer;
   display: none;
+}
+@media only screen and (max-width: 98.875em) {
+  ._0081-sect_1-topnav__link-dot-icon-box-1 {
+    display: inline-block;
+    display: flex;
+  }
 }
 ._0081-sect_1-topnav__link-dot-icon-1 {
   width: 2.1rem;
@@ -321,7 +332,7 @@ body {
   color: #000000;
   padding: 1.2rem 1.6rem;
   text-decoration: none;
-  display: block;
+  display: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -331,6 +342,11 @@ body {
 ._0081-sect_1-topnav__link-dot_1-link:hover {
   color: #EEEEEE;
   background-color: #333333;
+}
+@media only screen and (max-width: 98.875em) {
+  ._0081-sect_1-topnav__link-dot_1-link--3 {
+    display: block;
+  }
 }
 ._0081-sect_1-topnav-mobilenav {
   /* Add same background color to mobile navigation */

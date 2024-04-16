@@ -133,6 +133,12 @@
             &:hover {
                 color: darken(#FFFFFF, 10%);
             }
+
+            @media only screen and (max-width: $bp-1582) {  // 1582px
+                &--3 {
+                    display: none;  // Hides last link
+                }
+            }
         }
 
         /* First Responsive Dropdown */
@@ -148,6 +154,12 @@
             // display: flex;
     
             display: none;  // Hides dot icon
+
+            @media only screen and (max-width: $bp-1582) {  // 1582px
+                display: inline-block;  // NB: These two rules can be in any order!
+
+                display: flex;
+            }
         }
 
         &__link-dot-icon-1 {
@@ -178,8 +190,8 @@
             color: #000000;
             padding: 1.2rem 1.6rem;
             text-decoration: none;
-            display: block;  // Testing
-            // display: none;  // Hides all dropdown links initially
+            // display: block;  // Testing
+            display: none;  // Hides all dropdown links initially
         
             display: flex;
             justify-content: space-between;
@@ -191,6 +203,12 @@
             &:hover {
                 color: #EEEEEE;
                 background-color: #333333;
+            }
+
+            @media only screen and (max-width: $bp-1582) {  // 1582px
+                &--3 {
+                    display: block;  // Shows 3rd dropdown link
+                }
             }
         }
 
