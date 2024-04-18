@@ -179,6 +179,13 @@
 
         &-status-box {
             background-color: grey;  // Testing
+
+            display: grid;
+            grid-template-rows: repeat(2, min-content);
+            grid-template-columns: repeat(3, 1fr);
+
+            grid-template-areas: 'box-1 box-2 box-3'
+                                 'box-4 . .';
         }
 
         &-posts,

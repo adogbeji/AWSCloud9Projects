@@ -153,6 +153,10 @@ body {
 }
 ._0063-sect_2-profile-status-box {
   background-color: grey;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "box-1 box-2 box-3" "box-4 . .";
 }
 ._0063-sect_2-profile-posts, ._0063-sect_2-profile-followers-1, ._0063-sect_2-profile-followers-2 {
   font-size: 1.8rem;
