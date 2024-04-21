@@ -188,7 +188,7 @@
             }
 
             &-dot-icon-box-1 {
-                // background-color: #FF0000;  // Testing
+                background-color: #FF0000;  // Testing
                 // display: inline-block;
                 cursor: pointer;
 
@@ -224,6 +224,10 @@
                    user clicks */
                 &--show {
                     display: block;
+                }
+
+                @media only screen and (max-width: $bp-588) {  // 588px
+                    right: 10%;
                 }
             }
             

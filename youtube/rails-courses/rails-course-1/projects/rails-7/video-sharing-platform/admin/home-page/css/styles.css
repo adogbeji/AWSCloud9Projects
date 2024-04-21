@@ -191,6 +191,7 @@ body {
   display: inline-block;
 }
 ._5728-sect_1-topnav__link-dot-icon-box-1 {
+  background-color: #FF0000;
   cursor: pointer;
   display: none;
 }
@@ -218,6 +219,11 @@ body {
 }
 ._5728-sect_1-topnav__link-dot_1-dropdown-content--show {
   display: block;
+}
+@media only screen and (max-width: 36.75em) {
+  ._5728-sect_1-topnav__link-dot_1-dropdown-content {
+    right: 10%;
+  }
 }
 ._5728-sect_1-topnav__link-dot_1-link {
   font-size: 1.5rem;
