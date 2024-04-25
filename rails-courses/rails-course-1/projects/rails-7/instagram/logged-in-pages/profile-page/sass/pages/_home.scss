@@ -25,13 +25,16 @@
         margin: 0 auto;
 
         display: flex;
+        justify-content: center;
+
+        column-gap: 1.2rem;  // Creates space between profile picture & profile credentials
     }
 
     &-profile-picture-box {
         // background-color: #FFFF00;  // Testing
         background-color: #F2F2F2;
-        width: 60%;  // Controls size of form
-        margin: auto;
+        // width: 60%;  // Controls size of form
+        // margin: auto;
         padding: 2rem;
         border-radius: .5rem;
     }
@@ -41,8 +44,10 @@
         display: inline-block;  // Makes profile picture only occupy as much space as it needs (required)
     
         &__photo-box {
-            width: 4rem;
-            height: 4rem;
+            // width: 4rem;
+            // height: 4rem;
+            width: 10rem;
+            height: 10rem;
             border-radius: 50%;  // Creates perfect circle
             position: relative;  // Used to position .profile-picture__photo (below)
             overflow: hidden;
@@ -60,8 +65,10 @@
         }
     
         &__photo-box-alt {
-            width: 4rem;
-            height: 4rem;
+            // width: 4rem;
+            // height: 4rem;
+            width: 10rem;
+            height: 10rem;
             border-radius: 50%;  // Creates perfect circle
             position: relative;  // Used to position .profile-picture__photo (belo)
             overflow: hidden;
@@ -86,9 +93,9 @@
             object-fit: cover;  // Fills parent element & preserves aspect ratio
         }
     
-        &__username {
-            font-size: 1.4rem;
-        }
+        // &__username {
+        //     font-size: 1.4rem;
+        // }
     }
 
     &-profile {
