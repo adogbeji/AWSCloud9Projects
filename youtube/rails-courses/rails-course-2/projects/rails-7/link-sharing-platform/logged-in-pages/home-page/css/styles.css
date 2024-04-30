@@ -273,6 +273,11 @@ body {
   align-items: center;
   flex: 0 0 70%;
 }
+@media only screen and (max-width: 65.9375em) {
+  ._0081-sect_1-topnav__link-dot-dropdown-box {
+    flex: 0 0 40%;
+  }
+}
 ._0081-sect_1-topnav__link-box {
   background-color: #00FF00;
   flex: 0 0 90%;
@@ -292,6 +297,11 @@ body {
 }
 @media only screen and (max-width: 98.875em) {
   ._0081-sect_1-topnav__link--3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 65.9375em) {
+  ._0081-sect_1-topnav__link--2 {
     display: none;
   }
 }
@@ -345,6 +355,11 @@ body {
 }
 @media only screen and (max-width: 98.875em) {
   ._0081-sect_1-topnav__link-dot_1-link--3 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 65.9375em) {
+  ._0081-sect_1-topnav__link-dot_1-link--2 {
     display: block;
   }
 }
